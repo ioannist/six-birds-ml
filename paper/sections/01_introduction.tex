@@ -1,0 +1,61 @@
+\section{Introduction}\label{sec:intro}
+
+Jagged competence combines strong performance with failures on particular
+inputs.\footnote{\citet{gans2026} credits the term ``jagged intelligence''
+to Andrej Karpathy; we use ``competence'' for performance in this task.}
+Field experiments document an uneven AI frontier \citep{dellacqua2023}, and
+\citet{gans2026} models how average quality can hide local unreliability. The
+pattern is easy to observe and hard to explain: in a large system we rarely
+know which intermediate quantities the task requires, or whether the system
+computes, uses and keeps them, and without that knowledge ``jagged'' remains
+a description.
+
+We study the question in a task built from two known layers. Layer A computes
+five per-slot sums from a board of records. Layer B uses the slot-1 sum's
+category and a mode carried over from earlier boards to set the probabilities
+of the next board's category. The same board can need different predictions
+after different histories, so B cannot be computed from the current A alone;
+in the terms of Six Birds Theory, B is a strict extension of A
+(\cref{sec:strict}). A working hypothesis of that programme, motivated by its
+picture of theory levels \citep[\S1.1]{tsiokos2026foundations} rather than
+proved for trained networks, is that a network trained on an upper theory
+comes to know the theory beneath it. Because both layers are known exactly,
+we can test this: train networks on B only, and measure what they acquire of
+A and how it relates to where B fails.
+
+The answer, in this task, is that learning B gives the network a jagged
+version of A, and that this explains part of the jagged competence in B. The
+network makes readable the part of A that B needs while the rest becomes
+less readable; in r12's uniform-sampling census, category misreads
+concentrate near the slot-1 cutoffs; and when A is trained explicitly, it
+comes out largely but not exactly right. The networks reach a natural KL below
+$3\times10^{-4}$ bits, more than thirty times below our 0.01-bit bar, yet
+fail on constructed histories (maximum law TV 0.25--0.26), and their category
+misreads sit near the slot-1 cutoffs (\cref{sec:res-recover,sec:res-average}).
+Here ``acquire'' means what we measure, readable by probes and approximately
+computed when supervised; we do not demonstrate an internal layer, and the
+jagged A explains part of B's failures, not all of them.
+
+A second lesson is that knowing an intermediate quantity is not one thing.
+A network can hold A in readable form without established exact computation,
+compute it without delivering it to the prediction, deliver it in a form that
+supports less reliable prediction, or lose it under further training; and
+even an exact, delivered A leaves some failures in B. These are separate
+achievements, not a required sequence, and matched comparisons isolate the
+effects of connection, encoding and prediction gradients
+(\cref{sec:res-noise,sec:res-access,sec:res-encoding,sec:res-erosion,sec:res-reliable}).
+
+\paragraph{Contributions.}
+\begin{itemize}
+\item The finding that learning a strict extension gives a network only a
+  jagged version of the lower theory, and that this explains part of
+  the upper one's failure, with the unexplained cases stated
+  (\cref{sec:results,sec:discussion}).
+\item A decomposition of what it means for a network to know an intermediate
+  quantity into five measurable achievements (recoverability, computation,
+  access, preservation and reliable prediction), with matched experiments on
+  access, encoding, preservation and target noise (\cref{sec:results}).
+\item A layered task with exhaustive board ground truth and calibrated
+  measurements (\cref{sec:task,sec:measurements}), and a provided ledger and
+  code rebuilding every reported number, figure and table (\cref{app:compute}).
+\end{itemize}

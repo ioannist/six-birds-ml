@@ -1,0 +1,15 @@
+\clearpage
+\section{Compute and reproduction}\label{app:compute}
+\input{tables/compact_F}
+Supplement Table S28 summarizes recorded compute quantities; its named detailed
+file retains every recorded compute and allocation entry. Unknown
+historical execution metadata remain unknown. The public numerical package
+contains the manifest, ledger, hash-bound inputs and both TeX entry points.
+Rebuild both PDFs from the paper directory with
+\texttt{latexmk -pdf main.tex} and, separately,\\
+\texttt{latexmk -pdf -jobname=supplement}\\
+\texttt{supplement/supplement.tex}.
+The package check lists transitive inputs separately for each PDF and refuses
+overfull boxes exceeding 10\,pt. Byte-identical asset rebuilds do not imply
+byte-identical TeX-engine PDFs, which contain build metadata.
+\input{appendices/training_details}

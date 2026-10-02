@@ -1,0 +1,20 @@
+% Built from ledger-bound values; edit the script, not this table.
+\begingroup\fontsize{8}{9.5}\selectfont\setlength{\tabcolsep}{3pt}\emergencystretch=1em\hyphenpenalty=10000\exhyphenpenalty=10000
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.400in}>{\raggedright\arraybackslash}p{1.400in}>{\raggedright\arraybackslash}p{0.600in}>{\raggedright\arraybackslash}p{1.000in}>{\raggedright\arraybackslash}p{2.400in}@{}}
+\caption{Recorded compute and reproduction measurements. Recorded measurements only; grouped process timings are not summed as independent training time. Unknown historical processor/\allowbreak{}GPU models remain unknown. Counts and sizes are exact, continuous values use five significant digits. Hashes, commands and the minimal archive inputs are in the portable manifest; no new training or inference occurred for these assets. Analytical reduction only; exact per-cell and per-update rows remain released. Detailed records: paper/\allowbreak{}data/\allowbreak{}release/\allowbreak{}appendix\_\allowbreak{}F\_\allowbreak{}compute.json.gz (schema and SHA-256 in release/\allowbreak{}index.json).}\label{tab:appendix_F_compute}\\
+\toprule
+\textbf{study} & \textbf{recorded quantity} & \textbf{run records} & \textbf{seconds range} & \textbf{execution scope} \\
+\midrule\endfirsthead
+\toprule
+\textbf{study} & \textbf{recorded quantity} & \textbf{run records} & \textbf{seconds range} & \textbf{execution scope} \\
+\midrule\endhead
+\midrule\multicolumn{5}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+r10 & training\_\allowbreak{}seconds & 18 & 693.71 -- 2330.2 & endpoint examples, not summed group/\allowbreak{}study totals \\
+r11 & elapsed\_\allowbreak{}group\_\allowbreak{}seconds & 48 & 971.84 -- 2797 & endpoint examples, not summed group/\allowbreak{}study totals \\
+r11 & training\_\allowbreak{}seconds & 48 & 702.17 -- 1942 & endpoint examples, not summed group/\allowbreak{}study totals \\
+r11 & training\_\allowbreak{}seconds\_\allowbreak{}per\_\allowbreak{}update & 48 & 0.035109 -- 0.0971 & endpoint examples, not summed group/\allowbreak{}study totals \\*
+r13 & elapsed\_\allowbreak{}seconds & 12 & 17.231 -- 22.219 & endpoint examples, not summed group/\allowbreak{}study totals \\*
+r8 & elapsed\_\allowbreak{}seconds & 18 & 1661 -- 1895.1 & endpoint examples, not summed group/\allowbreak{}study totals \\
+\end{longtable}
+\endgroup

@@ -1,0 +1,27 @@
+{
+  "evidence_id": "E-d1c062f0e681735b",
+  "sampling": {
+    "N_run_3_to_8_training_occurrences": 0,
+    "note": "The online sampler stops before its third consecutive N; each sampled category is uniform over its boards.",
+    "per_active_round_N_probability": 0.25,
+    "specific_H_board_probability_by_mode": {
+      "mode_0": 0.0022935779816513763,
+      "mode_1": 0.0045871559633027525
+    },
+    "specific_L_board_probability_by_mode": {
+      "mode_0": 2.2231114668089458e-05,
+      "mode_1": 1.1115557334044729e-05
+    },
+    "specific_N_board_probability": 0.00013623978201634878
+  },
+  "scope": "Read-only diagnosis of saved r8 update-20,000 networks",
+  "source": {
+    "board_count": 24435,
+    "natural_test_active_rounds": 60000,
+    "natural_test_unique_boards": 16587,
+    "prefix_rows": 576,
+    "r8_registration_sha256": "623c32f3a835d829020457d6cd44f6f0590f163ee6cb2db43a16ea5f8e6ae227",
+    "swap_scenarios": 32
+  },
+  "training": null
+}

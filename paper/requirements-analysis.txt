@@ -1,0 +1,7 @@
+# Python 3.12.3. Ledger arithmetic and package preparation: standard library only.
+# The write-up-only tests need pytest; TeX is installed separately.
+pytest==9.1.1
+iniconfig==2.3.0
+packaging==26.2
+pluggy==1.6.0
+pygments==2.20.0

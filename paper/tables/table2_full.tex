@@ -1,0 +1,55 @@
+% Built from ledger-bound values; edit the script, not this table.
+\begingroup\fontsize{8}{9.5}\selectfont\setlength{\tabcolsep}{3pt}\emergencystretch=1em\hyphenpenalty=10000\exhyphenpenalty=10000
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.400in}>{\raggedright\arraybackslash}p{0.430in}>{\raggedright\arraybackslash}p{0.780in}>{\raggedright\arraybackslash}p{0.650in}>{\raggedright\arraybackslash}p{0.660in}>{\raggedright\arraybackslash}p{0.660in}>{\raggedright\arraybackslash}p{1.100in}@{}}
+\caption{Access and supplied sums: complete per-seed comparison. Every seed is explicit; compare access variants within r13 and supplied versus target sums within r12. Across studies these are historical, not matched comparisons; r10 is a different all-slots task. Counts use rendering 0 where recorded; missing census counts are not zero. *r8 reports full-law maximum, r10 law-row maximum, r12/\allowbreak{}r13 N3--N8 maximum. Original-task history TV bar is 0.02; r10 original-law law-row bar is 0.05, equal-law 0.02. Finite KL/\allowbreak{}TV use five significant digits; counts are exact. A pass is not correctness everywhere. Analytical reduction only; exact per-cell and per-update rows remain released. Detailed records: paper/\allowbreak{}data/\allowbreak{}release/\allowbreak{}table2\_\allowbreak{}full.json.gz (schema and SHA-256 in release/\allowbreak{}index.json).}\label{tab:table2_full}\\
+\toprule
+\textbf{study /\allowbreak{} condition /\allowbreak{} seed} & \textbf{B pass} & \textbf{natural KL (bits)} & \textbf{misreads (boards)} & \textbf{short TV max} & \textbf{long TV max*} & \textbf{endpoint label} \\
+\midrule\endfirsthead
+\toprule
+\textbf{study /\allowbreak{} condition /\allowbreak{} seed} & \textbf{B pass} & \textbf{natural KL (bits)} & \textbf{misreads (boards)} & \textbf{short TV max} & \textbf{long TV max*} & \textbf{endpoint label} \\
+\midrule\endhead
+\midrule\multicolumn{7}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+r8 records+sums $\to$ prediction (sums route only) /\allowbreak{} 0 & yes & 0.00033865 & not recorded & not recorded & 0.017721 & B\_\allowbreak{}PASS \\
+r8 records+sums $\to$ prediction (sums route only) /\allowbreak{} 1 & yes & 6.7874e-05 & not recorded & not recorded & 0.011403 & B\_\allowbreak{}PASS \\
+r8 records+sums $\to$ prediction (sums route only) /\allowbreak{} 2 & no & 6.5306e-05 & not recorded & not recorded & 0.020775 & B\_\allowbreak{}INCOMPLETE \\
+r8 records+sums $\to$ prediction /\allowbreak{} 0 & yes & 0.00025483 & not recorded & not recorded & 0.018665 & B\_\allowbreak{}PASS \\
+r8 records+sums $\to$ prediction /\allowbreak{} 1 & yes & 6.8052e-05 & not recorded & not recorded & 0.0051108 & B\_\allowbreak{}PASS \\
+r8 records+sums $\to$ prediction /\allowbreak{} 2 & yes & 8.0944e-05 & not recorded & not recorded & 0.0059933 & B\_\allowbreak{}PASS \\
+r8 records $\to$ prediction /\allowbreak{} 0 & no & 0.00029829 & not recorded & not recorded & 0.25 & B\_\allowbreak{}INCOMPLETE \\
+r8 records $\to$ prediction /\allowbreak{} 1 & no & 7.047e-05 & not recorded & not recorded & 0.2548 & B\_\allowbreak{}INCOMPLETE \\
+r8 records $\to$ prediction /\allowbreak{} 2 & no & 0.00021024 & not recorded & not recorded & 0.25649 & B\_\allowbreak{}INCOMPLETE \\
+r10 records+sums $\to$ prediction (sums route only) /\allowbreak{} 0 & no & 0.0070603 & not recorded & not recorded & 0.12242 & INCOMPLETE \\
+r10 records+sums $\to$ prediction (sums route only) /\allowbreak{} 1 & no & 0.0059933 & not recorded & not recorded & 0.079414 & INCOMPLETE \\
+r10 records+sums $\to$ prediction (sums route only) /\allowbreak{} 2 & no & 0.0057117 & not recorded & not recorded & 0.10517 & INCOMPLETE \\
+r10 records $\to$ prediction /\allowbreak{} 0 & no & 0.016034 & not recorded & not recorded & 0.3219 & INCOMPLETE \\
+r10 records $\to$ prediction /\allowbreak{} 1 & no & 0.019138 & not recorded & not recorded & 0.28963 & INCOMPLETE \\
+r10 records $\to$ prediction /\allowbreak{} 2 & no & 0.016491 & not recorded & not recorded & 0.30706 & INCOMPLETE \\
+r10 records $\to$ prediction+sums /\allowbreak{} 0 & no & 0.032325 & not recorded & not recorded & 0.27737 & INCOMPLETE \\
+r10 records $\to$ prediction+sums /\allowbreak{} 1 & no & 0.033959 & not recorded & not recorded & 0.25519 & INCOMPLETE \\
+r10 records $\to$ prediction+sums /\allowbreak{} 2 & no & 0.035928 & not recorded & not recorded & 0.23295 & INCOMPLETE \\
+r12 records+sums $\to$ prediction /\allowbreak{} 0 & yes & 0.00011363 & 0 & 0.015676 & 0.014557 & PASS \\
+r12 records+sums $\to$ prediction /\allowbreak{} 1 & yes & 0.00029505 & 1 & 0.0093861 & 0.010587 & PASS \\
+r12 records+sums $\to$ prediction /\allowbreak{} 2 & no & 0.00025691 & 1 & 0.01258 & 0.012218 & B\_\allowbreak{}INCOMPLETE \\
+r12 records $\to$ prediction+sums /\allowbreak{} 0 & no & 0.0015898 & 473 & 0.049233 & 0.064965 & B\_\allowbreak{}INCOMPLETE \\
+r12 records $\to$ prediction+sums /\allowbreak{} 1 & no & 0.0020044 & 648 & 0.13295 & 0.087776 & B\_\allowbreak{}INCOMPLETE \\
+r12 records $\to$ prediction+sums /\allowbreak{} 2 & no & 0.0022981 & 815 & 0.03955 & 0.044799 & B\_\allowbreak{}INCOMPLETE \\
+r13 records $\to$ prediction+sums /\allowbreak{} 0 & no & 0.0021068 & 331 & 0.081309 & 0.0985 & INCOMPLETE \\
+r13 records $\to$ prediction+sums /\allowbreak{} 1 & no & 0.0018252 & 725 & 0.044418 & 0.10016 & INCOMPLETE \\
+r13 records $\to$ prediction+sums /\allowbreak{} 2 & no & 0.0020459 & 637 & 0.047182 & 0.072752 & INCOMPLETE \\
+r13 records+sums $\to$ prediction (exact supplied) /\allowbreak{} 0 & no & 0.00011384 & 0 & 0.022749 & 0.013305 & INCOMPLETE \\
+r13 records+sums $\to$ prediction (exact supplied) /\allowbreak{} 1 & no & 0.00030667 & 0 & 0.012822 & 0.01569 & INCOMPLETE \\
+r13 records+sums $\to$ prediction (exact supplied) /\allowbreak{} 2 & yes & 0.00028061 & 2 & 0.011454 & 0.010661 & PASS \\
+r13 Connected (frozen) /\allowbreak{} 0 & no & 0.00062178 & 259 & 0.013796 & 0.24257 & INCOMPLETE \\
+r13 Connected (frozen) /\allowbreak{} 1 & no & 0.0005485 & 69 & 0.014747 & 0.011304 & INCOMPLETE \\
+r13 Connected (frozen) /\allowbreak{} 2 & no & 0.00034049 & 58 & 0.013029 & 0.015699 & INCOMPLETE \\
+r13 Connected (live) /\allowbreak{} 0 & no & 0.00031731 & 117 & 0.025362 & 0.24683 & INCOMPLETE \\
+r13 Connected (live) /\allowbreak{} 1 & no & 0.00041094 & 43 & 0.015556 & 0.25128 & INCOMPLETE \\
+r13 Connected (live) /\allowbreak{} 2 & no & 0.00029062 & 39 & 0.01333 & 0.011997 & INCOMPLETE \\
+r13 records+sums $\to$ prediction (Numerical encoding) /\allowbreak{} 0 & no & 0.00083668 & 317 & 0.028812 & 0.24067 & INCOMPLETE \\
+r13 records+sums $\to$ prediction (Numerical encoding) /\allowbreak{} 1 & no & 0.00079477 & 121 & 0.042917 & 0.069823 & INCOMPLETE \\
+r13 records+sums $\to$ prediction (Numerical encoding) /\allowbreak{} 2 & no & 0.00054318 & 10 & 0.021251 & 0.18902 & INCOMPLETE \\*
+r8 board-only control & no & 0.013514 & not recorded & not recorded & 0.1875 & null, calibration \\*
+exact task oracle & yes & 0 & 0 & 0 & 0 & ceiling, not trained \\
+\end{longtable}
+\endgroup

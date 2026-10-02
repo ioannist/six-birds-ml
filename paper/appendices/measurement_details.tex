@@ -1,0 +1,60 @@
+\subsection{Measurement details}\label{app:measurement}
+
+\paragraph{Prediction criteria.} Unseen KL is computed on test positions
+whose preceding pair of boards never occurred at a training position; its
+support is recorded per run (about 20,000--26,000 positions). Witness
+recovery is $1 - \bar{K}/J$, where $\bar{K}$ is the mean KL in bits on the 64
+histories made of an anchor and one \Ncat{} board, and $J = 0.061278\ldots$
+bits is the Jensen--Shannon divergence between the two laws, the mean KL of a
+predictor that ignores the anchor. The state-intervention panels reset and
+set the mode, hold it through neutral boards, substitute a board of the same
+category and exchange upper states. Under the equal law, witness recovery is
+undefined and is replaced by a check that the two witness predictions agree
+within 0.02 TV. r10 uses its own conjunction, including bars derived
+from its calibrated history-blind predictor and law TV at most 0.05 under
+its original law; the complete study-specific criteria for every study,
+including r10's covered-value KL, equal-law TV and witness-separation rules,
+are listed in Supplement Tables S4, S8, S10, S12 and S14 (r8, r10,
+r11, r12, r13; r9 has no pass criteria).
+
+\paragraph{Census.} The two contexts are produced by executing an \Lcat{} and
+an \Hcat{} anchor through the network, so a misread can also reflect a
+failure to establish the mode. The signature distance is the summed absolute
+difference over the two contexts. From r11 on, the census covers all 24,435
+boards in each of four fixed renderings and counts are reported per
+rendering; r9 used one rendering per board.
+
+\paragraph{Probes.} In the original task the upper state is probed after one
+board from a zero state; in r10 it is probed after recurrent histories. The
+2,048 probe-training boards and the 512 evaluation boards per slot are
+disjoint from each other but not necessarily unseen during network training.
+A positive gain is supported when the lower bound of its paired 95\%
+interval (1,000 resamples of the same 512 boards) is above zero and, for
+linear probes, both fits converged; an interval wholly below zero supports a
+decline. Linear probes use balanced class weights, which can push ordinary
+accuracy below the majority floor.
+
+\paragraph{Cutoff discrimination (supplementary).} A separate analysis of
+the probability-target records $\to$ prediction networks shows that probes
+separate the sums 12 from 13 (150 evaluation pairs) and 23 from 24 (13
+pairs) in every seed, while those networks still fail registered prediction
+tests. This establishes discrimination on that support, not across all
+cutoff boards, and does not diagnose the numerical-encoding failures.
+
+\paragraph{Swap test.} For the networks that learn from records, the
+alignment is a mean-centred orthogonal map, fitted on training data only,
+from the 16-dimensional raw carrier onto 15 coordinates that
+track the exact sums (three per slot) plus one residual coordinate; the
+patched state is mapped back through its inverse. It is a fixed, fitted
+alignment, not a searched subspace. The trained positive (records+sums
+$\to$ prediction) is instead patched by replacing the queried slot's hard
+sum answer directly. The r10 swap test uses a fixed panel of 1,024 board
+pairs per slot and requires at least 20 pairs per slot on which the network
+is accurate for both boards. Donor-follow is the fraction of those accurate
+pairs for which the patched prediction is closer in TV to the donor's law
+than to the base board's law. Selectivity requires that an independent
+decoder finds no change in the other four slots' sums. Four checks are
+reported separately: whether the trained positive (at the 20,000-update
+endpoint) follows the donor, whether the no-op and shuffled-alignment
+negatives do not, whether the swap is selective, and whether the evaluated
+networks follow the donor.

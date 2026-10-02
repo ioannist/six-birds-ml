@@ -1,0 +1,44 @@
+% Built from ledger-bound values; edit the script, not this table.
+\begingroup\fontsize{8}{9.5}\selectfont\setlength{\tabcolsep}{3pt}\emergencystretch=1em\hyphenpenalty=10000\exhyphenpenalty=10000
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.030in}>{\raggedright\arraybackslash}p{0.400in}>{\raggedright\arraybackslash}p{0.290in}>{\raggedright\arraybackslash}p{0.390in}>{\raggedright\arraybackslash}p{0.580in}>{\raggedright\arraybackslash}p{0.550in}>{\raggedright\arraybackslash}p{0.570in}>{\raggedright\arraybackslash}p{0.570in}>{\raggedright\arraybackslash}p{1.300in}@{}}
+\caption{r12 complete endpoint version matrix. All recorded conditions and seeds, including equal-law controls; no endpoint is selected. Equal-law category signatures are undefined, not zero. Five significant digits for continuous values. *Full-law /\allowbreak{} long /\allowbreak{} law-row support follows Table 2. Exact-oracle errors are zero; matched initial controls and complete deciding-function calibration are in Appendix C. Census counts are rendering 0; all four renderings and saved-r9 counts are in the census table. r11 reports B\_\allowbreak{}law.maximum\_\allowbreak{}TV on all history cases. Missing measurements stay not recorded. Analytical reduction only; exact per-cell and per-update rows remain released. Detailed records: paper/\allowbreak{}data/\allowbreak{}release/\allowbreak{}appendix\_\allowbreak{}B\_\allowbreak{}r12.json.gz (schema and SHA-256 in release/\allowbreak{}index.json).}\label{tab:appendix_B_r12}\\
+\toprule
+\textbf{condition} & \textbf{law} & \textbf{seed} & \textbf{B pass} & \textbf{KL bits} & \textbf{misreads} & \textbf{TV-error count} & \textbf{law TV max*} & \textbf{failed bars /\allowbreak{} label} \\
+\midrule\endfirsthead
+\toprule
+\textbf{condition} & \textbf{law} & \textbf{seed} & \textbf{B pass} & \textbf{KL bits} & \textbf{misreads} & \textbf{TV-error count} & \textbf{law TV max*} & \textbf{failed bars /\allowbreak{} label} \\
+\midrule\endhead
+\midrule\multicolumn{9}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+records+sums $\to$ prediction & equal & 0 & yes & 2.6087e-05 & not recorded & 0 & 0.0028994 & PASS \\
+records+sums $\to$ prediction & equal & 1 & yes & 1.1739e-05 & not recorded & 0 & 0.0019134 & PASS \\
+records+sums $\to$ prediction & equal & 2 & yes & 0.00019948 & not recorded & 0 & 0.0071765 & PASS \\
+records+sums $\to$ prediction & original & 0 & yes & 0.00011363 & 0 & 1 & 0.014557 & PASS \\
+records+sums $\to$ prediction & original & 1 & yes & 0.00029505 & 1 & 10 & 0.010587 & PASS \\
+records+sums $\to$ prediction & original & 2 & no & 0.00025691 & 1 & 51 & 0.012218 & swaps \\
+records $\to$ prediction+sums & equal & 0 & yes & 2.9968e-05 & not recorded & 0 & 0.0044009 & PASS \\
+records $\to$ prediction+sums & equal & 1 & yes & 6.9558e-05 & not recorded & 0 & 0.015836 & PASS \\
+records $\to$ prediction+sums & equal & 2 & yes & 0.00020329 & not recorded & 0 & 0.010005 & PASS \\
+records $\to$ prediction+sums & original & 0 & no & 0.0015898 & 473 & 1,888 & 0.064965 & law\_\allowbreak{}TV, rerender, swaps \\
+records $\to$ prediction+sums & original & 1 & no & 0.0020044 & 648 & 2,786 & 0.087776 & law\_\allowbreak{}TV, rerender, swaps \\
+records $\to$ prediction+sums & original & 2 & no & 0.0022981 & 815 & 4,272 & 0.044799 & law\_\allowbreak{}TV, rerender, swaps \\
+records $\to$ prediction (cutoff coverage) & equal & 0 & yes & 2.5759e-05 & not recorded & 0 & 0.0029569 & PASS \\
+records $\to$ prediction (cutoff coverage) & equal & 1 & yes & 1.4261e-05 & not recorded & 0 & 0.0024335 & PASS \\
+records $\to$ prediction (cutoff coverage) & equal & 2 & yes & 0.00020463 & not recorded & 0 & 0.0072873 & PASS \\
+records $\to$ prediction (cutoff coverage) & original & 0 & no & 0.00039673 & 80 & 242 & 0.016568 & law\_\allowbreak{}TV, rerender, swaps \\
+records $\to$ prediction (cutoff coverage) & original & 1 & no & 0.00053515 & 60 & 395 & 0.025096 & law\_\allowbreak{}TV, rerender, swaps \\
+records $\to$ prediction (cutoff coverage) & original & 2 & no & 0.00062301 & 39 & 251 & 0.098758 & law\_\allowbreak{}TV, swaps \\
+records $\to$ prediction (decoy coverage) & equal & 0 & yes & 2.8891e-05 & not recorded & 0 & 0.0031461 & PASS \\
+records $\to$ prediction (decoy coverage) & equal & 1 & yes & 1.3799e-05 & not recorded & 0 & 0.0022694 & PASS \\
+records $\to$ prediction (decoy coverage) & equal & 2 & yes & 0.00020885 & not recorded & 0 & 0.0074124 & PASS \\
+records $\to$ prediction (decoy coverage) & original & 0 & no & 0.00044239 & 20 & 183 & 0.028196 & law\_\allowbreak{}TV, rerender, swaps \\
+records $\to$ prediction (decoy coverage) & original & 1 & no & 0.00051612 & 99 & 510 & 0.018923 & law\_\allowbreak{}TV, rerender, swaps \\
+records $\to$ prediction (decoy coverage) & original & 2 & no & 0.00080244 & 59 & 472 & 0.021056 & law\_\allowbreak{}TV, rerender, swaps \\
+records $\to$ prediction (uniform sampling) & equal & 0 & yes & 2.6929e-05 & not recorded & 0 & 0.003395 & PASS \\
+records $\to$ prediction (uniform sampling) & equal & 1 & yes & 1.2274e-05 & not recorded & 0 & 0.0020026 & PASS \\
+records $\to$ prediction (uniform sampling) & equal & 2 & yes & 0.00020471 & not recorded & 0 & 0.0074179 & PASS \\
+records $\to$ prediction (uniform sampling) & original & 0 & no & 0.00052921 & 58 & 237 & 0.027952 & law\_\allowbreak{}TV, rerender, swaps \\*
+records $\to$ prediction (uniform sampling) & original & 1 & no & 0.00054256 & 328 & 4,047 & 0.17174 & law\_\allowbreak{}TV, rerender, swaps \\*
+records $\to$ prediction (uniform sampling) & original & 2 & no & 0.00095705 & 87 & 613 & 0.04589 & law\_\allowbreak{}TV, rerender, swaps \\
+\end{longtable}
+\endgroup

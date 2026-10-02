@@ -1,0 +1,62 @@
+% Built from ledger-bound values; edit the script, not this table.
+\begingroup\fontsize{8}{9.5}\selectfont\setlength{\tabcolsep}{3pt}\emergencystretch=1em\hyphenpenalty=10000\exhyphenpenalty=10000
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.000in}>{\raggedright\arraybackslash}p{3.900in}@{}}
+\caption{r11 sampling, training and registered criteria. Read directly from the hash-verified registration (r9: read-only scope). This table retains declared sampling, truncation, coverage, loss, settings and criteria, not inferred hardware. Long verbatim readings, r10's full rational conditional-frequency table and source identities remain in the manifest-bound registration; r10 is a different task. Analytical reduction only; exact per-cell and per-update rows remain released. Detailed records: paper/\allowbreak{}data/\allowbreak{}release/\allowbreak{}prepared\_\allowbreak{}r11.json.gz (schema and SHA-256 in release/\allowbreak{}index.json).}\label{tab:prepared_r11}\\
+\toprule
+\textbf{registered property} & \textbf{value} \\
+\midrule\endfirsthead
+\toprule
+\textbf{registered property} & \textbf{value} \\
+\midrule\endhead
+\midrule\multicolumn{2}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+board\_\allowbreak{}counts & [22491, 1835, 109] \\
+probe\_\allowbreak{}settings/\allowbreak{}linear/\allowbreak{}C & 10 \\
+probe\_\allowbreak{}settings/\allowbreak{}linear/\allowbreak{}class\_\allowbreak{}weight & balanced \\
+probe\_\allowbreak{}settings/\allowbreak{}linear/\allowbreak{}estimator & torch\_\allowbreak{}multinomial\_\allowbreak{}logistic \\
+probe\_\allowbreak{}settings/\allowbreak{}linear/\allowbreak{}fit\_\allowbreak{}device & cpu \\
+probe\_\allowbreak{}settings/\allowbreak{}linear/\allowbreak{}fit\_\allowbreak{}threads & 1 \\
+probe\_\allowbreak{}settings/\allowbreak{}linear/\allowbreak{}max\_\allowbreak{}iter & 5,000 \\
+probe\_\allowbreak{}settings/\allowbreak{}linear/\allowbreak{}solver & LBFGS\_\allowbreak{}strong\_\allowbreak{}wolfe \\
+probe\_\allowbreak{}settings/\allowbreak{}linear/\allowbreak{}standardization & training\_\allowbreak{}mean\_\allowbreak{}and\_\allowbreak{}population\_\allowbreak{}scale \\
+probe\_\allowbreak{}settings/\allowbreak{}linear/\allowbreak{}tol & 1e-05 \\
+probe\_\allowbreak{}settings/\allowbreak{}mlp64/\allowbreak{}fit\_\allowbreak{}device & audit\_\allowbreak{}device \\
+probe\_\allowbreak{}settings/\allowbreak{}mlp64/\allowbreak{}learning\_\allowbreak{}rate & 0.03 \\
+probe\_\allowbreak{}settings/\allowbreak{}mlp64/\allowbreak{}updates & 100 \\
+probe\_\allowbreak{}settings/\allowbreak{}mlp64/\allowbreak{}width & 64 \\
+settings/\allowbreak{}A\_\allowbreak{}loss\_\allowbreak{}normalizer & all\_\allowbreak{}active\_\allowbreak{}rounds \\
+settings/\allowbreak{}AdamW\_\allowbreak{}learning\_\allowbreak{}rate & 0.003 \\
+settings/\allowbreak{}AdamW\_\allowbreak{}weight\_\allowbreak{}decay & 0.01 \\
+settings/\allowbreak{}CPU\_\allowbreak{}threads\_\allowbreak{}per\_\allowbreak{}process & 1 \\
+settings/\allowbreak{}audit\_\allowbreak{}steps & [0, 1000, 2000, 5000, 10000, 15000, 20000] \\
+settings/\allowbreak{}batch & 256 \\
+settings/\allowbreak{}bf16\_\allowbreak{}comparison\_\allowbreak{}absolute\_\allowbreak{}tolerances/\allowbreak{}A\_\allowbreak{}vector\_\allowbreak{}accuracy & 0.05 \\
+settings/\allowbreak{}bf16\_\allowbreak{}comparison\_\allowbreak{}absolute\_\allowbreak{}tolerances/\allowbreak{}B\_\allowbreak{}loss\_\allowbreak{}nats & 0.01 \\
+settings/\allowbreak{}bf16\_\allowbreak{}comparison\_\allowbreak{}absolute\_\allowbreak{}tolerances/\allowbreak{}natural\_\allowbreak{}KL\_\allowbreak{}bits & 0.005 \\
+settings/\allowbreak{}device\_\allowbreak{}default & cuda \\
+settings/\allowbreak{}early\_\allowbreak{}erosion\_\allowbreak{}readout\_\allowbreak{}steps & [1, 5, 10, 50, 100] \\
+settings/\allowbreak{}equivalence\_\allowbreak{}check/\allowbreak{}batch & 256 \\
+settings/\allowbreak{}equivalence\_\allowbreak{}check/\allowbreak{}nonzero\_\allowbreak{}restore\_\allowbreak{}update & 3 \\
+settings/\allowbreak{}equivalence\_\allowbreak{}check/\allowbreak{}restoration\_\allowbreak{}tolerance & exact \\
+settings/\allowbreak{}equivalence\_\allowbreak{}check/\allowbreak{}rounds & 8 \\
+settings/\allowbreak{}equivalence\_\allowbreak{}check/\allowbreak{}updates & 8 \\
+settings/\allowbreak{}equivalence\_\allowbreak{}check/\allowbreak{}widths/\allowbreak{}dose & 3 \\
+settings/\allowbreak{}equivalence\_\allowbreak{}check/\allowbreak{}widths/\allowbreak{}erosion & 1 \\
+settings/\allowbreak{}equivalence\_\allowbreak{}check/\allowbreak{}widths/\allowbreak{}rarity & 3 \\
+settings/\allowbreak{}equivalence\_\allowbreak{}tolerances/\allowbreak{}discrete\_\allowbreak{}state & exact \\
+settings/\allowbreak{}equivalence\_\allowbreak{}tolerances/\allowbreak{}optimizer\_\allowbreak{}moments/\allowbreak{}atol & 3e-05 \\
+settings/\allowbreak{}equivalence\_\allowbreak{}tolerances/\allowbreak{}optimizer\_\allowbreak{}moments/\allowbreak{}rtol & 3e-05 \\
+settings/\allowbreak{}equivalence\_\allowbreak{}tolerances/\allowbreak{}parameters/\allowbreak{}atol & 3e-05 \\
+settings/\allowbreak{}equivalence\_\allowbreak{}tolerances/\allowbreak{}parameters/\allowbreak{}rtol & 3e-05 \\
+settings/\allowbreak{}evaluation\_\allowbreak{}precision & fp32 \\
+settings/\allowbreak{}execution\_\allowbreak{}widths/\allowbreak{}dose & 3 \\
+settings/\allowbreak{}execution\_\allowbreak{}widths/\allowbreak{}erosion & 1 \\
+settings/\allowbreak{}execution\_\allowbreak{}widths/\allowbreak{}rarity & 3 \\
+settings/\allowbreak{}futility\_\allowbreak{}gap\_\allowbreak{}fraction & 0.1 \\
+settings/\allowbreak{}futility\_\allowbreak{}update & 5,000 \\
+settings/\allowbreak{}maximum\_\allowbreak{}CPU\_\allowbreak{}processes & 5 \\
+settings/\allowbreak{}precision & fp32 until the GPU 1k comparison accepts bf16 \\*
+settings/\allowbreak{}rounds & 8 \\*
+settings/\allowbreak{}updates & 20,000 \\
+\end{longtable}
+\endgroup

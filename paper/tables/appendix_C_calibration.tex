@@ -1,0 +1,56 @@
+% Built from ledger-bound values; edit the script, not this table.
+\begingroup\fontsize{8}{9.5}\selectfont\setlength{\tabcolsep}{3pt}\emergencystretch=1em\hyphenpenalty=10000\exhyphenpenalty=10000
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.350in}>{\raggedright\arraybackslash}p{0.400in}>{\raggedright\arraybackslash}p{1.350in}>{\raggedright\arraybackslash}p{1.100in}>{\raggedright\arraybackslash}p{0.350in}>{\raggedright\arraybackslash}p{1.000in}>{\raggedright\arraybackslash}p{1.400in}@{}}
+\caption{Deciding-function calibration: positives, negatives and support. Named scalar calibration summaries, with exact counts and original/\allowbreak{}equal law-aware decisions. A successful calibration is not a successful trained model. Unsupported/\allowbreak{}empty nulls do not pass; the r10 trained positive is a fixed-endpoint condition. Floors and exact-oracle ceilings are retained in the named condition rows. Per-presentation and per-slot arrays remain in the hash-verified full calibration records; slot floors are in the probe table. Five significant digits for continuous values. Analytical reduction only; exact per-cell and per-update rows remain released. Detailed records: paper/\allowbreak{}data/\allowbreak{}release/\allowbreak{}appendix\_\allowbreak{}C\_\allowbreak{}calibration.json.gz (schema and SHA-256 in release/\allowbreak{}index.json).}\label{tab:appendix_C_calibration}\\
+\toprule
+\textbf{study} & \textbf{law} & \textbf{positive /\allowbreak{} null} & \textbf{deciding quantity} & \textbf{pass} & \textbf{support} & \textbf{law max /\allowbreak{} rates} \\
+\midrule\endfirsthead
+\toprule
+\textbf{study} & \textbf{law} & \textbf{positive /\allowbreak{} null} & \textbf{deciding quantity} & \textbf{pass} & \textbf{support} & \textbf{law max /\allowbreak{} rates} \\
+\midrule\endhead
+\midrule\multicolumn{7}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+r8 & original & current\_\allowbreak{}board\_\allowbreak{}null & B deciding criteria & no & 576 & 0.1875 \\
+r8 & original & forced\_\allowbreak{}A & B deciding criteria & yes & 576 & 0 \\
+r8 & original & forced\_\allowbreak{}raw & B deciding criteria & yes & 576 & 0 \\
+r8 & equal & current\_\allowbreak{}board\_\allowbreak{}null & B deciding criteria & yes & 576 & 2.9802e-08 \\
+r8 & equal & forced\_\allowbreak{}A & B deciding criteria & yes & 576 & 2.9802e-08 \\
+r8 & equal & forced\_\allowbreak{}raw & B deciding criteria & yes & 576 & 2.9802e-08 \\
+r8 & both & oracle & raw linear sum calibration ($\geq$0.99; convergence) & yes & 512 & 512/\allowbreak{}512/\allowbreak{}512/\allowbreak{}511/\allowbreak{}511 /\allowbreak{} 512 \\
+r8 & both & update0 & raw linear sum calibration ($\geq$0.99; convergence) & no & 512 & 187/\allowbreak{}167/\allowbreak{}121/\allowbreak{}153/\allowbreak{}152 /\allowbreak{} 512 \\
+r10 & original & exact\_\allowbreak{}oracle & B deciding criteria & yes & 180 law rows & 4.4703e-08 \\
+r10 & original & mode\_\allowbreak{}blind & B deciding criteria & no & 180 law rows & 0.48635 \\
+r10 & original & untrained & B deciding criteria & no & 180 law rows & 0.42896 \\
+r10 & equal & exact\_\allowbreak{}oracle & B deciding criteria & yes & 180 law rows & 1.4901e-08 \\
+r10 & equal & mode\_\allowbreak{}blind & B deciding criteria & yes & 180 law rows & 0 \\
+r10 & equal & untrained & B deciding criteria & no & 180 law rows & 0.065678 \\
+r10 & original & slot 1: hard /\allowbreak{} rotated /\allowbreak{} no-op /\allowbreak{} shuffled & donor-follow and selectivity & yes & 1,024 & 1/\allowbreak{}1/\allowbreak{}0/\allowbreak{}0.1123 \\
+r10 & original & slot 2: hard /\allowbreak{} rotated /\allowbreak{} no-op /\allowbreak{} shuffled & donor-follow and selectivity & yes & 1,024 & 1/\allowbreak{}1/\allowbreak{}0/\allowbreak{}0.053711 \\
+r10 & original & slot 3: hard /\allowbreak{} rotated /\allowbreak{} no-op /\allowbreak{} shuffled & donor-follow and selectivity & yes & 1,024 & 1/\allowbreak{}1/\allowbreak{}0/\allowbreak{}0 \\
+r10 & original & slot 4: hard /\allowbreak{} rotated /\allowbreak{} no-op /\allowbreak{} shuffled & donor-follow and selectivity & yes & 1,024 & 1/\allowbreak{}1/\allowbreak{}0/\allowbreak{}0.18164 \\
+r10 & original & slot 5: hard /\allowbreak{} rotated /\allowbreak{} no-op /\allowbreak{} shuffled & donor-follow and selectivity & yes & 1,024 & 1/\allowbreak{}1/\allowbreak{}0/\allowbreak{}0.18164 \\
+r10 & original & planted contamination & other-slot changes detected & yes & 1,024 & 949/\allowbreak{}950/\allowbreak{}926/\allowbreak{}968/\allowbreak{}959 \\
+r10 & both & oracle & raw linear sum calibration ($\geq$0.99; convergence) & yes & 512 & 512/\allowbreak{}512/\allowbreak{}511/\allowbreak{}512/\allowbreak{}511 /\allowbreak{} 512 \\
+r10 & both & untrained & raw linear sum calibration ($\geq$0.99; convergence) & no & 512 & 173/\allowbreak{}154/\allowbreak{}127/\allowbreak{}177/\allowbreak{}147 /\allowbreak{} 512 \\
+r11 & original & current\_\allowbreak{}board\_\allowbreak{}null & B deciding criteria & no & 576 & 0.1875 \\
+r11 & original & oracle\_\allowbreak{}A & B deciding criteria & yes & 576 & 0 \\
+r11 & original & oracle\_\allowbreak{}raw & B deciding criteria & yes & 576 & 0 \\
+r11 & equal & current\_\allowbreak{}board\_\allowbreak{}null & B deciding criteria & yes & 576 & 2.9802e-08 \\
+r11 & equal & oracle\_\allowbreak{}A & B deciding criteria & yes & 576 & 2.9802e-08 \\
+r11 & equal & oracle\_\allowbreak{}raw & B deciding criteria & yes & 576 & 2.9802e-08 \\
+r11 & both & oracle & raw linear sum calibration ($\geq$0.99; convergence) & yes & 512 & 512/\allowbreak{}512/\allowbreak{}512/\allowbreak{}511/\allowbreak{}511 /\allowbreak{} 512 \\
+r11 & both & untrained & raw linear sum calibration ($\geq$0.99; convergence) & no & 512 & 186/\allowbreak{}166/\allowbreak{}120/\allowbreak{}154/\allowbreak{}152 /\allowbreak{} 512 \\
+r12 & original & current\_\allowbreak{}board\_\allowbreak{}null & B deciding criteria & no & 576 & 0.1875 \\
+r12 & original & forced\_\allowbreak{}A\_\allowbreak{}oracle & B deciding criteria & yes & 576 & 0 \\
+r12 & original & oracle & B deciding criteria & yes & 576 & 0 \\
+r12 & equal & current\_\allowbreak{}board\_\allowbreak{}null & B deciding criteria & yes & 576 & 2.9802e-08 \\
+r12 & equal & forced\_\allowbreak{}A\_\allowbreak{}oracle & B deciding criteria & yes & 576 & 2.9802e-08 \\
+r12 & equal & oracle & B deciding criteria & yes & 576 & 2.9802e-08 \\
+r12 & both & oracle & raw linear sum calibration ($\geq$0.99; convergence) & yes & 512 & 512/\allowbreak{}512/\allowbreak{}512/\allowbreak{}511/\allowbreak{}511 /\allowbreak{} 512 \\
+r12 & both & untrained & raw linear sum calibration ($\geq$0.99; convergence) & no & 512 & 186/\allowbreak{}166/\allowbreak{}120/\allowbreak{}154/\allowbreak{}152 /\allowbreak{} 512 \\
+r13 & original & board\_\allowbreak{}only & B deciding criteria & no & 576 history endpoints & 0.1875 \\
+r13 & original & oracle & B deciding criteria & yes & 576 history endpoints & 0 \\*
+r13 & equal & board\_\allowbreak{}only & B deciding criteria & yes & 576 history endpoints & 2.9802e-08 \\*
+r13 & equal & oracle & B deciding criteria & yes & 576 history endpoints & 2.9802e-08 \\
+\end{longtable}
+\endgroup

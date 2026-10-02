@@ -1,0 +1,83 @@
+# Public scientific registration
+
+This is a public projection. Complete numerical settings, source identities and registered criteria are recorded in `registration.json`.
+
+Register **r12 as a new study with 30 runs**. Repeat uniform, cutoff and decoy B-only raw training; repeat 100% A supervision; add exact A supplied alongside raw records. The primary comparison is within r12. r11 remains the comparison under truncated history coverage.
+
+The three claims are explicit: **interface**—the predictive state strictly extends the current sum board by non-factorization: the same neutral board after L versus H has different next-category laws; **lower objects**—the mode is determined by the sequence of completed sum boards; **pathway**—raw arms must learn the relevant computation, while the supplied arm receives exact frozen learned-A answers. A successful prediction or probe does not, by itself, establish causal use of an internal A representation.
+
+Use these arms, original and equal laws, seeds 0–2:
+
+| Arm | Upper input | Training signal |
+|---|---|---|
+| Uniform | Raw encoder | B cross-entropy |
+| Cutoff | Raw encoder | B cross-entropy; r11 cutoff enrichment |
+| Decoy | Raw encoder | B cross-entropy; r11 matched decoy enrichment |
+| A-target | Raw encoder | B plus coefficient-1 five-sum loss from the raw encoder |
+| A-supplied | Raw encoder plus exact A answers | B cross-entropy; A core frozen |
+
+Keep the raw encoder, upper recurrence, auxiliary head, initialization, optimizer and numerical settings matched. Mask A input in the four raw arms. Load and freeze the same exact A source in every arm, including where unused. A-target supervision never enters as an input. This compares two training conditions for access to A; supplied A is exact whereas learned A may remain approximate, so it is not a pure comparison of equally accurate representations.
+
+**History coverage.** Each update contains 256 episodes, padded to nine rounds:
+
+- **128 natural episodes:** nine rounds sampled from the original process, without neutral-run truncation. Train B at every round.
+- **128 coverage episodes:** eight examples of each of the 16 strata `(L or H anchor, k=1…8)`. Inputs are an anchor followed by exactly k neutral boards. Train B **only at the final position**, drawing its target freshly from the mode’s original next-category distribution.
+
+Use
+\[
+L_B=\tfrac12\,\operatorname{mean}(CE_{\rm natural})
++\tfrac12\,\operatorname{mean}(CE_{\rm coverage\ endpoint}).
+\]
+Do not assign forced N continuations as intermediate B targets: that would change the target law. Gradients from the final prediction traverse the entire prefix. Neither mode, category labels, stratum nor future records are network inputs.
+
+Each seed receives **160,000 supervised endpoints per anchor/N-length stratum**, including each N⁸ stratum. Pair natural category streams, coverage strata and B target draws across arms. Uniform/A-target/A-supplied receive identical records; cutoff and decoy change only within-category board selection. Retain r11’s enrichment rules.
+
+For A-target, apply five-sum cross-entropy to every active input round, averaging over all active rounds and slots; add it with coefficient one. This supplies A supervision to intermediate coverage boards without adding intermediate B targets.
+
+**Evaluation and calibration.** Preserve the fixed r11 panels, probe splits and thresholds. Generate training independently of evaluation records. Retain actual-stream tracking of unseen board combinations; report counts and reject empty unseen calibration. Probe-held-out board identities remain excluded from probe fitting. The exhaustive census includes training-exposed boards and must not be described as entirely unseen.
+
+| Quantity | Signal behind it | Measured positive and floor |
+|---|---|---|
+| Natural/unseen KL, witness recovery, N¹–N⁸ law and swaps | Sampled B targets | Exact mode oracle through the same scorer; current-board-only predictor and untrained network |
+| B category census, four renderings and saved r9 cases | B targets; census reads predictive signatures | Exact predictive oracle and untrained recurrence; verify L/H anchor rows |
+| Sum-head accuracy, per slot/vector | A loss only in A-target; pretrained A in supplied | Exact A answers and update-zero head; majority floor |
+| Raw/upper sum and category probes | Probe labels only during detached reader fitting | Exact-A carrier, untrained carrier, majority floor; convergence and paired CIs |
+| Rendering invariance | No rendering target | Exact oracle and untrained model; report prediction TV separately from A-answer disagreements |
+| Coverage/exposure counts | Sampler construction | Exact expected stratum counts and record-derived category checks |
+
+Keep KL ≤0.01 bits, law/swap TV ≤0.02, witness recovery ≥0.8, and the existing rendering criterion. Equal-law scoring uses zero predictive witness split, not recovery of a positive deficit. Also report short-panel and N³–N⁸ results separately, without changing the primary label.
+
+Audit at 0/1k/2k/5k/10k/15k/20k. Record first audited crossing and the fixed endpoint. At each audit, report B-signature errors alongside errors obtained by categorizing the A head’s slot-1 sum. This prevents treating the two measurements as interchangeable.
+
+**Attribution of residual failures.** For each saved worst history, replay the checkpoint at every prefix. Compare each prefix prediction with its exact row and record the first deviation, constituent board signatures, rendering and training exposure. Add a clear-neutral hold panel with verified endpoint category responses. A board-signature error preceding a sequence failure supports a board-error explanation; correct short responses followed by drift support a recurrence explanation. Neither observation alone proves a unique cause.
+
+**Stopping and first-hour read.** At 5k, stop only when both the mean B training-loss gap and natural-KL gap have closed less than 10% of their update-zero-to-oracle gaps, and supervised A has not improved where applicable. Use the B component, excluding A loss; average training loss over the preceding 100 updates. Also record coverage-endpoint KL, so coverage learning is visible even if natural learning is weak.
+
+The first-hour read must show exact supplied A, eight examples per stratum per update, paired targets, preserved conditional target frequencies, complete rendering exposure, nonempty calibrated unseen cases, and 1k curves. Verify GPU width-three raw execution and direct width-one supplied execution, including nonzero restoration.
+
+Predeclare these readings:
+
+| Outcome | Conclusion |
+|---|---|
+| Uniform passes after explicit coverage | Raw B-only training can realize B under this history distribution; r11 does not isolate board rarity as the cause |
+| Uniform still fails, with identifiable board errors preceding failures | Board computation remains a candidate limitation after history coverage |
+| Uniform fails despite correct board responses, including clear-N tests | Upper recurrence remains a limitation |
+| Cutoff improves census and B more than uniform and decoy | Targeted boundary exposure supports a rarity contribution |
+| Cutoff improves census but not B | Board repair is insufficient for predictive closure |
+| A-target improves A but not B | Readable/computable A does not ensure its predictive use |
+| A-supplied outperforms A-target | Exact A access helps under these matched conditions; inspect learned-A errors before attributing the difference to pathway |
+| Both A conditions succeed | Either supplied access or auxiliary supervision can support B here |
+| Equal-law predictive split appears | Control failure; interpret affected comparisons separately |
+
+All pathway conclusions retain the deterministic overlap between raw records and sums.
+
+Use **selected GPU, fp32, five single-core processes**: rarity width three; A-target width three; three A-supplied processes, one per seed, each executing both laws at width one. This gives 24 raw runs and six supplied runs, with 14 execution batches total. At r11 rates, training represents roughly **4–8 hours of serial batch execution**, plus **1.5–3.5 hours of audit work**; budget approximately **3–7 hours elapsed**, subject to measured shared-GPU contention and the slightly longer sequences.
+
+implementation’s files:
+
+- `src/recombination_promotion/oldgame_ext/multiround_coverage.py`
+- `scripts/oldgame_multiround_coverage.py`
+- `tests/test_oldgame_multiround_coverage.py`
+- `reports/phase11/oldgame_memory/multiround/study_r12_coverage/`
+
+Outputs: registration/calibration; checkpoints and stream states; stratum/board/rendering exposure counts; scheduled audits; worst-history diagnoses; learning curves; and aggregate tables containing B criteria, census, exact A counts, probes with CIs, and selected conclusions. Reuse r11 scoring and reporting functions.

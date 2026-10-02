@@ -1,0 +1,33 @@
+\subsection{Training details}\label{app:training}
+
+\paragraph{Sums interface.} The supplied sums enter the upper state as five
+36-way one-hot vectors, projected to 32 dimensions by a bias-free linear map.
+The forward pass uses the hard one-hot answer; training gradients pass
+through the softmax behind it (a straight-through estimator). The exact sums
+network is a learned per-slot update (width 64) that is exact on all 1,555
+local histories and is kept frozen except in the erosion continuation.
+
+\paragraph{Episodes.} In r8 and r11, training episodes have up to eight
+rounds and omit the third consecutive \Ncat{} board from both input and loss.
+From r12 on, each batch holds 128 untruncated nine-round natural episodes and
+128 coverage prefixes (an \Lcat{} or \Hcat{} anchor followed by $k$ \Ncat{}
+boards, $k=1,\dots,8$, eight prefixes per anchor and length). Coverage
+prefixes are scored only at their final position, and the prediction loss is
+split equally between natural positions and coverage endpoints.
+
+\paragraph{Rarity and dose.} The rarity conditions of r11 and r12 change only
+which board is drawn within a category (25\% enrichment at the cutoff sums or
+at matched decoy sums), keeping the category draws and targets paired. The
+dose conditions of r11 apply the sums loss on nested 1\%, 10\% or 100\% of
+rounds and divide by all active rounds times five slots.
+
+\paragraph{Erosion replays.} The r13 erosion runs last 200 updates and use
+r11's truncated episodes, not history coverage. They differ only in how the
+sums network is updated: AdamW (learning rate 0.003); AdamW with learning
+rate 0.0003; SGD without momentum, whose fixed step size is chosen so that
+the norm of its gradient-only displacement on the first shared batch
+matches that of AdamW,
+with weight decay applied separately (multiplier 0.99997 per update); and a
+blocked condition in which the prediction gradient to the sums network is
+zero while AdamW weight decay continues. All other parameters use AdamW at
+0.003 throughout.

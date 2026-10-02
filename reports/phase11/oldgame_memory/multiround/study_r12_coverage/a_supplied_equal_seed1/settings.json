@@ -1,0 +1,1 @@
+{"authority":{"calibration_sha256":"a30df0768b2ced3a935c7d9e88f844fae3bdb8a41cb9827edc01a2a511e3e267","precision":"float32","registration_sha256":"e44f53554ca19e98a85b419bee72bfeb4c4fcc9aeb1cd336802858df926fdb00","runs":["a_supplied_equal_seed1"],"smoke":false},"bulk":"bulk/study_r12_coverage_bulk","group":"2d95c28ed1557ff2","run":{"arm":"a_supplied","law":"equal","seed":1}}

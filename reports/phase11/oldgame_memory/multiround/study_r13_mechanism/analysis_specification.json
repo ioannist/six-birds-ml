@@ -1,0 +1,17 @@
+{
+  "schema": "public_scientific_specification_v1",
+  "scope": "Supplementary cutoff geometry, saved checkpoints only; no fitting of networks.",
+  "sum_pairs": [
+    [
+      12,
+      13
+    ],
+    [
+      23,
+      24
+    ]
+  ],
+  "identity_split": "fit and evaluation identities disjoint; probe-held-out identities excluded from fitting",
+  "selection": "deterministic legal pairs fixed before states are read; no accuracy-dependent resampling",
+  "renderings": "four fixed census renderings; discrimination uses rendering 0"
+}

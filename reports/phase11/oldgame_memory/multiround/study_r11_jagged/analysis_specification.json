@@ -1,0 +1,45 @@
+{
+  "schema": "public_scientific_specification_v1",
+  "original_record_sha256": "5f188da47ea6ae9dcad88abd83bbd71cbf8ed37e8977fe8bc3e17e3312c531fe",
+  "rules": {
+    "seed0_joint_errors": [
+      [
+        552,
+        81,
+        24
+      ],
+      [
+        168,
+        160,
+        92
+      ],
+      [
+        155,
+        298,
+        200
+      ]
+    ],
+    "replay_scope": "saved 20000-update checkpoints, no fitting",
+    "erosion_alphabets": [
+      [
+        0,
+        4,
+        36
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        4,
+        15
+      ]
+    ],
+    "observed_readings": {
+      "dose": "A computation and readability improve across all slots, while operational category errors increase and B remains incomplete. This supports \u201cA improves without repairing the upper law,\u201d rather than the predicted joint repair. Competition between objectives is a possible mechanism, not an established cause.",
+      "erosion": "B-only severely erodes the supplied sum computation. Continued A supervision largely protects it, but does not preserve exactness everywhere or guarantee B closure. This supports the scoped erosion result.",
+      "rarity": "Cutoff enrichment gives mixed improvement versus uniform: misreads **2/25/7 versus 21/5/9**, and consistently fewer than decoy **54/29/17**. It does not repair B. This weakens the simple rarity explanation under this training distribution; it does not establish that enrichment has no effect."
+    }
+  }
+}

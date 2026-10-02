@@ -1,0 +1,26 @@
+% Built from ledger-bound values; edit the script, not this table.
+\begingroup\fontsize{8}{9.5}\selectfont\setlength{\tabcolsep}{3pt}\emergencystretch=1em\hyphenpenalty=10000\exhyphenpenalty=10000
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.600in}>{\raggedright\arraybackslash}p{0.400in}>{\raggedright\arraybackslash}p{0.650in}>{\raggedright\arraybackslash}p{0.650in}>{\raggedright\arraybackslash}p{0.800in}>{\raggedright\arraybackslash}p{0.800in}>{\raggedright\arraybackslash}p{1.000in}@{}}
+\caption{r13 erosion: exact starts, first updates, minima and endpoints. Complete updates 0--200 remain in the detailed file; no interpolation or selected checkpoint. Update 0 is the matched exact-A reference; the oracle is 1,555/\allowbreak{}1,555. Blocked prediction gradients form the separate decay control, excluded from active-arm movement intersections. Analytical reduction only; exact per-cell and per-update rows remain released. Detailed records: paper/\allowbreak{}data/\allowbreak{}release/\allowbreak{}appendix\_\allowbreak{}D\_\allowbreak{}erosion.json.gz (schema and SHA-256 in release/\allowbreak{}index.json).}\label{tab:appendix_D_erosion}\\
+\toprule
+\textbf{condition} & \textbf{seed} & \textbf{update 0} & \textbf{update 1} & \textbf{minimum correct} & \textbf{final correct} & \textbf{final movement} \\
+\midrule\endfirsthead
+\toprule
+\textbf{condition} & \textbf{seed} & \textbf{update 0} & \textbf{update 1} & \textbf{minimum correct} & \textbf{final correct} & \textbf{final movement} \\
+\midrule\endhead
+\midrule\multicolumn{7}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+AdamW & 0 & 1,555 & 393 & 6 & 48 & 17.647 \\
+AdamW & 1 & 1,555 & 5 & 2 & 13 & 17.475 \\
+blocked prediction gradient & 1 & 1,555 & 1,555 & 1,555 & 1,555 & 0.21959 \\
+blocked prediction gradient & 2 & 1,555 & 1,555 & 1,555 & 1,555 & 0.21959 \\
+AdamW & 2 & 1,555 & 518 & 10 & 14 & 20.514 \\
+reduced-lr AdamW & 0 & 1,555 & 1,554 & 79 & 333 & 2.5057 \\
+reduced-lr AdamW & 1 & 1,555 & 1,468 & 261 & 292 & 2.4478 \\
+reduced-lr AdamW & 2 & 1,555 & 1,553 & 251 & 343 & 2.5441 \\
+SGD & 0 & 1,555 & 1,440 & 1 & 1 & 11.424 \\
+SGD & 1 & 1,555 & 89 & 11 & 11 & 10.21 \\*
+SGD & 2 & 1,555 & 1,495 & 2 & 27 & 36.033 \\*
+blocked prediction gradient & 0 & 1,555 & 1,555 & 1,555 & 1,555 & 0.21959 \\
+\end{longtable}
+\endgroup

@@ -1,0 +1,50 @@
+{
+  "A": [
+    "paper/notes/evidence_manifest.json"
+  ],
+  "B": [
+    "paper/data/control_tables.json",
+    "paper/data/report_tables.json"
+  ],
+  "C": [
+    "paper/data/calibration_tables.json",
+    "paper/data/supplementary_and_movement_tables.json"
+  ],
+  "D": [
+    "paper/data/learning_curves.json"
+  ],
+  "E": [
+    "paper/data/readability_tables.json",
+    "paper/data/report_tables.json",
+    "paper/data/supplementary_and_movement_tables.json"
+  ],
+  "F": [
+    "paper/data/compute_records.json",
+    "paper/notes/evidence_manifest.json"
+  ],
+  "Fig1": [
+    "paper/data/reported_outline_quantities.json"
+  ],
+  "Fig2": [
+    "paper/data/sampling_training_criteria.json"
+  ],
+  "Fig3": [
+    "paper/data/readability_tables.json",
+    "paper/data/control_tables.json"
+  ],
+  "Fig4": [
+    "paper/data/reported_outline_quantities.json"
+  ],
+  "Fig5": [
+    "paper/data/learning_curves.json",
+    "paper/data/supplementary_and_movement_tables.json"
+  ],
+  "Table1": [
+    "paper/data/control_tables.json",
+    "paper/notes/outline_claims.json"
+  ],
+  "Table2": [
+    "paper/data/control_tables.json",
+    "paper/data/reported_outline_quantities.json"
+  ]
+}

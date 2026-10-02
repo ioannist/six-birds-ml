@@ -1,0 +1,1 @@
+{"authority":{"calibration_sha256":"ae5db2a582caeea2ca855f8dbdd084e43ed036de09c180b4d5fb715e28ef3ac6","device":"cuda","precision":"float32","registration_sha256":"b74e6824d7c150221de95cab9f731fd8b22f783eedece9db6b1d61adc5cdd63d","runs":["a_forced_original_seed0"],"smoke":false},"bulk":"bulk/study_r10_allslots_bulk","run":{"arm":"a_forced","law":"original","seed":0}}

@@ -1,0 +1,16 @@
+\section{Conclusion}\label{sec:conclusion}
+
+We asked where jagged competence comes from. In a task built from two known
+layers, the answer was that a network trained on the upper layer learns the
+lower one only in a jagged form, readable where the upper layer needs it,
+with B's category responses failing near the cutoffs, and not reliably
+delivered or kept; these separations explain part of its failures, and some
+remain unexplained. Knowing an intermediate quantity
+turned out to be several separate achievements, each of which can fail on its
+own, and average error and probes each hid the failures.
+
+The practical lesson is that a network's competence on a task built in
+layers should not be judged by its average error or by what a probe can read,
+but by measuring, layer by layer, what it has acquired, delivered and kept.
+Whether learning an upper theory yields a jagged lower theory in larger
+systems is a test to run.

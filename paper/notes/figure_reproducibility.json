@@ -1,0 +1,26 @@
+{
+  "assets": 17,
+  "level": "byte-identical PDF, TeX and receipt",
+  "matplotlib": "3.11.0",
+  "numpy": "2.5.0",
+  "python": "3.12.3",
+  "sha256": {
+    "appendix_C_methods": "9f35f026c01adc1eb9cf9648d73c98516e7036bb99730a3a491390fd7fcff46b",
+    "appendix_D_movement": "fd0d07cf51b001ddb185b0e56dab0316279c952beb37e469f833edd358f6233b",
+    "appendix_D_r10": "f63c521f5854747eb283ba2dc5eaa89524028d1eca92bc1932b8a47a67f8deeb",
+    "appendix_D_r11_dose": "fd7e4a0fc3dd887abf67b986ef3c1a1d387cdf8cdce9c94c495d6129d860ba4c",
+    "appendix_D_r11_erosion": "0abc95cd451f3a3f2b5d79e7acdec63de8df42695326fb3324230ff867df3ff7",
+    "appendix_D_r11_rarity": "8d46e72cbaf288b21463d5a51a74c0c4ed809e7eb884e178572924ffb00170ee",
+    "appendix_D_r12": "99aaf6de27315f57f61a1dcc60c6822f4a40f6fbf19b2daa4a81e201027574b1",
+    "appendix_D_r13_access": "3f031751c7135bd955a40eca0931fadfb8c2c6dbbbf18010b6b16c223850ba59",
+    "appendix_D_r13_encoding": "2378bc1b4703935a64cce32bdb92ad6a2e3cf26a3dd791e9899bf190f604861f",
+    "appendix_D_r13_noise": "be6f8b80a2263304cc8b6c1b3dae403b26f8eaf62e4fd98c9c12908b57929469",
+    "appendix_D_r8": "333648889d6a69fbf53b3bb24581275bbf3c7ec6b6f476f3da22d4ad46299527",
+    "appendix_E_geometry": "801015cb64332893acc7cc7c4fb00e7ea0ffe8e2b894047506c87154d06fa4bb",
+    "fig1": "b7c3ae5fc94f41fde51546657a2795a97b0a6b38bf9a68c4b72e7d04c03eebce",
+    "fig2": "49f8bce14b7d4770241d30d8ce7981196267962071e0a0ce4bfcf2121c3992f8",
+    "fig3": "2f9774d24836485a9c074aa05ce49fc5e1da04c47a81c232d3fb5c2e93d35517",
+    "fig4": "06d5df8495c643bd7209fa4f64915578887e48b63e13c6fa733fbf061c0b7e34",
+    "fig5": "9cc982ec291ce0c296bce1cbd930c5f67a59bfcd70932d37c95bbee0de06e3a1"
+  }
+}

@@ -1,0 +1,59 @@
+% Built from ledger-bound values; edit the script, not this table.
+\begingroup\fontsize{8}{9.5}\selectfont\setlength{\tabcolsep}{3pt}\emergencystretch=1em\hyphenpenalty=10000\exhyphenpenalty=10000
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.030in}>{\raggedright\arraybackslash}p{0.400in}>{\raggedright\arraybackslash}p{0.290in}>{\raggedright\arraybackslash}p{0.390in}>{\raggedright\arraybackslash}p{0.580in}>{\raggedright\arraybackslash}p{0.550in}>{\raggedright\arraybackslash}p{0.570in}>{\raggedright\arraybackslash}p{0.570in}>{\raggedright\arraybackslash}p{1.300in}@{}}
+\caption{r13 complete endpoint version matrix. All recorded conditions and seeds, including equal-law controls; no endpoint is selected. Equal-law category signatures are undefined, not zero. Five significant digits for continuous values. *Full-law /\allowbreak{} long /\allowbreak{} law-row support follows Table 2. Exact-oracle errors are zero; matched initial controls and complete deciding-function calibration are in Appendix C. Census counts are rendering 0; all four renderings and saved-r9 counts are in the census table. r11 reports B\_\allowbreak{}law.maximum\_\allowbreak{}TV on all history cases. Missing measurements stay not recorded. Analytical reduction only; exact per-cell and per-update rows remain released. Detailed records: paper/\allowbreak{}data/\allowbreak{}release/\allowbreak{}appendix\_\allowbreak{}B\_\allowbreak{}r13.json.gz (schema and SHA-256 in release/\allowbreak{}index.json).}\label{tab:appendix_B_r13}\\
+\toprule
+\textbf{condition} & \textbf{law} & \textbf{seed} & \textbf{B pass} & \textbf{KL bits} & \textbf{misreads} & \textbf{TV-error count} & \textbf{law TV max*} & \textbf{failed bars /\allowbreak{} label} \\
+\midrule\endfirsthead
+\toprule
+\textbf{condition} & \textbf{law} & \textbf{seed} & \textbf{B pass} & \textbf{KL bits} & \textbf{misreads} & \textbf{TV-error count} & \textbf{law TV max*} & \textbf{failed bars /\allowbreak{} label} \\
+\midrule\endhead
+\midrule\multicolumn{9}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+records $\to$ prediction+sums & original & 0 & no & 0.0021068 & 331 & 2,717 & 0.0985 & law\_\allowbreak{}TV, swaps \\
+records $\to$ prediction+sums & original & 1 & no & 0.0018252 & 725 & 11,908 & 0.10016 & law\_\allowbreak{}TV, rerender, swaps \\
+records+sums $\to$ prediction (exact supplied) & original & 1 & no & 0.00030667 & 0 & 15 & 0.01569 & swaps \\
+records+sums $\to$ prediction (exact supplied) & original & 2 & yes & 0.00028061 & 2 & 24 & 0.010661 & PASS \\
+records $\to$ prediction+sums & original & 2 & no & 0.0020459 & 637 & 2,878 & 0.072752 & law\_\allowbreak{}TV, rerender, swaps \\
+Connected (frozen) & original & 0 & no & 0.00062178 & 259 & 469 & 0.24257 & law\_\allowbreak{}TV, rerender, swaps \\
+Connected (frozen) & original & 1 & no & 0.0005485 & 69 & 440 & 0.011304 & rerender, swaps \\
+Connected (frozen) & original & 2 & no & 0.00034049 & 58 & 61 & 0.015699 & rerender, swaps \\
+Connected (live) & original & 0 & no & 0.00031731 & 117 & 185 & 0.24683 & law\_\allowbreak{}TV, rerender, swaps \\
+Connected (live) & original & 1 & no & 0.00041094 & 43 & 180 & 0.25128 & law\_\allowbreak{}TV, rerender \\
+Connected (live) & original & 2 & no & 0.00029062 & 39 & 43 & 0.011997 & rerender \\
+records+sums $\to$ prediction (exact supplied) & original & 0 & no & 0.00011384 & 0 & 38 & 0.013305 & law\_\allowbreak{}TV \\
+records+sums $\to$ prediction (Numerical encoding) & original & 0 & no & 0.00083668 & 317 & 852 & 0.24067 & law\_\allowbreak{}TV, rerender, swaps \\
+records+sums $\to$ prediction (Numerical encoding) & original & 1 & no & 0.00079477 & 121 & 1,194 & 0.069823 & law\_\allowbreak{}TV, rerender, swaps \\
+records+sums $\to$ prediction (Numerical encoding) & original & 2 & no & 0.00054318 & 10 & 90 & 0.18902 & law\_\allowbreak{}TV, swaps \\
+records+sums $\to$ prediction (one-hot encoding) & equal & 0 & yes & 2.6027e-05 & not recorded & 0 & 0.0028857 & CONTROL\_\allowbreak{}ONLY \\
+records+sums $\to$ prediction (one-hot encoding) & equal & 1 & yes & 1.1735e-05 & not recorded & 0 & 0.001913 & CONTROL\_\allowbreak{}ONLY \\
+records+sums $\to$ prediction (one-hot encoding) & equal & 2 & yes & 0.00019946 & not recorded & 0 & 0.0071754 & CONTROL\_\allowbreak{}ONLY \\
+records+sums $\to$ prediction (Numerical encoding) & equal & 0 & yes & 2.6002e-05 & not recorded & 0 & 0.0028857 & CONTROL\_\allowbreak{}ONLY \\
+records+sums $\to$ prediction (Numerical encoding) & equal & 1 & yes & 1.1745e-05 & not recorded & 0 & 0.0019127 & CONTROL\_\allowbreak{}ONLY \\
+records+sums $\to$ prediction (Numerical encoding) & equal & 2 & yes & 0.00019945 & not recorded & 0 & 0.0071755 & CONTROL\_\allowbreak{}ONLY \\
+AdamW & original & 0 & not measured & not recorded & not recorded & see erosion table & not recorded & not recorded \\
+AdamW & original & 1 & not measured & not recorded & not recorded & see erosion table & not recorded & not recorded \\
+blocked prediction gradient & original & 1 & not measured & not recorded & not recorded & see erosion table & not recorded & not recorded \\
+blocked prediction gradient & original & 2 & not measured & not recorded & not recorded & see erosion table & not recorded & not recorded \\
+AdamW & original & 2 & not measured & not recorded & not recorded & see erosion table & not recorded & not recorded \\
+reduced-lr AdamW & original & 0 & not measured & not recorded & not recorded & see erosion table & not recorded & not recorded \\
+reduced-lr AdamW & original & 1 & not measured & not recorded & not recorded & see erosion table & not recorded & not recorded \\
+reduced-lr AdamW & original & 2 & not measured & not recorded & not recorded & see erosion table & not recorded & not recorded \\
+SGD & original & 0 & not measured & not recorded & not recorded & see erosion table & not recorded & not recorded \\
+SGD & original & 1 & not measured & not recorded & not recorded & see erosion table & not recorded & not recorded \\
+SGD & original & 2 & not measured & not recorded & not recorded & see erosion table & not recorded & not recorded \\
+blocked prediction gradient & original & 0 & not measured & not recorded & not recorded & see erosion table & not recorded & not recorded \\
+records $\to$ prediction (sampled targets) & original & 0 & no & 0.00052921 & 58 & 237 & 0.027952 & law\_\allowbreak{}TV, rerender, swaps \\
+records $\to$ prediction (sampled targets) & original & 1 & no & 0.00054256 & 328 & 4,047 & 0.17174 & law\_\allowbreak{}TV, rerender, swaps \\
+records $\to$ prediction+sums (Probability targets) & original & 1 & no & 0.0005186 & 400 & 2,361 & 0.010034 & law\_\allowbreak{}TV, swaps \\
+records $\to$ prediction+sums (Probability targets) & original & 2 & no & 0.00037991 & 523 & 2,910 & 0.016429 & law\_\allowbreak{}TV, rerender, swaps \\
+records $\to$ prediction (sampled targets) & original & 2 & no & 0.00095705 & 87 & 613 & 0.04589 & law\_\allowbreak{}TV, rerender, swaps \\
+records $\to$ prediction (Probability targets) & original & 0 & no & 7.8247e-06 & 2 & 12 & 0.0010311 & law\_\allowbreak{}TV, rerender \\
+records $\to$ prediction (Probability targets) & original & 1 & no & 8.2944e-06 & 1 & 8 & 0.0047597 & swaps \\
+records $\to$ prediction (Probability targets) & original & 2 & no & 0.00034879 & 149 & 324 & 0.1404 & law\_\allowbreak{}TV, rerender, swaps \\
+records $\to$ prediction+sums (sampled targets) & original & 0 & no & 0.0015898 & 473 & 1,888 & 0.064965 & law\_\allowbreak{}TV, rerender, swaps \\
+records $\to$ prediction+sums (sampled targets) & original & 1 & no & 0.0020044 & 648 & 2,786 & 0.087776 & law\_\allowbreak{}TV, rerender, swaps \\*
+records $\to$ prediction+sums (sampled targets) & original & 2 & no & 0.0022981 & 815 & 4,272 & 0.044799 & law\_\allowbreak{}TV, rerender, swaps \\*
+records $\to$ prediction+sums (Probability targets) & original & 0 & no & 0.00058509 & 473 & 2,897 & 0.037032 & law\_\allowbreak{}TV, rerender, swaps \\
+\end{longtable}
+\endgroup

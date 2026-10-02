@@ -1,0 +1,1750 @@
+[
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-86308dd06c062406",
+    "measurements": {
+      "elapsed_seconds": 1733.9677282902412,
+      "updates_per_second": 11.534240040165436,
+      "worker_max_rss_kib": 793496
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/a_only_equal_seed0/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-b381177478215edc",
+    "measurements": {
+      "elapsed_seconds": 1780.0235888436437,
+      "updates_per_second": 11.235806157486147,
+      "worker_max_rss_kib": 792176
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/a_only_equal_seed1/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-cc676ddc91c726a2",
+    "measurements": {
+      "elapsed_seconds": 1661.0392968528904,
+      "updates_per_second": 12.040654328824886,
+      "worker_max_rss_kib": 792924
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/a_only_equal_seed2/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-f16c6cff244481f6",
+    "measurements": {
+      "elapsed_seconds": 1670.5613348851912,
+      "updates_per_second": 11.972023763721609,
+      "worker_max_rss_kib": 787884
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/a_only_original_seed0/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-35defd0f68481f80",
+    "measurements": {
+      "elapsed_seconds": 1688.7430228074081,
+      "updates_per_second": 11.843128131331376,
+      "worker_max_rss_kib": 790268
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/a_only_original_seed1/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-acb2a8d3d6633d3b",
+    "measurements": {
+      "elapsed_seconds": 1682.705874487292,
+      "updates_per_second": 11.885618457292098,
+      "worker_max_rss_kib": 793396
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/a_only_original_seed2/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-1dc696c468b5db5a",
+    "measurements": {
+      "elapsed_seconds": 1764.4786809971556,
+      "updates_per_second": 11.334792658813791,
+      "worker_max_rss_kib": 794736
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/dual_equal_seed0/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-6d53a4e860e3bb6f",
+    "measurements": {
+      "elapsed_seconds": 1805.8646084140055,
+      "updates_per_second": 11.075027389547731,
+      "worker_max_rss_kib": 797724
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/dual_equal_seed1/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-814ea233abc22aa3",
+    "measurements": {
+      "elapsed_seconds": 1756.9202660056762,
+      "updates_per_second": 11.38355586589573,
+      "worker_max_rss_kib": 799508
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/dual_equal_seed2/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-4baa30d394e0c965",
+    "measurements": {
+      "elapsed_seconds": 1765.2178095709532,
+      "updates_per_second": 11.330046576439832,
+      "worker_max_rss_kib": 800040
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/dual_original_seed0/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-d7f6bd047efe5c1f",
+    "measurements": {
+      "elapsed_seconds": 1810.7559524318203,
+      "updates_per_second": 11.045110730212029,
+      "worker_max_rss_kib": 799224
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/dual_original_seed1/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-40f2863a7b28a050",
+    "measurements": {
+      "elapsed_seconds": 1837.35376130417,
+      "updates_per_second": 10.885220049188472,
+      "worker_max_rss_kib": 796640
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/dual_original_seed2/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-c7f4f25786b998cc",
+    "measurements": {
+      "elapsed_seconds": 1835.9620162900537,
+      "updates_per_second": 10.893471554718868,
+      "worker_max_rss_kib": 812240
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/raw_only_equal_seed0/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-f9235647a61bf555",
+    "measurements": {
+      "elapsed_seconds": 1840.1790735269897,
+      "updates_per_second": 10.868507466323312,
+      "worker_max_rss_kib": 814964
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/raw_only_equal_seed1/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-1fa169decdf57a57",
+    "measurements": {
+      "elapsed_seconds": 1880.21644375287,
+      "updates_per_second": 10.637073229760956,
+      "worker_max_rss_kib": 821840
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/raw_only_equal_seed2/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-10de63ea998af0dc",
+    "measurements": {
+      "elapsed_seconds": 1855.0626512453891,
+      "updates_per_second": 10.781307028403099,
+      "worker_max_rss_kib": 817180
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/raw_only_original_seed0/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-25a88d6f74a1e436",
+    "measurements": {
+      "elapsed_seconds": 1783.2933193147182,
+      "updates_per_second": 11.215204915187803,
+      "worker_max_rss_kib": 818744
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/raw_only_original_seed1/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-799cf37aaa2429af",
+    "measurements": {
+      "elapsed_seconds": 1895.1171128228307,
+      "updates_per_second": 10.553437497173688,
+      "worker_max_rss_kib": 818548
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r8_route_access/raw_only_original_seed2/summary.json",
+    "study": 8
+  },
+  {
+    "aggregation": "One read-only CPU diagnosis; not training runtime",
+    "evidence_id": "E-d1c062f0e681735b",
+    "measurements": {
+      "elapsed_seconds": 5.516428498085588
+    },
+    "study": 9
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-5d0388e09ad5277f",
+    "measurements": {
+      "GPU_peak_bytes": 112007680,
+      "audit_seconds": 281.6132995481603,
+      "training_seconds": 788.3404702516273,
+      "updates_per_second": 25.36974918161474,
+      "worker_max_rss_kib": 1892376
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/a_forced_equal_seed0/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-6e7ca95b31e1b8ca",
+    "measurements": {
+      "GPU_peak_bytes": 112007680,
+      "audit_seconds": 258.20626619271934,
+      "training_seconds": 693.7054023300298,
+      "updates_per_second": 28.830682207207342,
+      "worker_max_rss_kib": 1909768
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/a_forced_equal_seed1/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-94a6f49d863d1b20",
+    "measurements": {
+      "GPU_peak_bytes": 112007680,
+      "audit_seconds": 300.80818085512146,
+      "training_seconds": 848.2446717750281,
+      "updates_per_second": 23.578102716693998,
+      "worker_max_rss_kib": 1941556
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/a_forced_equal_seed2/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-d249bb9d0cf8d201",
+    "measurements": {
+      "GPU_peak_bytes": 112007680,
+      "audit_seconds": 320.9578145109117,
+      "training_seconds": 769.9546720725484,
+      "updates_per_second": 25.97555508841112,
+      "worker_max_rss_kib": 1892376
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/a_forced_original_seed0/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-604793140496b2cf",
+    "measurements": {
+      "GPU_peak_bytes": 112007680,
+      "audit_seconds": 331.72066911123693,
+      "training_seconds": 774.9646918736398,
+      "updates_per_second": 25.807627379314276,
+      "worker_max_rss_kib": 1909768
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/a_forced_original_seed1/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-5b68c9638ca46091",
+    "measurements": {
+      "GPU_peak_bytes": 112007680,
+      "audit_seconds": 346.76387288374826,
+      "training_seconds": 830.3056515338831,
+      "updates_per_second": 24.087515197629415,
+      "worker_max_rss_kib": 1941556
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/a_forced_original_seed2/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-4e8b941a7d05a853",
+    "measurements": {
+      "GPU_peak_bytes": 140003328,
+      "audit_seconds": 1158.037269168999,
+      "training_seconds": 2208.017104857601,
+      "updates_per_second": 9.057900845061539,
+      "worker_max_rss_kib": 1918268
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/free_a_equal_seed0/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-b23fbec419d71d8b",
+    "measurements": {
+      "GPU_peak_bytes": 140003328,
+      "audit_seconds": 1158.037269168999,
+      "training_seconds": 2208.017104857601,
+      "updates_per_second": 9.057900845061539,
+      "worker_max_rss_kib": 1918268
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/free_a_equal_seed1/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-527ecc63f5d58ca8",
+    "measurements": {
+      "GPU_peak_bytes": 140003328,
+      "audit_seconds": 1158.037269168999,
+      "training_seconds": 2208.017104857601,
+      "updates_per_second": 9.057900845061539,
+      "worker_max_rss_kib": 1918268
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/free_a_equal_seed2/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-edf44a2cf5c66ff0",
+    "measurements": {
+      "GPU_peak_bytes": 139053056,
+      "audit_seconds": 904.6640391070396,
+      "training_seconds": 1768.4749557790346,
+      "updates_per_second": 11.309179095041104,
+      "worker_max_rss_kib": 1918268
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/free_a_original_seed0/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-1067f52e4c6d4ad9",
+    "measurements": {
+      "GPU_peak_bytes": 139053056,
+      "audit_seconds": 904.6640391070396,
+      "training_seconds": 1768.4749557790346,
+      "updates_per_second": 11.309179095041104,
+      "worker_max_rss_kib": 1918268
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/free_a_original_seed1/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-d09a91488ae14509",
+    "measurements": {
+      "GPU_peak_bytes": 139053056,
+      "audit_seconds": 904.6640391070396,
+      "training_seconds": 1768.4749557790346,
+      "updates_per_second": 11.309179095041104,
+      "worker_max_rss_kib": 1918268
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/free_a_original_seed2/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-87d890f5a7ed6d37",
+    "measurements": {
+      "GPU_peak_bytes": 132248576,
+      "audit_seconds": 1317.6615724838339,
+      "training_seconds": 2205.666059160605,
+      "updates_per_second": 9.067555769349445,
+      "worker_max_rss_kib": 1907216
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/free_equal_seed0/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-b7655ce5636357cb",
+    "measurements": {
+      "GPU_peak_bytes": 132248576,
+      "audit_seconds": 1317.6615724838339,
+      "training_seconds": 2205.666059160605,
+      "updates_per_second": 9.067555769349445,
+      "worker_max_rss_kib": 1907216
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/free_equal_seed1/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-a2519f8060e78899",
+    "measurements": {
+      "GPU_peak_bytes": 132248576,
+      "audit_seconds": 1317.6615724838339,
+      "training_seconds": 2205.666059160605,
+      "updates_per_second": 9.067555769349445,
+      "worker_max_rss_kib": 1907216
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/free_equal_seed2/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-00b7d70b9268d864",
+    "measurements": {
+      "GPU_peak_bytes": 132248576,
+      "audit_seconds": 1376.08911998244,
+      "training_seconds": 2330.2424967698753,
+      "updates_per_second": 8.582797725010812,
+      "worker_max_rss_kib": 1907216
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/free_original_seed0/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-4bfc34c0d073f248",
+    "measurements": {
+      "GPU_peak_bytes": 132248576,
+      "audit_seconds": 1376.08911998244,
+      "training_seconds": 2330.2424967698753,
+      "updates_per_second": 8.582797725010812,
+      "worker_max_rss_kib": 1907216
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/free_original_seed1/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-5075067eb8ac2418",
+    "measurements": {
+      "GPU_peak_bytes": 132248576,
+      "audit_seconds": 1376.08911998244,
+      "training_seconds": 2330.2424967698753,
+      "updates_per_second": 8.582797725010812,
+      "worker_max_rss_kib": 1907216
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r10_allslots/free_original_seed2/summary.json",
+    "study": 10
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-531fa4418fbbdf8f",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        27.217922705225646,
+        25.121384233236313,
+        26.037256490904838,
+        26.104395266622305,
+        22.239431761670858,
+        22.956825681962073,
+        22.184530476108193
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1581.1176819880493,
+      "group_updates_per_second": 12.649279827705556,
+      "precision": "fp32",
+      "training_seconds": 1025.5944488206878,
+      "training_seconds_per_update": 0.05127972244103439,
+      "worker_max_rss_kib": 1953200
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose100_equal_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-81cb1652a9ef3f61",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        27.409368256572634,
+        25.763321080245078,
+        26.057526560034603,
+        24.046999746002257,
+        21.54925000993535,
+        22.69939689990133,
+        22.493137787096202
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1581.1176819880493,
+      "group_updates_per_second": 12.649279827705556,
+      "precision": "fp32",
+      "training_seconds": 1025.5944488206878,
+      "training_seconds_per_update": 0.05127972244103439,
+      "worker_max_rss_kib": 1953200
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose100_equal_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-27154ca7695204ac",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        26.132886664941907,
+        27.391914586070925,
+        25.98006284609437,
+        23.953981033992022,
+        20.766764510888606,
+        21.24294024007395,
+        21.307735956273973
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1581.1176819880493,
+      "group_updates_per_second": 12.649279827705556,
+      "precision": "fp32",
+      "training_seconds": 1025.5944488206878,
+      "training_seconds_per_update": 0.05127972244103439,
+      "worker_max_rss_kib": 1953200
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose100_equal_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-f459f7f68f620097",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        28.1254105521366,
+        26.881813317071646,
+        46.619451452977955,
+        29.648502650670707,
+        27.767595886718482,
+        24.94620273867622,
+        43.1428983672522
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1906.2870474560186,
+      "group_updates_per_second": 10.491599377276593,
+      "precision": "fp32",
+      "training_seconds": 1226.866675414145,
+      "training_seconds_per_update": 0.06134333377070725,
+      "worker_max_rss_kib": 1953200
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose100_original_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-944bec72134e92f3",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        27.50437564915046,
+        30.99816014431417,
+        41.10258582094684,
+        23.152169935870916,
+        23.90389946801588,
+        21.251205029897392,
+        36.179430721793324
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1906.2870474560186,
+      "group_updates_per_second": 10.491599377276593,
+      "precision": "fp32",
+      "training_seconds": 1226.866675414145,
+      "training_seconds_per_update": 0.06134333377070725,
+      "worker_max_rss_kib": 1953200
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose100_original_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-c1b59ed88257ada8",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        26.88471139408648,
+        36.97160060191527,
+        31.31664458103478,
+        23.8064418239519,
+        22.97558922506869,
+        21.662420261185616,
+        30.377191715873778
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1906.2870474560186,
+      "group_updates_per_second": 10.491599377276593,
+      "precision": "fp32",
+      "training_seconds": 1226.866675414145,
+      "training_seconds_per_update": 0.06134333377070725,
+      "worker_max_rss_kib": 1953200
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose100_original_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-0724da678c2cbb5c",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        27.76668120874092,
+        38.66907348809764,
+        40.272497133817524,
+        24.53545141685754,
+        23.941879712045193,
+        22.109036427922547,
+        20.95626129489392
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1731.781874157954,
+      "group_updates_per_second": 11.548798551621646,
+      "precision": "fp32",
+      "training_seconds": 1064.566036711447,
+      "training_seconds_per_update": 0.053228301835572346,
+      "worker_max_rss_kib": 1953200
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose10_equal_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-e249886637fbc325",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        27.31458522286266,
+        40.16499674413353,
+        43.08165344176814,
+        25.819309207145125,
+        25.114980334881693,
+        24.954330292064697,
+        23.95188153302297
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1731.781874157954,
+      "group_updates_per_second": 11.548798551621646,
+      "precision": "fp32",
+      "training_seconds": 1064.566036711447,
+      "training_seconds_per_update": 0.053228301835572346,
+      "worker_max_rss_kib": 1953200
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose10_equal_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-c20c1e34a799a457",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        26.020976357162,
+        41.307518118061125,
+        41.15807795803994,
+        25.837068278808147,
+        23.731848875992,
+        26.026690426748246,
+        22.300538600888103
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1731.781874157954,
+      "group_updates_per_second": 11.548798551621646,
+      "precision": "fp32",
+      "training_seconds": 1064.566036711447,
+      "training_seconds_per_update": 0.053228301835572346,
+      "worker_max_rss_kib": 1953200
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose10_equal_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-a876964e05a29e40",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        48.22346982406452,
+        44.35429431684315,
+        43.350788845680654,
+        45.97000605566427,
+        44.984832181129605,
+        23.150906062219292,
+        24.72037368407473
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2352.6000887053087,
+      "group_updates_per_second": 8.501232358197552,
+      "precision": "fp32",
+      "training_seconds": 1458.8327476438135,
+      "training_seconds_per_update": 0.07294163738219067,
+      "worker_max_rss_kib": 1952812
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose10_original_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-2a3bfeaad48c8bb1",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        48.15838513709605,
+        43.142043467611074,
+        37.739153156057,
+        44.77016204316169,
+        42.02686248579994,
+        25.72986795892939,
+        23.664555166848004
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2352.6000887053087,
+      "group_updates_per_second": 8.501232358197552,
+      "precision": "fp32",
+      "training_seconds": 1458.8327476438135,
+      "training_seconds_per_update": 0.07294163738219067,
+      "worker_max_rss_kib": 1952812
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose10_original_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-a5330ebe60efd550",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        44.83735062787309,
+        48.73804775392637,
+        46.50313222873956,
+        43.748863582033664,
+        44.90144134312868,
+        29.89631718629971,
+        28.211623386945575
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2352.6000887053087,
+      "group_updates_per_second": 8.501232358197552,
+      "precision": "fp32",
+      "training_seconds": 1458.8327476438135,
+      "training_seconds_per_update": 0.07294163738219067,
+      "worker_max_rss_kib": 1952812
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose10_original_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-efaa24bab17b8779",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        51.50395394815132,
+        36.382637741975486,
+        32.097686442080885,
+        28.885450950823724,
+        32.14767273887992,
+        24.998669253196567,
+        38.86744740186259
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2542.255601990968,
+      "group_updates_per_second": 7.86702957182472,
+      "precision": "fp32",
+      "training_seconds": 1750.639885244891,
+      "training_seconds_per_update": 0.08753199426224455,
+      "worker_max_rss_kib": 1952812
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose1_equal_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-a8ec1d4b112f57b0",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        50.513585679233074,
+        29.916065512690693,
+        32.23131409008056,
+        30.705082500353456,
+        30.26637884415686,
+        24.457254081964493,
+        35.17381966719404
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2542.255601990968,
+      "group_updates_per_second": 7.86702957182472,
+      "precision": "fp32",
+      "training_seconds": 1750.639885244891,
+      "training_seconds_per_update": 0.08753199426224455,
+      "worker_max_rss_kib": 1952812
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose1_equal_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-415577d843172a31",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        47.91545182000846,
+        46.1884641982615,
+        33.892916159238666,
+        28.80158482817933,
+        26.540051750838757,
+        31.83659760374576,
+        36.42772443918511
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2542.255601990968,
+      "group_updates_per_second": 7.86702957182472,
+      "precision": "fp32",
+      "training_seconds": 1750.639885244891,
+      "training_seconds_per_update": 0.08753199426224455,
+      "worker_max_rss_kib": 1952812
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose1_equal_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-019ca2c134fb2474",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        34.7495328867808,
+        47.674554218072444,
+        31.36594335269183,
+        30.057170479092747,
+        32.680071878712624,
+        49.0068451189436,
+        29.390164263080806
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2796.982480062172,
+      "group_updates_per_second": 7.1505632025108135,
+      "precision": "fp32",
+      "training_seconds": 1942.0051070493646,
+      "training_seconds_per_update": 0.09710025535246823,
+      "worker_max_rss_kib": 1952812
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose1_original_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-9a3981829eff356e",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        43.41806232789531,
+        50.37138999486342,
+        43.56724100187421,
+        30.192654625047,
+        37.92799402913079,
+        40.94397732289508,
+        30.37009414890781
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2796.982480062172,
+      "group_updates_per_second": 7.1505632025108135,
+      "precision": "fp32",
+      "training_seconds": 1942.0051070493646,
+      "training_seconds_per_update": 0.09710025535246823,
+      "worker_max_rss_kib": 1952812
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose1_original_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-851bc82a032b28fc",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        46.31569605413824,
+        30.78894841996953,
+        41.22227248782292,
+        30.590135436039418,
+        46.84097660565749,
+        31.141492495778948,
+        33.831822372972965
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2796.982480062172,
+      "group_updates_per_second": 7.1505632025108135,
+      "precision": "fp32",
+      "training_seconds": 1942.0051070493646,
+      "training_seconds_per_update": 0.09710025535246823,
+      "worker_max_rss_kib": 1952812
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/dose_dose1_original_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-b1e078aa11483390",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        29.07455504592508,
+        28.26653038430959,
+        23.039893347769976,
+        29.098101498093456,
+        34.06023037433624,
+        29.175890498794615,
+        51.27192704472691
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1326.1361741549335,
+      "group_updates_per_second": 15.081407467634152,
+      "precision": "fp32",
+      "training_seconds": 1036.1375889563933,
+      "training_seconds_per_update": 0.05180687944781966,
+      "worker_max_rss_kib": 1852532
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/erosion_a_plus_b_equal_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-b62b97c41ed52d70",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        25.446686040144414,
+        26.73466367740184,
+        23.114239542279392,
+        24.669016375672072,
+        20.556264329236,
+        23.678662500809878,
+        30.63143293512985
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1108.2620154879987,
+      "group_updates_per_second": 18.0462740042511,
+      "precision": "fp32",
+      "training_seconds": 876.1162208714522,
+      "training_seconds_per_update": 0.04380581104357261,
+      "worker_max_rss_kib": 1822304
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/erosion_a_plus_b_equal_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-92181203285b5407",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        23.181716193910688,
+        34.47533925483003,
+        23.65546332485974,
+        21.432658814825118,
+        31.103749695699662,
+        22.20874327607453,
+        21.75255223689601
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1224.3127327170223,
+      "group_updates_per_second": 16.335695501275683,
+      "precision": "fp32",
+      "training_seconds": 985.3741586571559,
+      "training_seconds_per_update": 0.0492687079328578,
+      "worker_max_rss_kib": 1829236
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/erosion_a_plus_b_equal_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-22a0162bc52a5b7d",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        37.41279273573309,
+        28.27407635189593,
+        24.9043314200826,
+        27.482253921683878,
+        29.443834631703794,
+        31.165818414185196,
+        31.56987506803125
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1146.7318454617634,
+      "group_updates_per_second": 17.440869091715548,
+      "precision": "fp32",
+      "training_seconds": 874.7793736360036,
+      "training_seconds_per_update": 0.04373896868180018,
+      "worker_max_rss_kib": 1852532
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/erosion_a_plus_b_original_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-39b5656ea8691002",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        26.630843420978636,
+        25.10705005330965,
+        23.664608747232705,
+        25.459586661774665,
+        27.98810322303325,
+        38.94452965958044,
+        34.56861614482477
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1124.3297193436883,
+      "group_updates_per_second": 17.78837618174384,
+      "precision": "fp32",
+      "training_seconds": 868.4677736843005,
+      "training_seconds_per_update": 0.043423388684215025,
+      "worker_max_rss_kib": 1822024
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/erosion_a_plus_b_original_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-c081601deedd0ce3",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        22.83746657287702,
+        36.04984148405492,
+        35.84403905598447,
+        26.679880587849766,
+        25.587084867991507,
+        41.2237980957143,
+        41.395921603776515
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1281.8132133590989,
+      "group_updates_per_second": 15.60289735786724,
+      "precision": "fp32",
+      "training_seconds": 991.9860830702819,
+      "training_seconds_per_update": 0.049599304153514094,
+      "worker_max_rss_kib": 1829236
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/erosion_a_plus_b_original_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-af2573e6c59c9417",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        32.47807629685849,
+        30.977071418892592,
+        28.009713221807033,
+        28.69552218168974,
+        30.545999915804714,
+        49.97543677687645,
+        39.64312489377335
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1028.910620784387,
+      "group_updates_per_second": 19.438034359829096,
+      "precision": "fp32",
+      "training_seconds": 733.6753313234076,
+      "training_seconds_per_update": 0.03668376656617038,
+      "worker_max_rss_kib": 1852532
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/erosion_b_only_equal_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-afa7d617ff09730a",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        24.267571474425495,
+        29.950475206132978,
+        28.187832138035446,
+        29.947417633142322,
+        32.78714369935915,
+        31.663963918108493,
+        39.997788842301816
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 971.8408539490774,
+      "group_updates_per_second": 20.57950117936487,
+      "precision": "fp32",
+      "training_seconds": 702.1741455974989,
+      "training_seconds_per_update": 0.035108707279874946,
+      "worker_max_rss_kib": 1822024
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/erosion_b_only_equal_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-3e4c84a1f9c44e11",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        33.95024622697383,
+        44.95729339495301,
+        41.05191294196993,
+        35.55556491110474,
+        31.74154681013897,
+        33.3127421149984,
+        39.338430661242455
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1216.6462566861883,
+      "group_updates_per_second": 16.43863192780006,
+      "precision": "fp32",
+      "training_seconds": 887.7831200906076,
+      "training_seconds_per_update": 0.044389156004530375,
+      "worker_max_rss_kib": 1829236
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/erosion_b_only_equal_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-c465e3f4f080070d",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        27.048429819755256,
+        29.65856164228171,
+        31.880956158973277,
+        47.63087277021259,
+        31.938508594874293,
+        59.255499879829586,
+        53.351970738731325
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1159.8721323003992,
+      "group_updates_per_second": 17.243280050477264,
+      "precision": "fp32",
+      "training_seconds": 820.4063577861525,
+      "training_seconds_per_update": 0.04102031788930763,
+      "worker_max_rss_kib": 1839856
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/erosion_b_only_original_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-c1af2152046c3e69",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        38.15453446470201,
+        35.06117252539843,
+        28.980124973692,
+        30.43976557487622,
+        34.89859926328063,
+        45.4592927233316,
+        49.22244945913553
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1032.6940677249804,
+      "group_updates_per_second": 19.366819879250293,
+      "precision": "fp32",
+      "training_seconds": 720.5631863144226,
+      "training_seconds_per_update": 0.036028159315721134,
+      "worker_max_rss_kib": 1819756
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/erosion_b_only_original_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-4857b3bc9a7e4138",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        36.6126199006103,
+        26.113701418973505,
+        39.40469928784296,
+        41.258245094679296,
+        42.72283604834229,
+        36.46807917393744,
+        24.713254894129932
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1220.2510781208985,
+      "group_updates_per_second": 16.39006951815081,
+      "precision": "fp32",
+      "training_seconds": 913.1412470652722,
+      "training_seconds_per_update": 0.04565706235326361,
+      "worker_max_rss_kib": 1829128
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/erosion_b_only_original_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-feab6395bc0a6606",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        36.28082230500877,
+        25.418976502958685,
+        27.86275697685778,
+        29.975163002032787,
+        46.75358503917232,
+        48.38254635082558,
+        51.81829976895824
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2174.0495980191045,
+      "group_updates_per_second": 9.199422137481635,
+      "precision": "fp32",
+      "training_seconds": 1359.575413188897,
+      "training_seconds_per_update": 0.06797877065944485,
+      "worker_max_rss_kib": 2032704
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_cutoff_equal_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-90e914b0c5e9de4c",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        31.603365729097277,
+        23.821790676098317,
+        24.865055585745722,
+        26.369544717948884,
+        45.32151407096535,
+        46.59735291870311,
+        45.44201562786475
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2174.0495980191045,
+      "group_updates_per_second": 9.199422137481635,
+      "precision": "fp32",
+      "training_seconds": 1359.575413188897,
+      "training_seconds_per_update": 0.06797877065944485,
+      "worker_max_rss_kib": 2032704
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_cutoff_equal_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-ad4a3e815016b9ae",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        27.077146562281996,
+        25.035984873771667,
+        25.83911606296897,
+        27.257344337180257,
+        45.16233274061233,
+        46.473756295163184,
+        49.04532057233155
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2174.0495980191045,
+      "group_updates_per_second": 9.199422137481635,
+      "precision": "fp32",
+      "training_seconds": 1359.575413188897,
+      "training_seconds_per_update": 0.06797877065944485,
+      "worker_max_rss_kib": 2032704
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_cutoff_equal_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-8162751a2d4aa8ed",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        33.20970382820815,
+        31.15147881116718,
+        26.72028186963871,
+        23.390085184015334,
+        46.29749798029661,
+        42.37826256500557,
+        41.683134532067925
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2146.484095728025,
+      "group_updates_per_second": 9.317562631749471,
+      "precision": "fp32",
+      "training_seconds": 1412.745413727127,
+      "training_seconds_per_update": 0.07063727068635635,
+      "worker_max_rss_kib": 2032704
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_cutoff_original_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-4a8a3109cfccd4e9",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        32.650207463186234,
+        33.25836232304573,
+        25.941698357928544,
+        21.120943126734346,
+        35.919924589805305,
+        30.435293113812804,
+        33.22590474365279
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2146.484095728025,
+      "group_updates_per_second": 9.317562631749471,
+      "precision": "fp32",
+      "training_seconds": 1412.745413727127,
+      "training_seconds_per_update": 0.07063727068635635,
+      "worker_max_rss_kib": 2032704
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_cutoff_original_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-351de27fa2753903",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        31.335403765086085,
+        25.962858164682984,
+        25.072827245108783,
+        21.75921688694507,
+        35.07788356905803,
+        36.176948874257505,
+        37.13599956780672
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2146.484095728025,
+      "group_updates_per_second": 9.317562631749471,
+      "precision": "fp32",
+      "training_seconds": 1412.745413727127,
+      "training_seconds_per_update": 0.07063727068635635,
+      "worker_max_rss_kib": 2032704
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_cutoff_original_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-a7fa5ea00463d977",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        37.5190654550679,
+        26.117744139861315,
+        27.521595494821668,
+        28.466355092823505,
+        26.270184902939945,
+        41.322426174301654,
+        53.81047111330554
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2034.943430567626,
+      "group_updates_per_second": 9.828283037047969,
+      "precision": "fp32",
+      "training_seconds": 1246.233064767439,
+      "training_seconds_per_update": 0.06231165323837195,
+      "worker_max_rss_kib": 2032704
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_decoy_equal_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-756cfc8d18427a70",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        31.891368041280657,
+        26.09295386914164,
+        25.356863535009325,
+        29.623518142849207,
+        31.472387507092208,
+        46.339944323990494,
+        44.26126356003806
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2034.943430567626,
+      "group_updates_per_second": 9.828283037047969,
+      "precision": "fp32",
+      "training_seconds": 1246.233064767439,
+      "training_seconds_per_update": 0.06231165323837195,
+      "worker_max_rss_kib": 2032704
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_decoy_equal_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-cacbb2ffba3627ea",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        27.03864951292053,
+        25.736386897973716,
+        25.861387356650084,
+        31.776345752179623,
+        38.63171761203557,
+        43.701662951149046,
+        60.1279114568606
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2034.943430567626,
+      "group_updates_per_second": 9.828283037047969,
+      "precision": "fp32",
+      "training_seconds": 1246.233064767439,
+      "training_seconds_per_update": 0.06231165323837195,
+      "worker_max_rss_kib": 2032704
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_decoy_equal_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-66c23e6e0b897520",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        40.51954659027979,
+        28.592649491969496,
+        27.8519130400382,
+        39.80514578195289,
+        29.26672696415335,
+        35.19400012400001,
+        38.14544957783073
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1961.0177160189487,
+      "group_updates_per_second": 10.198785985779818,
+      "precision": "fp32",
+      "training_seconds": 1222.2264407845214,
+      "training_seconds_per_update": 0.06111132203922607,
+      "worker_max_rss_kib": 2032704
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_decoy_original_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-db118f7265000bd4",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        28.256145600695163,
+        29.629521586932242,
+        31.376368488185108,
+        36.54414371587336,
+        30.997949790675193,
+        31.467368497978896,
+        30.710239314008504
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1961.0177160189487,
+      "group_updates_per_second": 10.198785985779818,
+      "precision": "fp32",
+      "training_seconds": 1222.2264407845214,
+      "training_seconds_per_update": 0.06111132203922607,
+      "worker_max_rss_kib": 2032704
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_decoy_original_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-86b1b2378758e63d",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        26.898574825841933,
+        23.33617306035012,
+        39.27877479791641,
+        36.282573895994574,
+        32.45357356686145,
+        31.06437488179654,
+        28.47239056788385
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 1961.0177160189487,
+      "group_updates_per_second": 10.198785985779818,
+      "precision": "fp32",
+      "training_seconds": 1222.2264407845214,
+      "training_seconds_per_update": 0.06111132203922607,
+      "worker_max_rss_kib": 2032704
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_decoy_original_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-81fd75f1f14ca88d",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        42.544632523320615,
+        46.812739548739046,
+        48.127669777255505,
+        35.05324287805706,
+        50.83822610601783,
+        32.91886416496709,
+        34.36434619408101
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2312.614254885819,
+      "group_updates_per_second": 8.648221361494404,
+      "precision": "fp32",
+      "training_seconds": 1466.4035567338578,
+      "training_seconds_per_update": 0.0733201778366929,
+      "worker_max_rss_kib": 1991996
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_uniform_equal_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-e70e3f2466489014",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        31.454150821082294,
+        31.532450076192617,
+        46.06262201489881,
+        31.000371088273823,
+        48.76488772127777,
+        29.136029380839318,
+        34.58951854100451
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2312.614254885819,
+      "group_updates_per_second": 8.648221361494404,
+      "precision": "fp32",
+      "training_seconds": 1466.4035567338578,
+      "training_seconds_per_update": 0.0733201778366929,
+      "worker_max_rss_kib": 1991996
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_uniform_equal_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-a9fd504bda4bc0df",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        31.198058652225882,
+        30.381023140624166,
+        44.212887739762664,
+        36.87653114227578,
+        33.114609078038484,
+        35.98462853208184,
+        34.92924611130729
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2312.614254885819,
+      "group_updates_per_second": 8.648221361494404,
+      "precision": "fp32",
+      "training_seconds": 1466.4035567338578,
+      "training_seconds_per_update": 0.0733201778366929,
+      "worker_max_rss_kib": 1991996
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_uniform_equal_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-0a766e7b79850162",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        32.28749706875533,
+        31.450601269956678,
+        27.49796022614464,
+        43.85792520362884,
+        36.51112486002967,
+        29.897812380921096,
+        29.753538428340107
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2230.77810250083,
+      "group_updates_per_second": 8.965481585810286,
+      "precision": "fp32",
+      "training_seconds": 1499.4673903807998,
+      "training_seconds_per_update": 0.07497336951903999,
+      "worker_max_rss_kib": 1948516
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_uniform_original_seed0/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-7be0e975fd03c632",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        26.813806432299316,
+        31.45321258576587,
+        26.04760959977284,
+        42.58495519403368,
+        32.516148566734046,
+        29.006156461779028,
+        35.694355335086584
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2230.77810250083,
+      "group_updates_per_second": 8.965481585810286,
+      "precision": "fp32",
+      "training_seconds": 1499.4673903807998,
+      "training_seconds_per_update": 0.07497336951903999,
+      "worker_max_rss_kib": 1948516
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_uniform_original_seed1/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-665d89575f6882a7",
+    "measurements": {
+      "CPU_threads": 1,
+      "audit_seconds": [
+        28.01984554110095,
+        29.192187340930104,
+        26.422494458965957,
+        39.22957080695778,
+        28.64020917005837,
+        27.264987505041063,
+        40.04206023691222
+      ],
+      "device": "cuda",
+      "elapsed_group_seconds": 2230.77810250083,
+      "group_updates_per_second": 8.965481585810286,
+      "precision": "fp32",
+      "training_seconds": 1499.4673903807998,
+      "training_seconds_per_update": 0.07497336951903999,
+      "worker_max_rss_kib": 1948516
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r11_jagged/runs/rarity_uniform_original_seed2/summary.json",
+    "study": 11
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-d5ab95045f21ef34",
+    "measurements": {
+      "elapsed_seconds": 21.962465295102447
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r13_mechanism/erosion_adam_original_seed0/summary.json",
+    "study": 13
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-0e09327ce41c4688",
+    "measurements": {
+      "elapsed_seconds": 19.644564487040043
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r13_mechanism/erosion_adam_original_seed1/summary.json",
+    "study": 13
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-2648d6e6bc2f5610",
+    "measurements": {
+      "elapsed_seconds": 20.53118791989982
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r13_mechanism/erosion_adam_original_seed2/summary.json",
+    "study": 13
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-ec02e123452faf9b",
+    "measurements": {
+      "elapsed_seconds": 19.32868504198268
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r13_mechanism/erosion_blocked_original_seed0/summary.json",
+    "study": 13
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-6119427421656bc7",
+    "measurements": {
+      "elapsed_seconds": 17.844427502248436
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r13_mechanism/erosion_blocked_original_seed1/summary.json",
+    "study": 13
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-fbe27dbf2bd8269d",
+    "measurements": {
+      "elapsed_seconds": 17.231295669917017
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r13_mechanism/erosion_blocked_original_seed2/summary.json",
+    "study": 13
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-07b840855cf2d5e0",
+    "measurements": {
+      "elapsed_seconds": 19.241056874860078
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r13_mechanism/erosion_reduced_original_seed0/summary.json",
+    "study": 13
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-610c4b9d41b30702",
+    "measurements": {
+      "elapsed_seconds": 19.38703031791374
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r13_mechanism/erosion_reduced_original_seed1/summary.json",
+    "study": 13
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-a314287386b843da",
+    "measurements": {
+      "elapsed_seconds": 20.737150894012302
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r13_mechanism/erosion_reduced_original_seed2/summary.json",
+    "study": 13
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-ce5aebf1f1bac4b5",
+    "measurements": {
+      "elapsed_seconds": 22.218855985905975
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r13_mechanism/erosion_sgd_original_seed0/summary.json",
+    "study": 13
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-0784a49a27ed7ba2",
+    "measurements": {
+      "elapsed_seconds": 18.440439418889582
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r13_mechanism/erosion_sgd_original_seed1/summary.json",
+    "study": 13
+  },
+  {
+    "aggregation": "group elapsed time is not summed over batched run summaries",
+    "evidence_id": "E-82ab0b01ad8a530c",
+    "measurements": {
+      "elapsed_seconds": 18.835168194957078
+    },
+    "run": "repo/reports/phase11/oldgame_memory/multiround/study_r13_mechanism/erosion_sgd_original_seed2/summary.json",
+    "study": 13
+  }
+]

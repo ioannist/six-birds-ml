@@ -1,0 +1,49 @@
+\section{Related work}\label{sec:related}
+
+\paragraph{Jagged competence.} \citet{dellacqua2023} document an uneven AI
+frontier in a field experiment, and \citet{gans2026} models uneven local
+reliability through gaps in knowledge coverage. \citet{kalai2024} derive
+calibration-related bounds on errors about arbitrary facts, while
+distinguishing systematic facts. Our task has a systematic rule, so those
+bounds do not explain its errors.
+
+\paragraph{What training makes available.} The training task shapes which
+input features a network represents and how readable they are
+\citep{hermann2020}, and gradient descent can favor simple features and
+neglect others \citep{shah2020,pezeshki2021,geirhos2020}. We ask which parts of a designed intermediate computation become
+recoverable under final-output supervision, and whether recoverability
+accompanies computation, access and preservation.
+
+\paragraph{Probing versus computation and use.} Probe accuracy alone does
+not show that a network uses what the probe finds: probes need controls for
+their own capacity \citep{hewitt2019,belinkov2022}, high probing accuracy can
+coexist with task irrelevance \citep{ravichander2021}, and removing
+information tests use more directly \citep{elazar2021}. \citet{darade2026}
+recover candidate arithmetic intermediates but do not find them transmitted
+along the tested causal routes, and \citet{basu2026} report a dissociation
+between probe discrimination and output behavior. Interchange interventions test whether an aligned internal variable plays a
+causal role \citep{geiger2021,geiger2024}, and causal tracing and model
+editing locate and modify stored associations \citep{meng2022}; our swap test follows
+this design but failed selectivity under the tested alignment, a limit of
+the test rather than evidence of absence. We separately measure exact output
+computation and predictive access, then test whether connecting a learned
+sums output reduces errors.
+
+\paragraph{Controlled tasks with known ground truth.} Controlled tasks allow
+exact comparison of internal states and behavior with a reference:
+board-game world states \citep{li2023}, the gap between next-token accuracy
+and a coherent world model \citep{vafa2024}, extrapolation on formal
+languages \citep{deletang2023}, synthetic reasoning \citep{allenzhu2025},
+grokking and superposition \citep{nanda2023,elhage2022}. \citet{shintani2026}
+separates arithmetic failures into stages tested with matched data
+interventions. We share this controlled-decomposition approach, while
+studying a recurrent layered task with measures of recoverability, output
+computation, access and preservation.
+
+\paragraph{Auxiliary targets, soft targets and interference.} Soft targets
+carry more information than sampled labels \citep{hinton2015}, objectives can
+conflict \citep{yu2020}, and training on a new objective can degrade an
+earlier one \citep{mccloskey1989,kirkpatrick2017}. \citet{shu2026} propose an
+account of jaggedness involving uneven optimization allocation and
+capability coupling. Our erosion experiment establishes dependence on the
+prediction gradient, but does not identify interference as its mechanism.

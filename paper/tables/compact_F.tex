@@ -1,0 +1,21 @@
+% Built from ledger-bound values; edit the script, not this table.
+\begingroup\fontsize{8}{9.5}\selectfont\setlength{\tabcolsep}{3pt}\emergencystretch=1em\hyphenpenalty=10000\exhyphenpenalty=10000
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.180in}>{\raggedright\arraybackslash}p{1.180in}>{\raggedright\arraybackslash}p{1.180in}>{\raggedright\arraybackslash}p{1.180in}>{\raggedright\arraybackslash}p{1.180in}@{}}
+\caption{Analytical appendix F. Exact recorded counts or decisions; no pooled reader accuracies. Complete support, settings, controls and per-seed records are in the numbered supplementary tables and released data.}\label{tab:compact_F}\\
+\toprule
+\textbf{study} & \textbf{condition (all seeds)} & \textbf{seconds (0/\allowbreak{}1/\allowbreak{}2)} & \textbf{execution scope} & \textbf{aggregation} \\
+\midrule\endfirsthead
+\toprule
+\textbf{study} & \textbf{condition (all seeds)} & \textbf{seconds (0/\allowbreak{}1/\allowbreak{}2)} & \textbf{execution scope} & \textbf{aggregation} \\
+\midrule\endhead
+\midrule\multicolumn{5}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+r13 & AdamW & 21.962/\allowbreak{}19.645/\allowbreak{}20.531 & 200-update erosion; recorded execution & examples, not totals \\
+r13 & SGD & 22.219/\allowbreak{}18.44/\allowbreak{}18.835 & 200-update erosion; recorded execution & examples, not totals \\
+r13 & blocked prediction gradient & 19.329/\allowbreak{}17.844/\allowbreak{}17.231 & 200-update erosion; recorded execution & examples, not totals \\
+r13 & reduced-lr AdamW & 19.241/\allowbreak{}19.387/\allowbreak{}20.737 & 200-update erosion; recorded execution & examples, not totals \\
+r8 & records $\to$ prediction & 1855.1/\allowbreak{}1783.3/\allowbreak{}1895.1 & CPU endpoint & examples, not totals \\*
+r8 & records+sums $\to$ prediction & 1765.2/\allowbreak{}1810.8/\allowbreak{}1837.4 & CPU endpoint & examples, not totals \\*
+r8 & records+sums $\to$ prediction (sums route only) & 1670.6/\allowbreak{}1688.7/\allowbreak{}1682.7 & CPU endpoint & examples, not totals \\
+\end{longtable}
+\endgroup

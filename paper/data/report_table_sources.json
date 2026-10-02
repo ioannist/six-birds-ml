@@ -1,0 +1,32 @@
+{
+  "10": {
+    "evidence_id": "E-e9ed84a6d5a5e152",
+    "receipt_rule": "Remove the /study prefix; resolve the JSON pointer in the source, apply compact and public path sanitization, then check canonical SHA-256.",
+    "source": "reports/phase11/oldgame_memory/multiround/study_r10_allslots/aggregate.json"
+  },
+  "11": {
+    "evidence_id": "E-e51dc71b68f1f22e",
+    "receipt_rule": "Remove the /study prefix; resolve the JSON pointer in the source, apply compact and public path sanitization, then check canonical SHA-256.",
+    "source": "reports/phase11/oldgame_memory/multiround/study_r11_jagged/aggregate.json"
+  },
+  "12": {
+    "evidence_id": "E-6293130437f0f90a",
+    "receipt_rule": "Remove the /study prefix; resolve the JSON pointer in the source, apply compact and public path sanitization, then check canonical SHA-256.",
+    "source": "reports/phase11/oldgame_memory/multiround/study_r12_coverage/aggregate.json"
+  },
+  "13": {
+    "evidence_id": "E-cc3cc4b7160cd8c8",
+    "receipt_rule": "Remove the /study prefix; resolve the JSON pointer in the source, apply compact and public path sanitization, then check canonical SHA-256.",
+    "source": "reports/phase11/oldgame_memory/multiround/study_r13_mechanism/aggregate.json"
+  },
+  "8": {
+    "evidence_id": "E-feab3d162cc76e74",
+    "receipt_rule": "Remove the /study prefix; resolve the JSON pointer in the source, apply compact and public path sanitization, then check canonical SHA-256.",
+    "source": "reports/phase11/oldgame_memory/multiround/study_r8_route_access/aggregate.json"
+  },
+  "9": {
+    "evidence_id": "E-d1c062f0e681735b",
+    "receipt_rule": "Remove the /study prefix; resolve the JSON pointer in the source, apply compact and public path sanitization, then check canonical SHA-256.",
+    "source": "reports/phase11/oldgame_memory/multiround/study_r9_raw_diagnosis/results.json"
+  }
+}

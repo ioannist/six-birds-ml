@@ -1,0 +1,1658 @@
+{
+  "clean_location_build": "PASS",
+  "command": "cd paper && latexmk -pdf main.tex",
+  "dependencies": [
+    {
+      "kind": "TeX_distribution",
+      "path": "TeX_distribution/texmf.cnf",
+      "sha256": "a2e9447fc8b6dfa407fa8d0d710e59b039e22598e3f17de0bdf54daba478742c"
+    },
+    {
+      "kind": "project_source",
+      "path": "appendices/A_study_history.tex",
+      "sha256": "bf39187727b0fe8e65aa78ac37227afe2af50a9ac8b1abee768769746528a65a"
+    },
+    {
+      "kind": "project_source",
+      "path": "appendices/B_study_tables.tex",
+      "sha256": "b64f909b56d29ebba301ce28347e50c1b796c363b40a29d53a0acf00a76cf208"
+    },
+    {
+      "kind": "project_source",
+      "path": "appendices/C_calibration.tex",
+      "sha256": "d1faf74eaa16a3f4344b5d1916f92da85d70545cd85e1dc041283f87e9c0c451"
+    },
+    {
+      "kind": "project_source",
+      "path": "appendices/D_learning_curves.tex",
+      "sha256": "ba34f2b13bb67eaa674ffcfbb1f81e8d422249aa5bdba51a9787f6c6e32960ba"
+    },
+    {
+      "kind": "project_source",
+      "path": "appendices/E_probes_and_geometry.tex",
+      "sha256": "f633cdd8b33d12827162aa64ff4ad4b837d45e8b1389cabb911bcc1ff19cf69b"
+    },
+    {
+      "kind": "project_source",
+      "path": "appendices/F_compute_and_reproduction.tex",
+      "sha256": "010a7a77a8abc5c11a77b88a6ed374968ad4b2df3301ae2688e42f5706b7602f"
+    },
+    {
+      "kind": "project_source",
+      "path": "appendices/measurement_details.tex",
+      "sha256": "88c55a2f1ceaf399c670f9e81e1ac41ef07f103f6c8fed83ecedb0f4f9b34bec"
+    },
+    {
+      "kind": "project_source",
+      "path": "appendices/training_details.tex",
+      "sha256": "3230dd72a8f17b8e76501e2c552bc3e990953293835a4d95d21a452f8b57dc63"
+    },
+    {
+      "kind": "build_product",
+      "path": "build/main.aux",
+      "sha256": "36712487cfe91e5387eff29eccaf5f48a894d377d038c6f5e44d10885460b5c0"
+    },
+    {
+      "kind": "build_product",
+      "path": "build/main.bbl",
+      "sha256": "79926c6eec4395f34716620650f6e2d71885c498fbc30f4cca04786eb5b34448"
+    },
+    {
+      "kind": "build_product",
+      "path": "build/main.out",
+      "sha256": "75d6b1e941797373542d2037a01db60049d2e19b05f54de8bb3d2d0b0dfea401"
+    },
+    {
+      "kind": "build_product",
+      "path": "build/supplement.aux",
+      "sha256": "38cfa7c89c5bb1367df71bd1469344aa9bc549720225ce026a643fe27ecac0b3"
+    },
+    {
+      "kind": "build_product",
+      "path": "build/supplement.out",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_C_methods.pdf",
+      "sha256": "9f35f026c01adc1eb9cf9648d73c98516e7036bb99730a3a491390fd7fcff46b"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_C_methods.tex",
+      "sha256": "1cda4d1bcd19ef2eaa765f8dd2e069d010c05da6430e5a7590f4e71bd81f18d0"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_movement.pdf",
+      "sha256": "fd0d07cf51b001ddb185b0e56dab0316279c952beb37e469f833edd358f6233b"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_movement.tex",
+      "sha256": "987b38c4e5eb231a70c60d12914d46f224880e3acdb896bad1c038a1108e331d"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r10.pdf",
+      "sha256": "f63c521f5854747eb283ba2dc5eaa89524028d1eca92bc1932b8a47a67f8deeb"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r10.tex",
+      "sha256": "b2c96213c7c3edf477569cac6089f262c99c7f4fe6792e400f903dbd802abdcd"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r11_dose.pdf",
+      "sha256": "fd7e4a0fc3dd887abf67b986ef3c1a1d387cdf8cdce9c94c495d6129d860ba4c"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r11_dose.tex",
+      "sha256": "e946abb3288ceb86dd27859ebe68092956d62965ac01738d91d940e1ee236aed"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r11_erosion.pdf",
+      "sha256": "0abc95cd451f3a3f2b5d79e7acdec63de8df42695326fb3324230ff867df3ff7"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r11_erosion.tex",
+      "sha256": "d753d3ab10602b9b8bc1dc656e49c985f270b43b67de81630550eab752c527e4"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r11_rarity.pdf",
+      "sha256": "8d46e72cbaf288b21463d5a51a74c0c4ed809e7eb884e178572924ffb00170ee"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r11_rarity.tex",
+      "sha256": "67c3cad401428911bac05fdb599b5546ff858679761ef0ca122587fc95fe7e4c"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r12.pdf",
+      "sha256": "99aaf6de27315f57f61a1dcc60c6822f4a40f6fbf19b2daa4a81e201027574b1"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r12.tex",
+      "sha256": "06a2253869a670d80c0d93d399bffb4f0f78cd01804fde836031d8c32f132ea2"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r13_access.pdf",
+      "sha256": "3f031751c7135bd955a40eca0931fadfb8c2c6dbbbf18010b6b16c223850ba59"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r13_access.tex",
+      "sha256": "796cc9ee483c90487bf2b7fcf02631e1003af660136d3b6f813752bfa0f3b268"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r13_encoding.pdf",
+      "sha256": "2378bc1b4703935a64cce32bdb92ad6a2e3cf26a3dd791e9899bf190f604861f"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r13_encoding.tex",
+      "sha256": "f119bf381c7e029ee01e5c5a096b7c3b92cad8d32a817d850e236fb5007a4be8"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r13_noise.pdf",
+      "sha256": "be6f8b80a2263304cc8b6c1b3dae403b26f8eaf62e4fd98c9c12908b57929469"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r13_noise.tex",
+      "sha256": "f5b5494b0f82e36965b970836355ea9f6998e419e18e7397c03ef84ed3db1f8c"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r8.pdf",
+      "sha256": "333648889d6a69fbf53b3bb24581275bbf3c7ec6b6f476f3da22d4ad46299527"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_D_r8.tex",
+      "sha256": "a013a90395d1eb134aad668ba73e11c4b32486b8e7b46a18c5c8d0e6ffa85f25"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_E_geometry.pdf",
+      "sha256": "801015cb64332893acc7cc7c4fb00e7ea0ffe8e2b894047506c87154d06fa4bb"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/appendix_E_geometry.tex",
+      "sha256": "254452068a557a5e0633c00699f815219ce9c64a46cd30d7c762f2bc4ce3b4da"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/captions.tex",
+      "sha256": "bd66fcf2c18bae1b10f994f577f45b87277fd9e534138737c61a2d365eb4b293"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/fig1.pdf",
+      "sha256": "b7c3ae5fc94f41fde51546657a2795a97b0a6b38bf9a68c4b72e7d04c03eebce"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/fig1.tex",
+      "sha256": "c98e6d62a383c5f587ae4bdeea02bdd3e166a5965e5e2843a09ab851218dd2ab"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/fig2.pdf",
+      "sha256": "49f8bce14b7d4770241d30d8ce7981196267962071e0a0ce4bfcf2121c3992f8"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/fig2.tex",
+      "sha256": "90a7c46871ea6986530f95beaa3d8741a69eb0f0f14aa821d6203f225bc51172"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/fig3.pdf",
+      "sha256": "2f9774d24836485a9c074aa05ce49fc5e1da04c47a81c232d3fb5c2e93d35517"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/fig3.tex",
+      "sha256": "f4a9935f2b0899f72311da4178b5ddc3d66bcae7917f2b2e6898bef6c010835e"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/fig4.pdf",
+      "sha256": "06d5df8495c643bd7209fa4f64915578887e48b63e13c6fa733fbf061c0b7e34"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/fig4.tex",
+      "sha256": "84529d5ef7e68f52520908647da02ea3d93a0427393e7e75ba58e2ce979f4a45"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/fig5.pdf",
+      "sha256": "9cc982ec291ce0c296bce1cbd930c5f67a59bfcd70932d37c95bbee0de06e3a1"
+    },
+    {
+      "kind": "project_source",
+      "path": "figures/fig5.tex",
+      "sha256": "a233397e5511bd25595430fc2f06066d4d6cfe219dd23451f6b0ff01675ea830"
+    },
+    {
+      "kind": "project_source",
+      "path": "includes/paper_macros.tex",
+      "sha256": "6190e9382d2ff57e69b12d2a2dc619f11b2b2294551f66ea1148b25aa653a7fa"
+    },
+    {
+      "kind": "project_source",
+      "path": "includes/release_metadata.tex",
+      "sha256": "1c452b0bf98e1116d23870036b87332ee513447e1fd5c0ede961149a86580ab6"
+    },
+    {
+      "kind": "project_source",
+      "path": "latexmkrc",
+      "sha256": "f7b80fea390fb3b51c7a11f5da0442579194a2c66e0a790a1b522796fe26fc7d"
+    },
+    {
+      "kind": "project_source",
+      "path": "main.tex",
+      "sha256": "52c6fd92f7f46d51fca9218f4ebccce93fe01e8266d2d572b9e8b20e8f9a08ec"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "plainnat.bst",
+      "sha256": "21eefa76f1c967f5074776fcef096c0f8f2b9e42347e84b62e1dbb121dcae486"
+    },
+    {
+      "kind": "project_source",
+      "path": "references.bib",
+      "sha256": "356d34e4e0062ee01c5d460f65949355970b55475c4e03f71ae9b4e0f7b25277"
+    },
+    {
+      "kind": "project_source",
+      "path": "sections/01_introduction.tex",
+      "sha256": "8975e33c8095ded26a49bee19532316ddf73c6fee5f8a1b0ee4c32f443246342"
+    },
+    {
+      "kind": "project_source",
+      "path": "sections/02_related_work.tex",
+      "sha256": "3987ccc3c4824697d9ce58eeebab5a2c6c3c0250049132f19cc285c04df7f3ca"
+    },
+    {
+      "kind": "project_source",
+      "path": "sections/03_task_and_setup.tex",
+      "sha256": "b4d6057bacac7abb607fafaa692d2f0d27a577bd8d912fcd2dd95e082f4e6a73"
+    },
+    {
+      "kind": "project_source",
+      "path": "sections/04_measurements.tex",
+      "sha256": "95449f1eaa041d5754cedc6d46b2c0cc69c8d30aa0c305011f561c6dca088f92"
+    },
+    {
+      "kind": "project_source",
+      "path": "sections/05_results.tex",
+      "sha256": "79ceeeac20c12822c21b47474c247ae30e764da9c0667416b35f7f92d7eb5a8c"
+    },
+    {
+      "kind": "project_source",
+      "path": "sections/06_discussion.tex",
+      "sha256": "6d0c4b4c185f41b9a0f193dba8238407489a2b0340e6e12d8935997d346cb708"
+    },
+    {
+      "kind": "project_source",
+      "path": "sections/07_limitations.tex",
+      "sha256": "3dda24408441beca60cba924cbc45ef6f693437995a9470e4a1040347d826b68"
+    },
+    {
+      "kind": "project_source",
+      "path": "sections/08_conclusion.tex",
+      "sha256": "31a38ccd215f75c55a6daf96f47f6a531d174e217e4225dbcbc48c8e6527784f"
+    },
+    {
+      "kind": "project_source",
+      "path": "sections/09_endmatter.tex",
+      "sha256": "3aafc30d06e9b23bb32001ee878b5ffff6e5e409fdca426981aee4b039d706ca"
+    },
+    {
+      "kind": "project_source",
+      "path": "supplement/supplement.tex",
+      "sha256": "cc01edf9362d354c2d74b54b7a135e81845b45800771811783175b82188b5850"
+    },
+    {
+      "kind": "project_source",
+      "path": "supplement/table_inputs.tex",
+      "sha256": "5f76a5ab3a5c14ddd0f7fc114ed8e7436969d640d00960634b0b0b44089b58e3"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_A_history.tex",
+      "sha256": "cdafa9576e0b9521994adefd8b953ef8ce80a34ee4b84774d59b2c888cad4e97"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_B_census.tex",
+      "sha256": "aabf0e444a3c12aa9922b96bff332e4f9b1d91d09319569e1261773d2f91a528"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_B_laws.tex",
+      "sha256": "7c7a8db31a120e4af03b4241472ef9e1ae7609e5c69de96d43d71c407f133266"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_B_r10.tex",
+      "sha256": "e0473c5c74dba028c160d53a09ba1df81b294fb148bdc279a78f1300894ac650"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_B_r10_coverage.tex",
+      "sha256": "2687915426f6d61bff4d128bbbe857310f650ffc99fb95288ce7f3f3a21769b8"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_B_r11.tex",
+      "sha256": "f5086da2c0a3c59a1827efd81a381bf6dafa9ff7d574ab03e93658ecf9b9b19a"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_B_r12.tex",
+      "sha256": "1eff0e769f1f4f6eb0f25136d2d6475ba59ac29220bdd0e3982d7602eda52298"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_B_r13.tex",
+      "sha256": "0e47ecdd8d01bd92b016d231af3382201b05da2cb46cd6f1c21d79cf76b36c02"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_B_r8.tex",
+      "sha256": "2860c4b60753ec5b71116fba22488c8748d4bdf68ac595cc8b459e7296e95ee0"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_B_r9.tex",
+      "sha256": "7a2b56ddd836e139d26a616db68e1f8f4c7edd83710062800c9c1a00facf30c9"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_B_support.tex",
+      "sha256": "1284411180b79e45a236c5f2d4d249f2583053853478616334f63267a74d0a7f"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_C_calibration.tex",
+      "sha256": "dabc28e64771e800790af2da5a104bfd032228601a4f4f9f02b5d79c3fd35379"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_C_interchange.tex",
+      "sha256": "9511ea523f1d400c612e9aab275f02dc55bad1b29ba30861583eb7434aaa5641"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_D_erosion.tex",
+      "sha256": "e9ca9b14e00d51f3ff611b11410ccc5ac4f13c575b6bcd14e22acdad511c12d0"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_E_geometry.tex",
+      "sha256": "ab21365e8526ae9e7a2c080a08db0cfe9d85bc291f965fa4b0f64ee0a3d4837f"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_E_original_geometry.tex",
+      "sha256": "3fa23760e66c568a12fb3dc7ffbff6ca4aeca5d61f9b4ce2bbf8dfdc1f60560f"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_E_probes.tex",
+      "sha256": "94402a0811f37069c555c130944cf5fe6f0f2541ec4c4842b8327bb18c7b9479"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_E_r11_probes.tex",
+      "sha256": "1a47754459ae0eda9d4e29ae2eee96b1a0b8111eb4812c5520ab966da1aa025b"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_E_r12_probes.tex",
+      "sha256": "5ece0f21b92b83b39cb2ed773337c7a5918027ab38c5947d1bae931c898ac2d0"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/appendix_F_compute.tex",
+      "sha256": "06c87409ef1ed20701de0c0396996b4766d1498c3f2632c042e01828e3be14a7"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/compact_A.tex",
+      "sha256": "deba281cd0f7a3c1c3030aa1c9ae178daa9868588ae95080097ff57e975acc2e"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/compact_B.tex",
+      "sha256": "da7ea4a15a2f4c5d2363d869539366a59fcf804f6745631e47368fdee62b55e5"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/compact_C.tex",
+      "sha256": "0497cc21427e6a0f4dfb9339625af1936996603572db561e76de029fbf68ed3c"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/compact_D.tex",
+      "sha256": "805aa478ac627d3080fe84a0eb93f074934722d97765b81b75a82e2746964fee"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/compact_E.tex",
+      "sha256": "0a682733e73a625eea629e5c189a5e36729acbd72a409ec050151a796f316b0a"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/compact_F.tex",
+      "sha256": "ffad7e81e1961b811f90ad6741b042e1ce95cb7a85d3fd0b32bc67372606e11c"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/prepared_r10.tex",
+      "sha256": "bd62edd3aecfa3a5b875a8ce7aa3b36c3373e780d7a9f959355e211db89c902d"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/prepared_r11.tex",
+      "sha256": "94a6ba3463616ade966d7a741165d10b3b4081c88bb77b4446609cceff543ea4"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/prepared_r12.tex",
+      "sha256": "458c77bd5f0b2a553d5b2e9439ddc10745117dcde6500a90f18a1ad8642a3318"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/prepared_r13.tex",
+      "sha256": "fac34210a7c6511d440974ec96c5f7ee986db6e90f52acbd0acc367bd6057ceb"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/prepared_r8.tex",
+      "sha256": "dc2dc51adb682b82742b33d45b0cc35f08c2841319bfa0ef88b34a9b8f527f34"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/prepared_r9.tex",
+      "sha256": "9ccf0b5060fbd7b298fbea75bddea3a03929fc16c0c0b99338a07a56c85e82d6"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/table1.tex",
+      "sha256": "f29d2ba243421099f3e06c2b424bc05897e25ab9b64685dfba21599cd38efc99"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/table1_full.tex",
+      "sha256": "897ff4857ec7b69c99b63b488d41b89f2ba253cfd43522be669217c7fc7551dd"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/table2.tex",
+      "sha256": "90168947ef6ccadbf4213e960e4d3ea757647daa05738ad3ff3a5f5e7bbac8b9"
+    },
+    {
+      "kind": "project_source",
+      "path": "tables/table2_full.tex",
+      "sha256": "c6a2f3b6199116a524458180539dd1fdd95a70ab31b6586146024d31d36b23bc"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/enc/dvips/lm/lm-ec.enc",
+      "sha256": "7f9932c402d22a937b853406cfdf4166b80260e3ff21a03fe9a4c05105a2918c"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc",
+      "sha256": "0d7b9e82ad6274470876761c22573c28db1f1b32d647b688230b3a366f0e373b"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc",
+      "sha256": "a2980b38288ef4024b8a3e170c19c9d4e2ee8b7dde97a59e8148291ffd3443db"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/enc/dvips/lm/lm-rm.enc",
+      "sha256": "8bf8f9bd48d49aa3f3c597716908854e4d9207b009c109e6d9c5887feb856844"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc",
+      "sha256": "c6e18df2fc30431ddebe5e4e3f7abebeef2d355bd97b81b574a685f8ded408c4"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm",
+      "sha256": "6a3850cd71bbb2f43d98b7eb6b47f925de25626f5f4a0648c2d9d7b4b774eb2a"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm",
+      "sha256": "3b54bde5cb0e0bd071eea7bc702ed3a1a284f786779ef8e75b06eba4104bb9f2"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm",
+      "sha256": "c800d1dfd533040219fcc06d52e0e00c2a20fb9b0039fe9f58ccec53fd003a9f"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm",
+      "sha256": "719d100c110fa1cfae9ad0b63e6c21753f4980f925fa516c1a04961e206f69d5"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm",
+      "sha256": "d9f5f519ec718e9dbccb8527c1f5d3b4a008dfb946377f97f71611b385d3d010"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm",
+      "sha256": "9e0909a297a3097e50960158d324006ddd5302db665400fa1fdf966df14e1a17"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm",
+      "sha256": "361b5530a4b410c6274e9330c11e993843c62e394323aeaa6e0aee61e8042444"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/cm/cmr10.tfm",
+      "sha256": "87f2d8981927644cbecaf3d639e96e348ea4e7be49d8804468bd8ba9ff3f5244"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm",
+      "sha256": "0895c940bd2e763b70dcab18ebf27fd3f93c2490f43b2a8c028fc7fc24b2e855"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm",
+      "sha256": "d19c45859d453c0802699d27aa2bff735574b9bc97d8791aa76e3c7de6c38a36"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ec-lmbx8.tfm",
+      "sha256": "bacfd8c7fb1096a76986fcc5a222b940c61fd5b4e277bd33648d200a827a6ec2"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm",
+      "sha256": "cd13479f463b9a575d053dd7bf0884daa46bfdeffe4b7f537c193861652ac9e5"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm",
+      "sha256": "299021120f0a29ef61278a2363903bd8defbb8faaade458eb79067342aecb56f"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm",
+      "sha256": "67fb845ec934b2d50e788280d2c6d63ae719c9d8ac16a02d42fd346c81196c0c"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ec-lmr5.tfm",
+      "sha256": "4f75f4f48232bcc51274bdfc7c04a44324f028345517d7f07c21dfde4ca9b804"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm",
+      "sha256": "db2ec8f82b5dd559b686afb9da660c397f79c819905ed2706c86b0fd3e1017c7"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm",
+      "sha256": "8cbbca3361fad7a70510d9e506bed78c1288065c1d83adce828df8c31afeedaf"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm",
+      "sha256": "9c60dbef6aea9e108bd6512f10bd2855331b31ffa49bfb6161bf4ee9ac570584"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ec-lmr9.tfm",
+      "sha256": "9e5b21c43423010fb28b078b34f2c10e5c5f4f871ec51fb84dca9caf05fae31f"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm",
+      "sha256": "372f968b4eeb47bf6a6c941c8793bce118d1800f12e194a351c7493ecc158f2a"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ec-lmri8.tfm",
+      "sha256": "1440665458738428540918b90c7a3556d6ed3118ff2e0237bd739c60f6edb889"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm",
+      "sha256": "d1d413f1d0d07f65ff7bc3ebc09a3c104087e20eccd10ccb384da5c4f175c485"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ec-lmtt8.tfm",
+      "sha256": "652fdd0072f23a0a8cda0b1669bb6878f3527873fc60f0cdd24f87f8149d76e6"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/lmex10.tfm",
+      "sha256": "9547b25fd525782610200d794a82de33037887422751fcc29c5768cfa650e626"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/lmmi10.tfm",
+      "sha256": "d9fce8963e8cb075bf31a5715a8f4a54688f7026b3a06e882ff2eb9c0d110320"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/lmmi12.tfm",
+      "sha256": "06870b7e003008214eefcf9bc4215006faff9edf5d99bee75211de57620d1818"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/lmmi5.tfm",
+      "sha256": "7bc98c12006eb1d784ce276f5dc008e0d631ee6bc659efadec24801c00d2a462"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/lmmi6.tfm",
+      "sha256": "e7305bead3f6b2c8313e1234cb52376219d4283227c23295fe2f654e3ba3b551"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/lmmi7.tfm",
+      "sha256": "8548d4d19fc2b3671a5e11526f9013df8828b5b9b0f8277dc0ae7148bd1d33f5"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/lmmi8.tfm",
+      "sha256": "8d8514f9b0d11e443d9a3cdc059622b06797c1dbcb3cee994f6ac3329c462a82"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/lmmi9.tfm",
+      "sha256": "270036d0f099a1bd4aea0e2bb0c58dfef4b456d029b853bd8c02473aaf578a13"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/lmsy10.tfm",
+      "sha256": "11f429b2c08f944627faa5942277297d7f8fef40edae2bae46cb238b838400ba"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/lmsy5.tfm",
+      "sha256": "cac282b076edc89a2bbc8cdd1bd899117cd1af05612bca2b203e8b5ebe715431"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/lmsy6.tfm",
+      "sha256": "8548e4b09655eb2b166bf95df4be4f2a7ae54d5df2069bc04ef233bfd941167b"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/lmsy7.tfm",
+      "sha256": "3e92767469b4df54c985a533b8064789df60f21ab69d381dbf01bb608e3fbff8"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/lmsy8.tfm",
+      "sha256": "b6b96268d56481a5bc7cbb34b140ca1fa5017d2767acc4e11a94b30eabd114f7"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/lmsy9.tfm",
+      "sha256": "05daea5b4dd62b9ff70d99531e077ff11f56a5c26dfa6d6c6cfb643f42b9dc4a"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm",
+      "sha256": "50dc8240a67003c1ec5bcd55f703c87189aeab0d199c42b4dc3e141a02488998"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm",
+      "sha256": "9d4e3d8e39a41b93d91f79c1c47d2297efb7b1af220b94860693c08361f227aa"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/rm-lmr5.tfm",
+      "sha256": "420a4fc1563b171e5a791bb71211d85e6bf62fd2f2ed2a7f34f742049d6e5071"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/rm-lmr6.tfm",
+      "sha256": "eb0bfdf8db3ae1409639fac9c88f84923872500d882d9ff8dc37aff445c723fe"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm",
+      "sha256": "373a4f72b5a088f9caee2cfd75adb2b25116e0cba3ad2bfa99b5f8a7e902a482"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/rm-lmr8.tfm",
+      "sha256": "80bcbfd844d2310ac1d3bead45aee25e91b1a4a0a60ff1771959b9a1e90ec1a2"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/rm-lmr9.tfm",
+      "sha256": "ef6f318763d0052fc82dde4d73071a894ab6dfaa06890800ddd9b4a65657c0df"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm",
+      "sha256": "080be3dc1bf1bac9eb612e44718ea630d2bd2ebf4d8e8e00333a78b5332ca6b3"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/tfm/public/lm/ts1-lmr8.tfm",
+      "sha256": "2cfebf34600254ef1d6981785fa7c50875d07934a1645b547cf98cc5d93152c7"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb",
+      "sha256": "f2e3b470b988a46272125e917531690d3c4d03ac7238f112b07337f972a537fa"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmbx10.pfb",
+      "sha256": "4acd67f9ece59a12e073aa863dbb1d5cea194f7f7b88ecce4659184d8275aa42"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmbx12.pfb",
+      "sha256": "fb9b7cf1d13a8a837c2c6b238e7255f8d6f4cd6608bf3024ee68e43d04f01a08"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmbx8.pfb",
+      "sha256": "95928ecf4c5fee779ae19f949cb9bc7f27f7bf7b469339a6c2bcb55a563cdd88"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmmi10.pfb",
+      "sha256": "c24662506b402f3e0033cc75eb746eb490a1b7477e6b3ef52053f5025ec0fc57"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmmi6.pfb",
+      "sha256": "84b90db59b216d7f25f89a45c7565d7cccccc6c32961fe972b1a53558fa2035e"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmmi8.pfb",
+      "sha256": "ec3aa1701ea2dbbd9ea2b7316ffe81726a3a2ecb31442fbaf719800f2625e68d"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmr10.pfb",
+      "sha256": "84eb01245abb17c0530ca3909427256d73df8bed2d7243b9f2717ca08c010ac8"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmr12.pfb",
+      "sha256": "d5fd4fdecfdbc8f97e955964aa2574927182303df178fe0c2e568fe9056e326c"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmr17.pfb",
+      "sha256": "03b0f1f3e62a2866480f8f12edd465349a8f18afac0d5fb906dd493254d950fb"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmr6.pfb",
+      "sha256": "0169c3fcc2685ba53356a09c1b96c8f71c250ba5177da7b23e7a819e583ccf88"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmr7.pfb",
+      "sha256": "cf94a1a79a32c446f11e585164463234a515721d509d2f2cfb0ab61f6f744ddc"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmr8.pfb",
+      "sha256": "4a117a1dd9cf4f8b7eea4587eaa4f612be7ca329cb1d8255a2c6bb20febbfa69"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmr9.pfb",
+      "sha256": "0a28c017128947f0b23cef511dac5499bdd73b7c8f218f605b632aa9f3e2e2d4"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmri10.pfb",
+      "sha256": "1239c71330ac8f0584e22f4d6abd0f016421fc73c545b15512ccf80b263f5c66"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmri8.pfb",
+      "sha256": "77e9972e38fc26a42f00a55b396b4afd1d88676ff2bd4f5a45de64ec54292ea5"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmsy10.pfb",
+      "sha256": "9969fd5ae5281ad40cdf6d8caf50084636a43ed7b7647e0e9e1195e859cec7cc"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmsy7.pfb",
+      "sha256": "c434f5fb70bc41978ac63c673556a2d913211f297947aa1f0d18b93da25ebe4b"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmsy8.pfb",
+      "sha256": "e23c98a5dadbaf4f156082cfcfa7b3366f849ee86b0410db53a9c6fe4e67920b"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmtt10.pfb",
+      "sha256": "4b266a3e09581283d72e31df9f240811c77e02f8debf720744cc4614f7493616"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/fonts/type1/public/lm/lmtt8.pfb",
+      "sha256": "c097263e8510e0cfcdd59c7dcf0086db674dcd8118016ce5b707b93d6a8556a3"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/context/base/mkii/supp-pdf.mkii",
+      "sha256": "5dd3675b88c7b61d3703e6bf35ed75623acc6b163dff7b1477b485cee8ad71cb"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/babel-english/english.ldf",
+      "sha256": "5a636696c3bb3c13820ebbcf667d5d38756109ac50247533c1b8608a4c9dd030"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/babel/babel.sty",
+      "sha256": "5e47b0ffb93e0adc5d10953cb51f01673f8ae7fbd86be8665956cc3a5d252863"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/babel/locale/en/babel-en.ini",
+      "sha256": "0245d0eb3732cac2b81b55b65729f8498f7291df8eadbd0f5681cd8be68fa825"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/babel/locale/en/babel-english.tex",
+      "sha256": "4aae05e9125e81791e22edde092cfff5861ac4c596895825820f683d9d1a099a"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/babel/txtbabel.def",
+      "sha256": "ce807555b385a677d79116be742da128059c95442c062848d0f07f2bd838b057"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/bigintcalc/bigintcalc.sty",
+      "sha256": "050f2ad3a3671a1f4f9bcf97784836301bc751507e7ada546632379406aea103"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/bitset/bitset.sty",
+      "sha256": "af5c7196c69dc9d28225189169b60c9b9039125bc1756c04d54886f0a3e1891e"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/gettitlestring/gettitlestring.sty",
+      "sha256": "26ab10fd43fd5a90f98bcbed3a99978808da8878eb73835db4e0346371aee41e"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/iftex/iftex.sty",
+      "sha256": "0dc0cefe2131f82330a3b8e62034c184455329d7d9bb94abe21e740821630381"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/iftex/ifvtex.sty",
+      "sha256": "1138730b9ad7d9f664b4760a4ea0ae0945afd21c006b76b67e623e863bbf3756"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/infwarerr/infwarerr.sty",
+      "sha256": "8c3e23b8bb7d940ff26cb0cf96e0151f540acf55020dc3c1aa8bcdb2eb66305c"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/intcalc/intcalc.sty",
+      "sha256": "1343ba1b10b245bfd199c22947249af1d756808690c7811c90f07fe0a3772080"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty",
+      "sha256": "c42f0c2628dc5fbd95b535cf8cd3cc964347653c099d38c0d416f896d84e8240"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/ltxcmds/ltxcmds.sty",
+      "sha256": "8fea89995d37ba4c69137186faafc589c470edcc5026d8a31aadbe5cef47dcb4"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pdfescape/pdfescape.sty",
+      "sha256": "b3f0e56366c11b85dae521f9a48a6fd415dec1ce8c83152fde813a9f64445b49"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty",
+      "sha256": "2df7e0bd148c99d8097352b8ac9948dccf91d61ba360dcf43f82206933b6045b"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex",
+      "sha256": "ec94fcfeeda3204c4e43d2008be50b6005da0e642deafaead137284d66e82926"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex",
+      "sha256": "ffabc47530ac7058f6dff74bf3325ab114049dcedc51b2d8556f578b03311799"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex",
+      "sha256": "545c4616f93c5f5d25bc04090a0b7ef869bab84b3952fadfd539d71187c83fe0"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex",
+      "sha256": "81862c3425e8aa2a82e605eb8fde07b1b7b47862b981922393d4f54ca9fa6250"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex",
+      "sha256": "758e504e9c194cf9bbed098700b1d7969420e9a87552222d3000084a9d095571"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex",
+      "sha256": "743e89ac1e529af45751fa85fde4b3438284a63dfd53ff52c94c2f229b20beff"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex",
+      "sha256": "541e41626d66e0e8bc8b5249805c9efbb134dfe0dc85c63102eea3c2d21da6f0"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex",
+      "sha256": "64b0b4193616b937a2b4520c678f8863ae06ab38385bb58db437b39a8f27719b"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex",
+      "sha256": "359d413e7bb9d37f0fddc6ea5827415f6c73db584e781f6b2e2521059b595285"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex",
+      "sha256": "165569c2ffb6a80272d2853c3d3c4373c386391e8cbb81ed9683ae2a810dd28c"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex",
+      "sha256": "f91d37fcda30e70ae85fbd9030682bc64df4424fc1260704def57dc6c444a63a"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex",
+      "sha256": "7533dd80c95a5124726b0a617a5f458226d4a7490bcd209e3fd7e717e24dc127"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex",
+      "sha256": "6143371709342ea83dcdb1744a229d18f4c1ee670e1e31b496046a708bfa3e66"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex",
+      "sha256": "0bc32a855862a83b7ece27d2ebf6bfeace759d6b64fb776394eee13d62401350"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex",
+      "sha256": "cd9bb9fbaac3f5bca5bedd77ca07a8c4457467869e2303fdf2b446a30dca9f9f"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex",
+      "sha256": "42ff3f6524037f73b44d16fe0abeae93a72407950b6a9b176f4d6a2a3f6e9fdb"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex",
+      "sha256": "bdea875774b4ad7a1e12debc67c46286245031f5c2e287c9e192f3ca4b6193b6"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex",
+      "sha256": "ea5e14f7fade556cee79636a6824710e97db928542fc1b23dfa618ff6448688e"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarysvg.path.code.tex",
+      "sha256": "25aff5307040e0f118d6703e6766210ed9fbacf52e6465b7ec73c4c179d8011f"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex",
+      "sha256": "992706da31e055cdbecf5b1bf1b9c267383e3b4d4385773448f868e1cabf17f2"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex",
+      "sha256": "5cf22e53ee27e044a06a4aebdd77924101a491915021428a61cd6ff3ff2c8e0e"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex",
+      "sha256": "b3db772dd8eb595d8a5c8ef8d232862f9cef97d4ac9dedee283ad7b6e83361dd"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/libraries/pgflibrarysvg.path.code.tex",
+      "sha256": "aaa2d11b0c075f20340c7ee531e9b0ee3b88ea39b4b75ae71945128d2d7879b7"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/math/pgfint.code.tex",
+      "sha256": "95f8053efeeb2267d543d8d1afb10195d6114765eea7b90755b4e0c359324d64"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/math/pgfmath.code.tex",
+      "sha256": "7fa0ff434e9cdeb14c40f326d53e6ea0273ef2046daf28987992e2488d186c85"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex",
+      "sha256": "58fcc94547646458470315a6d10953a9729e7962e3def5273633b06fb444a5aa"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex",
+      "sha256": "ccd576f7cebab3a0c5d5cdef41fc44e638d7bb4a20e0a0465160eba1757795e5"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex",
+      "sha256": "f83601dd74e8c166162cb3daf926744c44ccf15a0122e17613658f82fa64c6a9"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex",
+      "sha256": "c94abbd89ad0556546d9e5053af16b58ce7f38d19c379b27309e5fefd23908f8"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex",
+      "sha256": "9758185623cce6b2a8d4a504d10dfd0a01ef6d3480794fa4c466384f4c08540c"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex",
+      "sha256": "ea5ff35778088d94d8d2f1a20075ec57cc4ecd22844f9c288625a6db59ba7818"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex",
+      "sha256": "6e9383c1e63a6dbcfd2d95369905df566bdb6e7374c06e28c15a25eb782dc46b"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex",
+      "sha256": "51038be668b2083ac5e8ae38a1da6f75091ee9471d71f33749d01a8bff1a9aa6"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex",
+      "sha256": "968308d364b4f31f2a787adf32c3df7d87959a519c4eb5c8b47bedde4311ab95"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex",
+      "sha256": "9b980e1373f9451da75cc6030a5b4c1671b88a1b14b45ed172cfb7cf2607fe1f"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex",
+      "sha256": "1c8834abe00807467a52d31ef96032d5084b2560eea45995018084d13a3cde3c"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex",
+      "sha256": "317b4a8059ee9afd04b052dd2974c1c9a059d1b8e301f9578efa9ac0b9984990"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex",
+      "sha256": "cda208d98bdc556a06f5915571c6ce4d98c18aa639c4782a56c6d32a6ba68055"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex",
+      "sha256": "ceafd7c1de02bde3d5a7570489ed6a150db51aabd658c1c78acf1ee5b5f89c6e"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/modules/pgfmoduleparser.code.tex",
+      "sha256": "e52059b1c85f61bf4529a77abaeff0f5728b33fbea17e9af003cc9df97ddddec"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex",
+      "sha256": "58a2c1ff27de97cb32b19ce95a4182d85369304980da9f1b21e4a1fddf4d666d"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex",
+      "sha256": "01dd81e3f2c56a8db7864916ada1a5036964aff2e8176aafd4773244e236bb27"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/pgf.revision.tex",
+      "sha256": "8c056cfd919cca2dc5e398c776865e1af6a8605ab9d715f452aa68327164b52d"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg",
+      "sha256": "eb308ac3d665db8dd3c03b18328c551609346c659c2ce0e5029223fbcc339cb3"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def",
+      "sha256": "babfe19163bca9c6fa5b1abb6b6154cd0d1ca98888f08f1bf7d06a74de5fd330"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def",
+      "sha256": "c1200f3d129912978bbd41684ffee42e960bf9a776768a5b9f57557140113f7d"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex",
+      "sha256": "97d841d782de156f192fb9866c76ec65d28dabdf186cb4700094d0a5a13eadab"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex",
+      "sha256": "818b8e3cd0606bdb8ac7fbaccc5f80033672fa817537536f76bc67bc3942928c"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex",
+      "sha256": "6ea4caeea5bcb6cd60b80ef4607e8a79824ec0cdcebb47424c1bdbe0c2ea6671"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex",
+      "sha256": "5787859fab7c72cc3dfd7134e78bbb0e770a43e7da39f93732c24232249fdde8"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex",
+      "sha256": "212f64f8641fb944a006a3c0825e78d30b0a2c5e3b4c4d62ff59ef61214caeed"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex",
+      "sha256": "68cd7046c23f0c5d5775e5f481d14577f1d62bfe1dce1605387d46490edf7e5c"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex",
+      "sha256": "6d28f51c1b4cb933969339982286f86bb1c9af70ed34535482321de4cd491664"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex",
+      "sha256": "ff576d97434040185004b8be9b40804b9e9f95ae225719583c4376d8718e9f06"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def",
+      "sha256": "72036598130f2477df66608d26ab7008eb87a18b09fbe0c7eed9c63188720c77"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/stringenc/stringenc.sty",
+      "sha256": "b134a7bba648a6987afc83ddfb6a3fcdad43bcae6b616e533eb484306d56ac45"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/generic/uniquecounter/uniquecounter.sty",
+      "sha256": "9d11c81501953d689787ff14c073d2f1eda5874068db9e882b8dbbf9a9d863b0"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/amscls/amsthm.sty",
+      "sha256": "8d5e2bdb117297385971927b14fe4804314133dc0027b3171249a08280894626"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/amsfonts/amsfonts.sty",
+      "sha256": "dab8b0e621267acfd89736cf97bdcc02647c545c0719c4997be8a7d1bf98f9c3"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/amsfonts/amssymb.sty",
+      "sha256": "70838b061b56569dd3ed9f339b1bdd1c78ba185de49f27ceae331c97f48b5986"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/amsfonts/umsa.fd",
+      "sha256": "48355e960333be747dd7b4500e76fde7c3ef0b1fa9c74ec0f1438af0d3a661a4"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/amsfonts/umsb.fd",
+      "sha256": "e20f21f6ed631cbe3a627d5da5fef82367732a7d51207f8df5ee7e9c77ee342e"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/amsmath/amsbsy.sty",
+      "sha256": "c09b1b14dfe8a81b6791673b3bc5a7fd8b794fb063b6e8b5ce79fc28c7e59c8c"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/amsmath/amsgen.sty",
+      "sha256": "e7ef677a56e22d8da915e613c65fe2d4c2fe8744ffb283c2ccfdfc066e45e158"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/amsmath/amsmath.sty",
+      "sha256": "4c0bfd7d67ea18214810a21244f8426da40d04af5bb90ed201b85cc5e211d321"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/amsmath/amsopn.sty",
+      "sha256": "c50239a5acc1037ff4df482878e5546be3cd9b8ac725151bc14748a103d800a8"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/amsmath/amstext.sty",
+      "sha256": "7a6d33e95e168f90cec6d4172aeae7da885924a8f587ccc11817e1dab4d50ba9"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/base/article.cls",
+      "sha256": "f9c8770a909e5b6526eb72284e457cd379b9bedbf3b508a96bd7f922d4cb24ec"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/base/fontenc.sty",
+      "sha256": "9ac0a88ddda40526aa1ec403c27a6325d3723c14fa9f02918011a79f93a72ef0"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/base/inputenc.sty",
+      "sha256": "0412ab9eb3d7c9dddfa53b9b6ad7e2e75bc9bd00833b36b1455bbf8e4f273ab1"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/base/size11.clo",
+      "sha256": "f2a208d3ff388ce24290aac6a36c9edb20e10bc7ea5b5a6222e965b91fc4132d"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/booktabs/booktabs.sty",
+      "sha256": "3fe694a5406f84847143e56ba1841385364277cfe7694a9f4bc0072ca8656abc"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/caption/caption.sty",
+      "sha256": "94b3a07d83bfdc9171d3fcb5ea510e6a9ce01ff9bebac37a1dc066e55f6ad48f"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/caption/caption3.sty",
+      "sha256": "73f00aabd0be454c9e552841856c573e096ef42d032fe9fd1801763b1b37bea5"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/caption/ltcaption.sty",
+      "sha256": "314e0af4d7edcc038eb4dab681b2ccb472d4282f282f4188c8154c2403eb842e"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/cleveref/cleveref.sty",
+      "sha256": "58d7e2b67b8b165ec1c7e12dd2ea6edc807d5a61f68cb316267cea44fe128ef9"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/enumitem/enumitem.sty",
+      "sha256": "628ef5b6916c682f586a066e735ceb6191e73fe3216dfb2fb4aa8e2f4c819dba"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty",
+      "sha256": "3d2226e3d68b4255061baa496cc9cbc107816a7d364720c1bd8c83dccb047b64"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/etoolbox/etoolbox.sty",
+      "sha256": "e48026fcea59b4906d1fd47bde658cb5caf0a7928c45a45ea563b18d5b40ebd4"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/fancyhdr/fancyhdr.sty",
+      "sha256": "9130c52f91087abc6d223164ffa587e207e3257fcbcd069ef09ecb5391043f14"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/geometry/geometry.sty",
+      "sha256": "d541ce56a3f45e2462be958ec62a50404213f26b241c7d7ad3e812685d38f5d8"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/graphics-cfg/color.cfg",
+      "sha256": "a3529ccdadc8248b4c5d7c34ceea53bdc1509b54f18a192ad51b924bd297d8df"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/graphics-cfg/graphics.cfg",
+      "sha256": "feb91e48789a21e4acced98e952c77a2e2cf4a77e01bf147b59fa56a1b3f2008"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/graphics-def/pdftex.def",
+      "sha256": "38361aed5c3534a46d63cd3cfd5cbb6367645c1d9b095cd2e45fd922ce821853"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/graphics/graphics.sty",
+      "sha256": "979abfd05c3f5453ebdc2683f2e2e1a24600255c7246e3708b5670168c7259c4"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/graphics/graphicx.sty",
+      "sha256": "90ffc59f1718ff399539023d15a5a2b14ce7d227b101c35ed64abcc7186c9338"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/graphics/keyval.sty",
+      "sha256": "d3faa310a1e4485b8efb1ed3ae8b11f9552e70b630dc35290a7aabdcd064b09a"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/graphics/mathcolor.ltx",
+      "sha256": "0804bb6e9e1eeeaeda861f29206d308194ea7cc846e38abaa344cdefa1d408cd"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/graphics/trig.sty",
+      "sha256": "3c1add9bf649d1bee7db64bae800afb3dfac21b793afbbe2263553e0de66c450"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/hycolor/hycolor.sty",
+      "sha256": "8acaa03eda19a8158780356701e905e354e1dc47dc736e6e26fc860c12a15e14"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/hyperref/hpdftex.def",
+      "sha256": "0ff9b4300334279fdaeaed7d43439568d899f20fea328c5d1f192a9fd084d65f"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/hyperref/hyperref.sty",
+      "sha256": "1fe197b16b3dcb90c9faa9810f737e5b154752527d4dd0484f880b675c3fedd1"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/hyperref/nameref.sty",
+      "sha256": "567afe6847e20afcd0cbc5898274b815055cf96db3bee2fc74b97b310d17f602"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/hyperref/pd1enc.def",
+      "sha256": "017bb5f1c982d7fb775e0c922dbf0ea2b4413992c29d14f6a0becdcfa193294f"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/hyperref/puenc.def",
+      "sha256": "bae2367565e88fcdeb1f23f4a402a6198881ff70f85d328fbfe93edb4fa46b64"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/kvoptions/kvoptions.sty",
+      "sha256": "70595629ec990ba8c0b6e6a54afcff2603464e6fce380a54a98549a78d2fc74a"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty",
+      "sha256": "e3fcf7f3372a27bb478eb9488eca1e25ed382480d02a6898f190bd955388e055"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/l3backend/l3backend-pdftex.def",
+      "sha256": "3bf193bc2caafa410a92881b34e997dddced870a7bfe73902118d62695c3c920"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg",
+      "sha256": "10db2171b6e267720299c10b9e84f92c5cf069941dbfe3760e198304e49d5324"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/lm/lmodern.sty",
+      "sha256": "d2877369dcb4bfe7b1b6bba1a3d96c46e93366459c9b46576f1b221009bbe359"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/lm/omllmm.fd",
+      "sha256": "0713fd8996320f03e8085c8da713bdc3a238b32c7ef83f5729151450d4bebbb5"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/lm/omslmsy.fd",
+      "sha256": "e1df006d08c2a73bba6b1a1f804e96160f2f8aeb7d8518b07da455b7dd45d1ff"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/lm/omxlmex.fd",
+      "sha256": "57ae2bb311d1126b02d61b9d26de8590d831f7f9a98ca1788cb62de920a495c1"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/lm/ot1lmr.fd",
+      "sha256": "51291fc1c1086c51d64f914ecc8051fe0dbe3f7601e89f2a5e18a5df5c6da1ea"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/lm/t1lmr.fd",
+      "sha256": "6b61abc8a6796f1884f819afcfc4c33558564f7e5c1d47b720e50ee15dba829a"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/lm/t1lmtt.fd",
+      "sha256": "eb5aca0fcd27d1d7d97d35e7a4d01eb12ba1a054f9fe1114a779c9ae084be602"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/lm/ts1lmr.fd",
+      "sha256": "ecda20924242346d91d241e19c89a9a36c7423dc76b1c94e4a3d4d8b51d235d7"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/microtype/microtype-pdftex.def",
+      "sha256": "591554be1f787c98c3b9751750c53eb35a848e9d7260951d42b54f02d29e308c"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/microtype/microtype.cfg",
+      "sha256": "38ed6ed6c40d85163281b6d45ad9949c9566acf5f9fa03b1363e42f18b5e1258"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/microtype/microtype.sty",
+      "sha256": "49f84ac779174f3295733b64fcf382fde6178b09c2c67c198fdf0167c2f3e71d"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/microtype/mt-cmr.cfg",
+      "sha256": "302d0751b785aff3eafd8fa714fd19548cc5669c562d3d6545175dec4095b30a"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/microtype/mt-msa.cfg",
+      "sha256": "1b338f55100686395d294258975d188876c6bed14f15393a2c4af610bd59280f"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/microtype/mt-msb.cfg",
+      "sha256": "859dceb86efcaf0f0762c76b541b8a1dfb091f0a2141764c6dc019c7d0354ffd"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/natbib/natbib.sty",
+      "sha256": "d9b0f6ed58f5c260d2df9435b97da23ca326e3596db8ef0681bbff7a14343603"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/orcidlink/orcidlink.sty",
+      "sha256": "388aba1cd284c5e50bfee6ca0e7aaba13b58ea0a2d2ed0c8e0cd4f85d3fec869"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/pgf/basiclayer/pgf.sty",
+      "sha256": "99e08946749446e0b9b7faa985f8202740a94476f9e99bab5286cca5ce4766e9"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty",
+      "sha256": "3a52a05062a74a763ee604b4a3d20f0be4a4b99fe8182373e30ccea0abafc96e"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty",
+      "sha256": "7df38d1bb03d0bf642b3f53c38d86641765d950f82d481ebd63c67838bc78ee7"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty",
+      "sha256": "b5a95ba245bb51ce01e5ead16e818a0024f16cd208df3386b30ba0798a911344"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty",
+      "sha256": "6e39ff4fdf9f126aff28880a7dd59fccc0e6735409d92ca455cdd2a4f2b4db53"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/pgf/math/pgfmath.sty",
+      "sha256": "4abed7d8c88642201dd1a932a435ae05a1f2659f1f7e95c72d6b5347c83d232a"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty",
+      "sha256": "cc7121c5706c5c52807aea879ca0a9083a8dc81b04d96303d0d398804d9d3d52"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/pgf/utilities/pgffor.sty",
+      "sha256": "5ae03317ea221a6f68d807775bd06a10625aa9fb1f590dbe2114688f735c447d"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty",
+      "sha256": "b90072b20d0590f23fd0ad273d059e3b7737319b3fb61e3bea6102fd77f24b3d"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty",
+      "sha256": "9653b8fae6bba95bec40ffbedd7d6c2b8f3be4a85b8b39580ab3ee6c3590041a"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/refcount/refcount.sty",
+      "sha256": "1bd5d42025520bef74f8808af99cf3f3be7d2e3774b9931bf85c11ba81bb6cab"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty",
+      "sha256": "7771d8fb8f76147d1d6fc5b205c8989feb270bafccd6021570cd7e5152ead1d6"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/titling/titling.sty",
+      "sha256": "3f0b5f2b4939b4c09e13aeebddbeea2c2eaafc1c0d10849a218d9977c8f83bbd"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/tools/array.sty",
+      "sha256": "537013de60c6606caecfc2eee9b81cd95f093ebb0f99b43277775073f00d9160"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/tools/longtable.sty",
+      "sha256": "aa616239c15b0d4ce13f35287cfe5309d2d53caac4f3a52fbb7a06e37f16594a"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/url/url.sty",
+      "sha256": "2373f56849ac606473e77053e5c1d14c92aba312b3f684e02a130eaf36f2de47"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-dist/tex/latex/xcolor/xcolor.sty",
+      "sha256": "478888f8e8f00345fd645b6cdd6fa7db1e9efdd6f585b25c89bb3665d9029295"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-var/fonts/map/pdftex/updmap/pdftex.map",
+      "sha256": "5c259d7a64f374d93c4c57fc382cbb0f1bf823e8319427aa3049288028c69df8"
+    },
+    {
+      "kind": "TeX_distribution",
+      "path": "texmf-var/web2c/pdftex/pdflatex.fmt",
+      "sha256": "f23ffb4417c98bd13d373fadfd9898e0c6deceb693ba38ad81d7ad8bef6d60bb"
+    }
+  ],
+  "latexmk_version": "Latexmk, John Collins, 9 March 2026. Version 4.88",
+  "licence_status": "MIT code / CC BY 4.0 paper, figures and released data; manuscript release identity comes from includes/release_metadata.tex",
+  "pdf_bytes": 719599,
+  "pdfs": {
+    "main": {
+      "appendix_pages": 13,
+      "command": "cd paper && latexmk -pdf main.tex",
+      "entrypoint": "main.tex",
+      "main_text_pages": 14,
+      "maximum_overfull_pt": 0,
+      "overfull_boxes_over_10_pt": 0,
+      "pages": 30,
+      "pdf_bytes": 719599,
+      "references_pages": 3
+    },
+    "supplement": {
+      "command": "cd paper && latexmk -pdf -jobname=supplement supplement/supplement.tex",
+      "entrypoint": "supplement/supplement.tex",
+      "heading_only_pages": [],
+      "maximum_overfull_pt": 6.11441,
+      "overfull_boxes_over_10_pt": 0,
+      "page_budget": 60,
+      "pages": 58,
+      "pdf_bytes": 459015
+    }
+  },
+  "typeset_table_previews": []
+}

@@ -1,0 +1,84 @@
+\section{Measurements}\label{sec:measurements}
+
+Each reported effect is read against a floor and a ceiling. For prediction,
+the ceiling is the exact law (zero KL and zero law error) and the main floor
+is the \emph{board-only predictor}, which knows the current board exactly
+but not the history. For probes, the floors are the majority class,
+shuffled labels and the network at update~0, and the ceiling is the same
+probe fitted on an exact sums carrier.
+
+\paragraph{Prediction: average and constructed tests.} \emph{Natural KL} is
+$\KL(\text{law}\,\|\,\text{prediction})$ in bits, averaged over 60,000
+positions (5,000 test episodes of 12 rounds); \emph{unseen KL} is the same
+quantity on test positions whose preceding pair of boards never occurred in
+training. Average error can be low while specific histories fail, so we also
+score \emph{law panels}: constructed histories made of an \Lcat{} or \Hcat{}
+anchor board followed by $k$ \Ncat{} boards, $k = 0,\dots,8$, with 32
+variants per anchor and length (576 histories). The \emph{law TV} is the
+total-variation distance between the prediction and the law at the end of a
+history. The \emph{short panel} covers the anchors and
+$\Ncat^1$--$\Ncat^2$; the \emph{long panel} covers $\Ncat^3$--$\Ncat^8$.
+
+\paragraph{Passing.} A run \emph{passes} when it meets every prediction
+criterion registered for its study at the fixed 20,000-update endpoint. For
+the original task under the original law these are: natural and unseen KL at
+most 0.01 bits; maximum law TV at most 0.02; witness recovery (the share of
+the history effect captured one step after the anchor) at least 0.8; and
+prediction TV at most 0.02 under rerendered boards and on the registered
+state-intervention panels. The equal-law control and r10 use their own
+criteria; r9 and the erosion replays have no pass endpoint. Complete
+criteria for every study are in the supplement (\cref{app:measurement}). A pass is a statement about these criteria, not
+exhaustive correctness.
+
+\paragraph{Census.} To locate failures on boards rather than histories, we
+score every completed sum board after an \Lcat{} anchor and after an \Hcat{}
+anchor. The two predictions form the board's \emph{signature}. A
+\emph{categorical misread} is a board whose signature is closer to the exact
+signature of a wrong category than to that of its own. A \emph{TV-error
+count} is a board whose larger prediction TV over the two contexts exceeds
+0.02. These are different measures and we never merge them: a board can miss
+the 0.02 bar without being misread. Misread signatures are undefined under
+the equal law.
+
+\paragraph{Recoverability.} A \emph{probe} is a classifier fitted after
+training on frozen internal states, the raw carrier or the upper state, that
+predicts one slot's sum. It is fitted on 2,048 boards and scored on 512
+other boards per slot. We use linear probes and one-hidden-layer probes of
+width 64. A sum is \emph{recoverable} when the probe scores above the
+majority-class and shuffled-label floors. Separately, the probe's
+\emph{gain} is its improvement over the same probe on the network at
+update~0, with a paired 95\% interval over the evaluation boards. That
+interval describes probe uncertainty for one network, not variation across
+seeds, which we report as per-seed values.
+
+\paragraph{Computation and preservation.} \emph{Local exactness} is the
+fraction of the 1,555 local histories for which a sums output is exactly
+correct. \emph{Board-vector exactness} is the fraction of the 24,435
+completed sum boards whose five-sum vector is correct; the early readouts of
+the r11 erosion continuation use a fixed sample of 128 boards instead.
+Preservation is the change in these quantities during further training from
+an exact start. To compare optimizers whose steps differ in size, we track
+\emph{cumulative movement}: the sum over updates of the Euclidean norm of
+each parameter step of the sums network.
+
+\paragraph{Access and use.} Recoverable is not used. We say the prediction
+\emph{uses} a quantity only when one of two kinds of evidence supports it: a
+matched comparison that changes only how the quantity reaches the prediction
+(connected versus disconnected, one-hot versus numerical), or a calibrated,
+selective swap test. In the swap test (r10), the raw carrier of the
+networks that read only records is mapped by a fitted orthogonal alignment onto
+coordinates that track the five sums, and the three-coordinate block for the
+queried slot is replaced with the block
+from a donor board that differs only in that slot's value. \emph{Donor-follow} is the fraction
+of accurate pairs for which the patched prediction is closer to the donor's
+law than to the base board's; \emph{selectivity} requires that the other
+four slots' decoded sums do not change. Calibration on a trained positive
+and two negatives, selectivity, and the evaluated result are reported
+separately (\cref{app:measurement,app:calibration}). A swap that fails
+selectivity under one alignment does not show that the quantity is absent or
+unused; it shows only that this test cannot support use.
+
+\paragraph{Calibration.} Every bar was checked by running its deciding
+function on known positive and null cases before results were interpreted.
+A calibration pass shows that an instrument can discriminate; it is not a
+result about any network.

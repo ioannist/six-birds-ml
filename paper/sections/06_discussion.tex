@@ -1,0 +1,62 @@
+\section{Discussion}\label{sec:discussion}
+
+\paragraph{What we learned.} Training a network on an upper theory gave it
+the lower theory only in a jagged form, and that jagged form is where its
+jagged competence came from. The network did learn something of A: the part
+of A that B depends on became readable, while the parts B ignores became less
+readable. But
+what it learned was uneven in the places that matter for B. Category misreads
+concentrated near the slot-1 cutoffs, where B's categories change, even
+though a probe could read the slot-1 sum on 97--98\% of boards;
+when A was trained as an explicit output it was largely but not exactly
+right; and part of the prediction's failure sat where this partial A failed.
+Seen this way, jagged competence is not noise on top of an otherwise correct
+solution. Uneven acquisition, access and preservation of A explain part of
+B's jagged competence; some failures remain unexplained. When B instead needed all five sums
+(the all-slots task), all five became readable, which suggests that the
+jagged form of A follows what B asks of it; that comparison is historical
+and crosses tasks.
+
+\paragraph{Knowing an intermediate is not one thing.} Our second lesson is
+that ``the network knows A'' hides five separate facts. A can be readable
+without established exact computation, computed without reaching the
+prediction, delivered in a form that supports less reliable prediction, or
+lost under further training, and an exact, delivered A can still leave
+failures in B. Matched comparisons isolate the effects of connection,
+encoding and prediction gradients: connecting a learned A to B cut misreads
+by up to 17-fold, the same exact A gave fewer misreads as one-hot inputs
+than as numerical inputs, and a single B update made an exact A inexact unless the
+B gradient was blocked. Having the right information is therefore not enough;
+how it reaches the decision, in what form, and whether it survives training
+all matter. Nor is more supervision of the intermediate automatically
+better: networks also trained to output the sums had more misreads (473--815)
+than networks trained on the prediction alone (58--328) in r13's
+sampled-target condition (\cref{sec:res-noise}).
+
+\paragraph{Jaggedness has locatable sources.} The known layers let us
+distinguish several sources of failure: missing access, missing
+preservation, a less usable encoding, noisy targets, and history coverage,
+assessed in a historical comparison. Some cases remain unexplained: 19 of the 42 diagnosed
+r12 histories that exceed the diagnostic bar, and the residual failures with
+exact sums. Average error and probe accuracy each looked healthy while these
+failures were present, so neither alone establishes complete, reliable
+realization of the task. ``Jagged'' names the phenomenon; this account, not the
+word, is the explanation.
+
+\paragraph{Relation to other accounts.} Coverage-based accounts explain
+jaggedness by gaps in what a system has seen \citep{gans2026}; history
+coverage is one such factor here, but the access, preservation and encoding
+effects appear in matched comparisons with identical training data, so
+coverage alone does not account for them. Other studies report gaps between
+what probes read and what outputs do \citep{basu2026,darade2026}; our
+connection experiment shows one way such a gap can cause errors and be
+reduced.
+
+\paragraph{What we expect to carry over.} We expect the two measurement
+cautions to hold wherever the same measurements are used: low average error
+does not establish reliability on constructed histories, and recoverability
+does not establish predictive use. Whether learning an upper theory yields a
+jagged lower theory in larger systems is a test to run, for example by
+checking which parts of a known intermediate become readable under
+final-output training, whether a learned intermediate output is used by the
+main prediction, and whether downstream training preserves it.

@@ -1,0 +1,11 @@
+{
+  "schema": "public_scientific_specification_v1",
+  "original_record_sha256": "073448bc085dc4d14e5dbd4cbd83a34ef55ea6cc9a1f0452d0afcfdb785dad31",
+  "rules": {
+    "positive_donor_follow": 0.95,
+    "minimum_accurate_pairs": 20,
+    "pair_count": 1024,
+    "other_slot_changes": 0,
+    "unsupported_null": "descriptive, not a calibration gate"
+  }
+}

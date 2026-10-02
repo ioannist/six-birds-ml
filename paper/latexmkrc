@@ -1,0 +1,6 @@
+$pdf_mode = 1;
+$out_dir = 'build';
+$aux_dir = 'build';
+$pdflatex = 'pdflatex -interaction=nonstopmode -halt-on-error -file-line-error -recorder %O %S';
+$bibtex_use = 2;
+# No source from another manuscript and no machine-local build commands.

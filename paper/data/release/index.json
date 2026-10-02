@@ -1,0 +1,173 @@
+{
+  "files": [
+    {
+      "bytes": 32370,
+      "path": "data/release/table1_full.json.gz",
+      "rows": 32,
+      "sha256": "94160432aab78e6ede8e47f8c24ad10973c9df46f1d17ab9818942f239e7e7b7"
+    },
+    {
+      "bytes": 12671,
+      "path": "data/release/table2_full.json.gz",
+      "rows": 41,
+      "sha256": "d7984be76a7d641fdc988e8a8c3715835cc19536bc7e3b3fc61321340f5a4244"
+    },
+    {
+      "bytes": 10778,
+      "path": "data/release/appendix_B_census.json.gz",
+      "rows": 453,
+      "sha256": "81a6d361c89ebdb984c6f7659bbde313de840be1dd1a9384410049e7a6ba0da7"
+    },
+    {
+      "bytes": 21483,
+      "path": "data/release/appendix_E_probes.json.gz",
+      "rows": 840,
+      "sha256": "a47631d0c0b7bd3b5044f2e1ce77e0a6cb91f6e818a4edc88da70c5145a0ee0d"
+    },
+    {
+      "bytes": 71669,
+      "path": "data/release/appendix_C_calibration.json.gz",
+      "rows": 3927,
+      "sha256": "15dffdf4ab555e9365fb453947bfa32ec9a21b697d9c709ab0740188f670d4c6"
+    },
+    {
+      "bytes": 1932,
+      "path": "data/release/appendix_E_geometry.json.gz",
+      "rows": 36,
+      "sha256": "36f448efb885b5d3d61e8226ee9605ecfc92998f055b0959956b3ce6e96d168f"
+    },
+    {
+      "bytes": 283158,
+      "path": "data/release/appendix_D_erosion.json.gz",
+      "rows": 2412,
+      "sha256": "1f19b05ece2f607d548205c304d89b9c1efcbf3e081f95663d0fb676869e7878"
+    },
+    {
+      "bytes": 623,
+      "path": "data/release/appendix_A_history.json.gz",
+      "rows": 6,
+      "sha256": "60b14f9c7ce10c22d3b670198a093a61dc47916a51f6b064b1da697f349e6ff8"
+    },
+    {
+      "bytes": 7966,
+      "path": "data/release/appendix_F_compute.json.gz",
+      "rows": 445,
+      "sha256": "8a49cc8cca20f8b02af132159b2e3de6affa3070ac2e36ede672ba1c21d561ab"
+    },
+    {
+      "bytes": 36908,
+      "path": "data/release/appendix_E_r11_probes.json.gz",
+      "rows": 1920,
+      "sha256": "95297a5d701680bcdb5dbd8f158c5ab72d971c2083e7432dabb06d82a7c0fa7c"
+    },
+    {
+      "bytes": 23355,
+      "path": "data/release/appendix_E_r12_probes.json.gz",
+      "rows": 1200,
+      "sha256": "25515d1acfa672647b3200d64f6cd47fa8b530e4cb4c7a1b618b9ad89cb383d3"
+    },
+    {
+      "bytes": 20984,
+      "path": "data/release/appendix_B_support.json.gz",
+      "rows": 2166,
+      "sha256": "f0164854c05fc825405e9aa14427cc85e17b9eb9cf1cf9635ad1efa1ece5187e"
+    },
+    {
+      "bytes": 38656,
+      "path": "data/release/appendix_B_laws.json.gz",
+      "rows": 1218,
+      "sha256": "f744ca3b8172ee460ed2183e564c6a0315a101b4a737c166da78aba68774d5c0"
+    },
+    {
+      "bytes": 14114,
+      "path": "data/release/appendix_E_original_geometry.json.gz",
+      "rows": 396,
+      "sha256": "c3580d0354502778931cc1992bcb5088df33eea60a056e8d4da87b15fa2ac29f"
+    },
+    {
+      "bytes": 4453,
+      "path": "data/release/appendix_C_interchange.json.gz",
+      "rows": 90,
+      "sha256": "ce5cfea7ccb778f9c4576dc39414d84444dd4634fb0cf66627b6514c805eb244"
+    },
+    {
+      "bytes": 32749,
+      "path": "data/release/appendix_B_r10_coverage.json.gz",
+      "rows": 3240,
+      "sha256": "8da7c2abb8bc5a3ee3ce734a7029e85adbd45282194b754aecbd0409aa01a501"
+    },
+    {
+      "bytes": 2567,
+      "path": "data/release/appendix_B_r8.json.gz",
+      "rows": 18,
+      "sha256": "544816d80e9aa35bdaf21b61810e3c17c0c7938f18ea8e5fce4b569ba74738dc"
+    },
+    {
+      "bytes": 982,
+      "path": "data/release/prepared_r8.json.gz",
+      "rows": 21,
+      "sha256": "b7058a66f5c90aa8c6dae96ff702c745de1d051c738af97b1758f41df634c777"
+    },
+    {
+      "bytes": 1601,
+      "path": "data/release/appendix_B_r9.json.gz",
+      "rows": 9,
+      "sha256": "67a07f45589906f4cefba709fa6c1100aace2b5cc8435c9664735f96d34ff4f6"
+    },
+    {
+      "bytes": 440,
+      "path": "data/release/prepared_r9.json.gz",
+      "rows": 2,
+      "sha256": "e7b7ed41e594ec831f1141cb34c8a6b5078f0010a6f2980a5ff255bc561318a0"
+    },
+    {
+      "bytes": 3725,
+      "path": "data/release/appendix_B_r10.json.gz",
+      "rows": 18,
+      "sha256": "708f78a3fb3c10cc3e6266b3aabe3541cd87ae3912118f8029bfaf67787ae6bb"
+    },
+    {
+      "bytes": 3066,
+      "path": "data/release/prepared_r10.json.gz",
+      "rows": 61,
+      "sha256": "1e979a1b0665c5343f885732fb83e156a2ca3577e70aa26ec7bac785854dbfb3"
+    },
+    {
+      "bytes": 19691,
+      "path": "data/release/appendix_B_r11.json.gz",
+      "rows": 48,
+      "sha256": "729ebc221acfa49c85c8bafaaf2b7d226bbca03ff489a104d013ae1c0ad509bc"
+    },
+    {
+      "bytes": 2071,
+      "path": "data/release/prepared_r11.json.gz",
+      "rows": 54,
+      "sha256": "7c1d28d0a0760be8d826dbf9a4daf9a87162504c27617023c21a00e33ca94c88"
+    },
+    {
+      "bytes": 8837,
+      "path": "data/release/appendix_B_r12.json.gz",
+      "rows": 30,
+      "sha256": "237ec16ab108abc1a90f98f81bec31405a710667006af8b3bb5497a20ee5b50a"
+    },
+    {
+      "bytes": 2164,
+      "path": "data/release/prepared_r12.json.gz",
+      "rows": 51,
+      "sha256": "e3a75df377f91662b9c44c120207b1d156ff5f19f54111ae6b927d8dc76ec956"
+    },
+    {
+      "bytes": 16669,
+      "path": "data/release/appendix_B_r13.json.gz",
+      "rows": 45,
+      "sha256": "3821c0dd7b6f1632accc19fa98b3b962f6c73f6f5d95506e2a4101f61a737a88"
+    },
+    {
+      "bytes": 2792,
+      "path": "data/release/prepared_r13.json.gz",
+      "rows": 233,
+      "sha256": "1f7994dae84e9bc41e198d4f29327f1badfdb79e21ae7eac21d6c6b4ab70091c"
+    }
+  ],
+  "schema": "jagged-table-release-v1"
+}

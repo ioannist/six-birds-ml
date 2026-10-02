@@ -1,0 +1,58 @@
+% Built from ledger-bound values; edit the script, not this table.
+\begingroup\fontsize{8}{9.5}\selectfont\setlength{\tabcolsep}{3pt}\emergencystretch=1em\hyphenpenalty=10000\exhyphenpenalty=10000
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.000in}>{\raggedright\arraybackslash}p{3.900in}@{}}
+\caption{r13 sampling, training and registered criteria. Read directly from the hash-verified registration (r9: read-only scope). This table retains declared sampling, truncation, coverage, loss, settings and criteria, not inferred hardware. Long verbatim readings, r10's full rational conditional-frequency table and source identities remain in the manifest-bound registration; r10 is a different task. Analytical reduction only; exact per-cell and per-update rows remain released. Detailed records: paper/\allowbreak{}data/\allowbreak{}release/\allowbreak{}prepared\_\allowbreak{}r13.json.gz (schema and SHA-256 in release/\allowbreak{}index.json).}\label{tab:prepared_r13}\\
+\toprule
+\textbf{registered property} & \textbf{value} \\
+\midrule\endfirsthead
+\toprule
+\textbf{registered property} & \textbf{value} \\
+\midrule\endhead
+\midrule\multicolumn{2}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+settings/\allowbreak{}CPU\_\allowbreak{}threads\_\allowbreak{}per\_\allowbreak{}process & 1 \\
+settings/\allowbreak{}MLP\_\allowbreak{}probe/\allowbreak{}fit\_\allowbreak{}device & audit\_\allowbreak{}device \\
+settings/\allowbreak{}MLP\_\allowbreak{}probe/\allowbreak{}learning\_\allowbreak{}rate & 0.03 \\
+settings/\allowbreak{}MLP\_\allowbreak{}probe/\allowbreak{}updates & 100 \\
+settings/\allowbreak{}MLP\_\allowbreak{}probe/\allowbreak{}width & 64 \\
+settings/\allowbreak{}audit\_\allowbreak{}steps & [0, 1000, 2000, 5000, 10000, 15000, 20000] \\
+settings/\allowbreak{}batch & 256 \\
+settings/\allowbreak{}criteria/\allowbreak{}KL\_\allowbreak{}bits & 0.01 \\
+settings/\allowbreak{}criteria/\allowbreak{}TV & 0.02 \\
+settings/\allowbreak{}criteria/\allowbreak{}witness\_\allowbreak{}recovery & 0.8 \\
+settings/\allowbreak{}epsilon & 1e-08 \\
+settings/\allowbreak{}equivalence\_\allowbreak{}tolerances/\allowbreak{}discrete\_\allowbreak{}state & exact \\
+settings/\allowbreak{}equivalence\_\allowbreak{}tolerances/\allowbreak{}optimizer\_\allowbreak{}moments/\allowbreak{}atol & 3e-05 \\
+settings/\allowbreak{}equivalence\_\allowbreak{}tolerances/\allowbreak{}optimizer\_\allowbreak{}moments/\allowbreak{}rtol & 3e-05 \\
+settings/\allowbreak{}equivalence\_\allowbreak{}tolerances/\allowbreak{}parameters/\allowbreak{}atol & 3e-05 \\
+settings/\allowbreak{}equivalence\_\allowbreak{}tolerances/\allowbreak{}parameters/\allowbreak{}rtol & 3e-05 \\
+settings/\allowbreak{}erosion\_\allowbreak{}steps & 200 \\
+settings/\allowbreak{}futility/\allowbreak{}closure & (initial\_\allowbreak{}excess - current\_\allowbreak{}excess) /\allowbreak{} initial\_\allowbreak{}excess \\
+settings/\allowbreak{}futility/\allowbreak{}current\_\allowbreak{}excess & mean of last 100 per-batch excess\_\allowbreak{}prediction\_\allowbreak{}loss \\
+settings/\allowbreak{}futility/\allowbreak{}initial\_\allowbreak{}excess & B\_\allowbreak{}0 - F\_\allowbreak{}0 \\
+settings/\allowbreak{}futility/\allowbreak{}natural\_\allowbreak{}KL\_\allowbreak{}and\_\allowbreak{}supervised\_\allowbreak{}sums & unchanged \\
+settings/\allowbreak{}futility/\allowbreak{}nonpositive\_\allowbreak{}initial\_\allowbreak{}excess & loss criterion unavailable; do not stop \\
+settings/\allowbreak{}linear\_\allowbreak{}probe/\allowbreak{}C & 10 \\
+settings/\allowbreak{}linear\_\allowbreak{}probe/\allowbreak{}class\_\allowbreak{}weight & balanced \\
+settings/\allowbreak{}linear\_\allowbreak{}probe/\allowbreak{}estimator & torch\_\allowbreak{}multinomial\_\allowbreak{}logistic \\
+settings/\allowbreak{}linear\_\allowbreak{}probe/\allowbreak{}fit\_\allowbreak{}device & cpu \\
+settings/\allowbreak{}linear\_\allowbreak{}probe/\allowbreak{}fit\_\allowbreak{}threads & 1 \\
+settings/\allowbreak{}linear\_\allowbreak{}probe/\allowbreak{}max\_\allowbreak{}iter & 5,000 \\
+settings/\allowbreak{}linear\_\allowbreak{}probe/\allowbreak{}solver & LBFGS\_\allowbreak{}strong\_\allowbreak{}wolfe \\
+settings/\allowbreak{}linear\_\allowbreak{}probe/\allowbreak{}standardization & training\_\allowbreak{}mean\_\allowbreak{}and\_\allowbreak{}population\_\allowbreak{}scale \\
+settings/\allowbreak{}linear\_\allowbreak{}probe/\allowbreak{}tol & 1e-05 \\
+settings/\allowbreak{}loss & 0.5 natural-position mean + 0.5 coverage-endpoint mean; A active rounds x five slots \\
+settings/\allowbreak{}lr & 0.003 \\
+settings/\allowbreak{}maximum\_\allowbreak{}processes & 3 \\
+settings/\allowbreak{}numerical\_\allowbreak{}encoding & (sum\_\allowbreak{}twelfths/\allowbreak{}36,1-sum\_\allowbreak{}twelfths/\allowbreak{}36,0,...,0) \\
+settings/\allowbreak{}precision & float32 \\
+settings/\allowbreak{}probe\_\allowbreak{}steps & [0, 5000, 20000] \\
+settings/\allowbreak{}steps & 20,000 \\
+settings/\allowbreak{}supplier\_\allowbreak{}ST & hard + soft - stop\_\allowbreak{}gradient(soft) \\
+settings/\allowbreak{}wd & 0.01 \\
+settings/\allowbreak{}widths/\allowbreak{}access & 1 \\
+settings/\allowbreak{}widths/\allowbreak{}encoding & 1 \\*
+settings/\allowbreak{}widths/\allowbreak{}erosion & 1 \\*
+settings/\allowbreak{}widths/\allowbreak{}noise & 3 \\
+\end{longtable}
+\endgroup

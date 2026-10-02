@@ -1,0 +1,52 @@
+## rarity
+rarity_cutoff_original_seed0       B_INCOMPLETE  lawTV=0.252 fails=law_TV,swaps           misreads=  2+[2, 1, 2] r9saved=1/101 A%=[0.2, 1.6, 21.4, 1.8, 3.4] vec=0.0
+rarity_cutoff_original_seed1       B_INCOMPLETE  lawTV=0.256 fails=law_TV                 misreads= 25+[21, 21, 31] r9saved=1/101 A%=[0.0, 1.0, 6.0, 1.1, 1.4] vec=0.0
+rarity_cutoff_original_seed2       B_INCOMPLETE  lawTV=0.208 fails=law_TV,swaps           misreads=  7+[4, 6, 3] r9saved=0/101 A%=[0.2, 1.0, 8.2, 6.4, 0.2] vec=0.0
+rarity_decoy_original_seed0        B_INCOMPLETE  lawTV=0.250 fails=law_TV,swaps           misreads= 54+[48, 40, 52] r9saved=1/101 A%=[0.4, 3.2, 24.3, 1.6, 0.9] vec=0.0
+rarity_decoy_original_seed1        B_INCOMPLETE  lawTV=0.257 fails=law_TV,rerender,swaps  misreads= 29+[30, 26, 30] r9saved=2/101 A%=[0.1, 0.4, 2.0, 0.8, 4.2] vec=0.0
+rarity_decoy_original_seed2        B_INCOMPLETE  lawTV=0.254 fails=law_TV                 misreads= 17+[14, 14, 18] r9saved=1/101 A%=[0.2, 0.2, 1.2, 6.4, 0.2] vec=0.0
+rarity_uniform_original_seed0      B_INCOMPLETE  lawTV=0.250 fails=law_TV,rerender,swaps  misreads= 21+[22, 17, 18] r9saved=1/101 A%=[0.5, 2.8, 26.1, 1.0, 2.7] vec=0.0
+rarity_uniform_original_seed1      B_INCOMPLETE  lawTV=0.252 fails=law_TV,swaps           misreads=  5+[10, 7, 12] r9saved=1/101 A%=[0.2, 0.2, 2.7, 1.2, 1.9] vec=0.0
+rarity_uniform_original_seed2      B_INCOMPLETE  lawTV=0.250 fails=law_TV,swaps           misreads=  9+[7, 7, 13] r9saved=1/101 A%=[0.2, 0.3, 3.9, 2.5, 0.2] vec=0.0
+## dose
+dose_dose100_original_seed0        B_INCOMPLETE  lawTV=0.266 fails=law_TV,rerender,swaps  misreads=298+[291, 304, 296] r9saved=0/101 A%=[97.7, 96.7, 95.6, 95.3, 96.2] vec=81.9
+dose_dose100_original_seed1        B_INCOMPLETE  lawTV=0.249 fails=law_TV,rerender,swaps  misreads=200+[194, 206, 200] r9saved=1/101 A%=[98.2, 95.9, 97.3, 97.3, 95.6] vec=84.69
+dose_dose100_original_seed2        B_INCOMPLETE  lawTV=0.270 fails=law_TV,rerender,swaps  misreads=406+[414, 398, 400] r9saved=3/101 A%=[98.3, 96.1, 95.5, 98.3, 95.6] vec=84.07
+dose_dose10_original_seed0         B_INCOMPLETE  lawTV=0.262 fails=law_TV,rerender,swaps  misreads=160+[156, 156, 152] r9saved=1/101 A%=[96.1, 93.6, 95.2, 93.2, 93.2] vec=72.24
+dose_dose10_original_seed1         B_INCOMPLETE  lawTV=0.262 fails=law_TV,rerender,swaps  misreads=214+[216, 218, 240] r9saved=2/101 A%=[95.9, 94.5, 92.2, 94.2, 95.0] vec=72.76
+dose_dose10_original_seed2         B_INCOMPLETE  lawTV=0.267 fails=law_TV,rerender,swaps  misreads=106+[101, 94, 103] r9saved=1/101 A%=[96.2, 93.3, 93.5, 94.1, 92.4] vec=70.49
+dose_dose1_original_seed0          B_INCOMPLETE  lawTV=0.253 fails=law_TV,rerender,swaps  misreads= 81+[75, 82, 70] r9saved=2/101 A%=[91.9, 90.1, 89.7, 86.5, 88.6] vec=51.14
+dose_dose1_original_seed1          B_INCOMPLETE  lawTV=0.258 fails=law_TV,rerender,swaps  misreads= 82+[87, 81, 88] r9saved=1/101 A%=[93.2, 87.7, 85.6, 88.8, 87.3] vec=47.51
+dose_dose1_original_seed2          B_INCOMPLETE  lawTV=0.258 fails=law_TV,swaps           misreads= 85+[93, 83, 96] r9saved=3/101 A%=[94.2, 88.5, 85.9, 90.8, 88.3] vec=51.76
+## erosion
+erosion_a_plus_b_original_seed0    B_INCOMPLETE  lawTV=0.252 fails=law_TV                 misreads=  0+[0, 0, 0] r9saved=0/101 A%=[100.0, 100.0, 100.0, 100.0, 100.0] vec=100.0
+erosion_a_plus_b_original_seed1    B_PASS        lawTV=0.017 fails=-                      misreads=  0+[0, 0, 0] r9saved=0/101 A%=[100.0, 100.0, 100.0, 100.0, 100.0] vec=100.0
+erosion_a_plus_b_original_seed2    B_INCOMPLETE  lawTV=0.024 fails=law_TV,rerender,swaps  misreads=  0+[0, 0, 0] r9saved=0/101 A%=[100.0, 100.0, 100.0, 100.0, 100.0] vec=99.93
+erosion_b_only_original_seed0      B_INCOMPLETE  lawTV=0.249 fails=law_TV,swaps           misreads= 32+[34, 29, 37] r9saved=1/101 A%=[45.7, 45.7, 45.7, 45.8, 45.8] vec=0.04
+erosion_b_only_original_seed1      B_INCOMPLETE  lawTV=0.258 fails=law_TV,rerender,swaps  misreads= 22+[20, 18, 29] r9saved=1/101 A%=[46.2, 46.2, 46.2, 46.2, 46.2] vec=0.12
+erosion_b_only_original_seed2      B_INCOMPLETE  lawTV=0.237 fails=law_TV,rerender,swaps  misreads=  5+[6, 4, 8] r9saved=1/101 A%=[38.5, 38.5, 38.5, 38.5, 38.5] vec=0.04
+## equal law, B endpoint + misreads
+rarity_cutoff_equal_seed0          B_PASS fails=[]
+rarity_cutoff_equal_seed1          B_PASS fails=[]
+rarity_cutoff_equal_seed2          B_PASS fails=[]
+rarity_decoy_equal_seed0           B_PASS fails=[]
+rarity_decoy_equal_seed1           B_PASS fails=[]
+rarity_decoy_equal_seed2           B_PASS fails=[]
+rarity_uniform_equal_seed0         B_PASS fails=[]
+rarity_uniform_equal_seed1         B_PASS fails=[]
+rarity_uniform_equal_seed2         B_PASS fails=[]
+dose_dose100_equal_seed0           B_PASS fails=[]
+dose_dose100_equal_seed1           B_PASS fails=[]
+dose_dose100_equal_seed2           B_PASS fails=[]
+dose_dose10_equal_seed0            B_PASS fails=[]
+dose_dose10_equal_seed1            B_PASS fails=[]
+dose_dose10_equal_seed2            B_PASS fails=[]
+dose_dose1_equal_seed0             B_PASS fails=[]
+dose_dose1_equal_seed1             B_PASS fails=[]
+dose_dose1_equal_seed2             B_PASS fails=[]
+erosion_a_plus_b_equal_seed0       B_PASS fails=[]
+erosion_a_plus_b_equal_seed1       B_PASS fails=[]
+erosion_a_plus_b_equal_seed2       B_PASS fails=[]
+erosion_b_only_equal_seed0         B_PASS fails=[]
+erosion_b_only_equal_seed1         B_PASS fails=[]
+erosion_b_only_equal_seed2         B_INCOMPLETE fails=['rerender']
