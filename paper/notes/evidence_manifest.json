@@ -1328,13 +1328,13 @@
     },
     {
       "archive_path": "repo/evidence/identity_projections.json",
-      "bytes": 58052,
+      "bytes": 60062,
       "id": "E-ef992b4dff39dada",
       "internal": {
         "path": "repo/evidence/identity_projections.json"
       },
       "role": "evidence",
-      "sha256": "8644b9edecd9f24e772eeb6f56574d3d4a745b13eb2b28616e5f0ecfdf1b9ea0",
+      "sha256": "00f9e8cd30e0e250c556879501aef9511a00058cbb919bdd29914b6621a9cafd",
       "study": null
     },
     {
@@ -6507,13 +6507,13 @@
       },
       "public_projection": {
         "bytes": 974040,
-        "original_sha256": "da7334175f3f5af5b651990ba9db935901d9063a11da738691469c49bd02049d",
+        "original_sha256": "25bbd129c994406ac1436241fb9647b7cf8993bd1b0c05fb0c33ea28c39b54fa",
         "path": "public/E-cc3cc4b7160cd8c8.json",
-        "sha256": "da7334175f3f5af5b651990ba9db935901d9063a11da738691469c49bd02049d",
+        "sha256": "25bbd129c994406ac1436241fb9647b7cf8993bd1b0c05fb0c33ea28c39b54fa",
         "transform": "Public projection: portable scientific evidence; original SHA-256 retained; numerical values unchanged"
       },
       "role": "report_correction",
-      "sha256": "da7334175f3f5af5b651990ba9db935901d9063a11da738691469c49bd02049d",
+      "sha256": "25bbd129c994406ac1436241fb9647b7cf8993bd1b0c05fb0c33ea28c39b54fa",
       "study": 13
     },
     {
@@ -7983,7 +7983,7 @@
         "path": "repo/reports/phase11/oldgame_memory/multiround/study_r13_mechanism/supplementary_cutoff_results.json"
       },
       "role": "evidence",
-      "sha256": "6b8df7b35223b1b1bc315c6a0b3899de15d546ac675a7f363ade14e8d3e489ef",
+      "sha256": "af378b686d55c31c623f554faa4a87fb60796a5e467b4e3fe0f233f7097365ad",
       "study": 13
     },
     {
@@ -16785,12 +16785,6 @@
       "archive_path": "repo/evidence/bulk/study_r13_mechanism_bulk/report_revision/supplementary_cutoff_details.json",
       "expected_sha256": "f1c59da0662f3ce755b12330a99a45105a6f8384d2ebf9f8d784ccf16732c5ce",
       "status": "HISTORICAL_REFERENCE_NOT_AVAILABLE_AT_THIS_PATH"
-    },
-    {
-      "archive_path": "repo/reports/phase11/oldgame_memory/multiround/study_r13_mechanism/supplementary_cutoff_panel.json",
-      "current_sha256": "e91a541aa509cfd4b98425b5bf916ef9b0839f9db4d41caf5b5c006a11011d71",
-      "expected_sha256": "50a24051d78b91f7943e389fc62e53965a20dbfb327a14a3b6ec7221e4639350",
-      "status": "HISTORICAL_VERSION_DIFFERS_FROM_CURRENT"
     },
     {
       "archive_path": "repo/evidence/bulk/study_r13_mechanism_bulk/noise_raw_sampled_original_seed0/checkpoint_step_000000.pt",

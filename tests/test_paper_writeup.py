@@ -401,12 +401,17 @@ def test_submission_inventory_and_supplement_share_release_identity():
     assert 'reserved but unpublished' in readme
     assert 'immutable historical artifacts' in readme
     for name in ('zenodo-metadata.json', 'zenodo-description.html', 'zenodo-release.json',
-                 'arxiv_source.zip', 'arxiv_package_receipt.json', 'ARXIV_CHECKS.md',
+                 'arxiv_package_receipt.json', 'ARXIV_CHECKS.md',
                  'Tsiokos_2026_Where_Does_Jagged_Competence_Come_From.pdf',
                  'Tsiokos_2026_Where_Does_Jagged_Competence_Come_From_Supplement.pdf'):
         assert name in readme
-        assert name == 'arxiv_source.zip' or (ROOT / 'paper/submission' / name).is_file() or (
+        assert (ROOT / 'paper/submission' / name).is_file() or (
             ROOT / 'paper/submission/artifacts' / name).is_file()
+    # Source archives are excluded from this distribution. Their portable
+    # compilation and figure coverage are tested through the public-source mode.
+    assert not (ROOT / 'paper/submission/arxiv_source.zip').exists()
+    assert 'distribution does not include source archives' in readme
+    assert 'build_arxiv.py' in readme
     for command in ('check_package.py',
                     'build_ledger.py --check --verify-all'):
         assert command in readme
