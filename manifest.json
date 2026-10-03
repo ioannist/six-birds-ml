@@ -9931,9 +9931,9 @@
       "sha256": "29a6a213ff3e99b226480c99284c4cbde86c9c4c7ca6a70556816ffc001beb00"
     },
     {
-      "bytes": 11560,
+      "bytes": 12327,
       "path": "tests/test_executable_notebook.py",
-      "sha256": "1b1ecdd86ffb3e63e2e7535eb35784e5c21674ae6343376fac4e2d3109e7fe06"
+      "sha256": "69213c43415a43c128cf6eb87d14ac152674a3ed4758b7d93b5e1aac06d0d6ee"
     },
     {
       "bytes": 22872,

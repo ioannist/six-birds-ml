@@ -236,3 +236,16 @@ def test_notebook_every_cell_in_ipython(tmp_path, monkeypatch):
     assert receipt['checkout_identity']['commit'] == module('runtime').checkout_identity(ROOT)['commit']
     assert all(c['match'] for c in receipt['comparisons'] if c['required_match'])
     assert all(c['match'] for c in receipt['comparisons'] if c['label'].startswith('r8 raw linear'))
+
+
+def test_hosted_pin_matches_current_code():
+    """Colab clones SOURCE_COMMIT; its code must equal the code the notebook expects."""
+    runtime = module('runtime')
+    if not (ROOT / '.git').exists():
+        pytest.skip('not a git checkout')
+    known = subprocess.run(['git', '-C', str(ROOT), 'cat-file', '-e', runtime.SOURCE_COMMIT + '^{commit}'])
+    if known.returncode:
+        pytest.skip('pinned commit not present in this checkout')
+    diff = subprocess.run(['git', '-C', str(ROOT), 'diff', '--name-only', runtime.SOURCE_COMMIT, '--',
+                           'paper/scripts', 'src', 'scripts'], capture_output=True, text=True, check=True)
+    assert diff.stdout.strip() == '', 'code changed since the hosted pin; update SOURCE_COMMIT: ' + diff.stdout
