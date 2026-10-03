@@ -1931,9 +1931,9 @@
       "sha256": "af0a25817f08ee19a962f739936eed0cf1831cde720e2adf422a927b894096cf"
     },
     {
-      "bytes": 52428,
+      "bytes": 52884,
       "path": "notebook/jagged_competence.ipynb",
-      "sha256": "958f2d54655300743dcae9a52b1a13f0d4758b1f7d46fbe10d3370f866a3b0d6"
+      "sha256": "73621163b3f859f35b09467037a0a522a5baef61ffdef8bb020f7a25acf5234c"
     },
     {
       "bytes": 7372,
@@ -1946,9 +1946,9 @@
       "sha256": "f96b319c672e3f84738adf6b68d1320b3069d1b2a4b714e6b32a90e95d2cccbc"
     },
     {
-      "bytes": 41273,
+      "bytes": 41723,
       "path": "notebook/runtime.py",
-      "sha256": "d89eb17eb0c28a0a784c714acfda4345504864504683336965509d63f39399b8"
+      "sha256": "3386bd51827f6d1a2e7f1fcaf38ee831dec96dd94cff64d3a9c08b32fd33238f"
     },
     {
       "bytes": 20,
@@ -9931,9 +9931,9 @@
       "sha256": "29a6a213ff3e99b226480c99284c4cbde86c9c4c7ca6a70556816ffc001beb00"
     },
     {
-      "bytes": 10896,
+      "bytes": 11560,
       "path": "tests/test_executable_notebook.py",
-      "sha256": "c6dbd4fd2ccc5ea061846356826cbb33abb3405be582596d79056a99e2b4efd3"
+      "sha256": "1b1ecdd86ffb3e63e2e7535eb35784e5c21674ae6343376fac4e2d3109e7fe06"
     },
     {
       "bytes": 22872,

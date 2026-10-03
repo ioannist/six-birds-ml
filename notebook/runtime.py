@@ -20,8 +20,8 @@ import time
 
 SOURCE_COMMIT = '3c35f5800d758db1fe9594b46648b16756c639f5'
 SOURCE_URL = 'https://github.com/ioannist/six-birds-ml'
-INSTALL = ('numpy==2.5.0', 'scipy==1.18.0', 'scikit-learn==1.9.0',
-           'matplotlib==3.11.0')
+INSTALL_IF_MISSING = (('numpy', 'numpy'), ('scipy', 'scipy'), ('sklearn', 'scikit-learn'),
+                      ('matplotlib', 'matplotlib'))
 
 
 def find_repo(start):
@@ -133,7 +133,13 @@ class Session:
                                 str(checkout)], check=True)
                 subprocess.run(['git', 'checkout', '--detach', SOURCE_COMMIT], cwd=checkout, check=True)
                 self.root = checkout
-                subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', *INSTALL], check=True)
+                # Hosted runtimes (e.g. Colab) already import their own numpy/matplotlib;
+                # upgrading them mid-session mixes versions. Install only what is missing.
+                from importlib.util import find_spec as _find_spec
+                missing = [pkg for module, pkg in INSTALL_IF_MISSING
+                           if _find_spec(module) is None]
+                if missing:
+                    subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', *missing], check=True)
             self.checkout = checkout_identity(self.root)
             import numpy as np
             import torch

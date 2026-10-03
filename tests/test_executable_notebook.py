@@ -122,7 +122,20 @@ def test_outside_checkout_clone_install_setup(tmp_path, monkeypatch):
     assert calls[0][0] == ['git', 'clone', '--no-checkout', '--filter=blob:none', runtime.SOURCE_URL, str(session.root)]
     assert calls[1][0] == ['git', 'checkout', '--detach', runtime.SOURCE_COMMIT]
     assert calls[1][1]['cwd'] == session.root
-    assert calls[2][0] == [sys.executable, '-m', 'pip', 'install', '-q', *runtime.INSTALL]
+    # All scientific packages are present, so nothing is installed or upgraded
+    # (upgrading preloaded packages in a hosted runtime mixes versions).
+    assert not any(c[0][1:4] == ['-m', 'pip', 'install'] for c in calls)
+
+
+def test_hosted_setup_installs_only_missing_packages(monkeypatch):
+    import importlib.util
+    runtime = module('runtime')
+    real = importlib.util.find_spec
+    monkeypatch.setattr(importlib.util, 'find_spec',
+                        lambda name, *a, **k: None if name == 'sklearn' else real(name, *a, **k))
+    missing = [pkg for mod, pkg in runtime.INSTALL_IF_MISSING if importlib.util.find_spec(mod) is None]
+    assert missing == ['scikit-learn']
+    assert all('==' not in pkg for _, pkg in runtime.INSTALL_IF_MISSING)
 
 
 def test_actual_local_identity_is_separate_from_hosted_pin(tmp_path):
