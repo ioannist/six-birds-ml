@@ -7,7 +7,7 @@ Choose **Runtime → Run all**. If the link is unavailable,
 upload it to Colab, and use Run all. Expand any named code cell to see its code.
 The notebook contains its runtime: downloading just the `.ipynb` is sufficient.
 Outside a checkout it downloads the scientific source at commit
-`3c35f5800d758db1fe9594b46648b16756c639f5`, not a moving training implementation.
+`6314ea77e0f39ac63a658335b37a019cece4ea91`, not a moving training implementation.
 Inside a checkout it uses the local, hash-verified scientific evidence.
 The session receipt distinguishes the hosted source pin from the actual executing
 checkout's commit and modified/unmodified status; unpacked source directories are

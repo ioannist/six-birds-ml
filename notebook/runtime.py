@@ -18,7 +18,7 @@ import sys
 import tempfile
 import time
 
-SOURCE_COMMIT = '3c35f5800d758db1fe9594b46648b16756c639f5'
+SOURCE_COMMIT = '6314ea77e0f39ac63a658335b37a019cece4ea91'
 SOURCE_URL = 'https://github.com/ioannist/six-birds-ml'
 INSTALL_IF_MISSING = (('numpy', 'numpy'), ('scipy', 'scipy'), ('sklearn', 'scikit-learn'),
                       ('matplotlib', 'matplotlib'))
