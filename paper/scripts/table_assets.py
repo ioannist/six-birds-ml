@@ -5,7 +5,7 @@ from collections import defaultdict
 import json
 import re
 
-from asset_inputs import tex, number
+from asset_inputs import tex, number, asset_dir
 from build_ledger import contract
 from condition_labels import condition_name
 
@@ -30,7 +30,7 @@ def write(ctx, name, title, headers, rows, caption, widths=None, note=None):
         if name in ('appendix_E_probes','appendix_E_r11_probes','appendix_E_r12_probes'):
             caption += ' Printed sum-reader ranges retain seed identities; category readers remain in the detailed file. Gain CI envelopes span the five saved slot intervals and are not new confidence intervals. Floor ranges span seeds and slots.'
         caption += f' Detailed records: paper/{detail["path"]} (schema and SHA-256 in release/index.json).'
-    folder = ctx.root / "paper/tables"; folder.mkdir(parents=True, exist_ok=True)
+    folder = asset_dir(ctx.root, "tables")
     widths = widths or [5.9/len(headers)]*len(headers)
     available=6.5-6*(len(headers)-1)/72.27
     if sum(widths)>available:widths=[w*available/sum(widths) for w in widths]
@@ -62,7 +62,7 @@ def write(ctx, name, title, headers, rows, caption, widths=None, note=None):
                        "detailed_file": detail, "note": note, "font_pt": 8,
                        "width_inches":sum(widths)+6*(len(headers)-1)/72.27,
                        "float_display": "five significant digits; all counts exact; unrounded receipts retained"})
-    return {"name": name, "file": str(path.relative_to(ctx.root / "paper")), "caption": caption}
+    return {"name": name, "file": f"tables/{path.name}", "caption": caption}
 
 
 def info(n, key, row):
@@ -283,7 +283,7 @@ def compact_table1(ctx, rows):
         lines.append(tex(row[0])+' & '+' & '.join(row[1:])+r' \\')
     lines += [r'\bottomrule',r'\end{tabular}',r'\par\smallskip',
               r'\begin{minipage}{\textwidth}\textit{Note.} '+note+r'\end{minipage}',r'\endgroup',r'\end{table}','']
-    path=ctx.root/'paper/tables/table1.tex';path.write_text('\n'.join(lines))
+    path=asset_dir(ctx.root,'tables')/'table1.tex';path.write_text('\n'.join(lines))
     ctx.save_receipts('table1','tables',caption,{'headers':headers,'rows':rows,
         'displayed_headers':headers,'displayed_rows':displayed,'detailed_file':None,'note':note,
         'font_pt':8,'width_inches':sum(widths)+30/72.27,'layout':'single-page compact float',

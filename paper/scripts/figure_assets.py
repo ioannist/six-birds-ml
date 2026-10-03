@@ -14,6 +14,7 @@ from matplotlib.ticker import FuncFormatter
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 import numpy as np
 from condition_labels import condition_name
+from asset_inputs import asset_dir
 
 PALETTE = {"records": "#0072B2", "supplied": "#009E73", "sums": "#D55E00",
            "frozen": "#CC79A7", "live": "#E69F00", "numerical": "#56B4E9",
@@ -91,7 +92,11 @@ def text_in_canvas(fig, renderer):
 
 
 def save(ctx, name, fig, caption, preview, *, task_checks=None):
-    folder = ctx.root / "paper/figures"
+    # The paper build writes into paper/figures and enforces print layout. The
+    # executable notebook redirects output and skips layout-only checks, because
+    # hosted runtimes use different fonts; plotted values are verified either way.
+    folder = asset_dir(ctx.root, "figures")
+    layout_checks = os.environ.get("SBML_FIGURE_LAYOUT_CHECKS", "1") != "0"
     folder.mkdir(parents=True, exist_ok=True)
     path = folder / f"{name}.pdf"
     # Plain exponent notation keeps log-axis superscripts from becoming
@@ -102,9 +107,9 @@ def save(ctx, name, fig, caption, preview, *, task_checks=None):
     panels = [chr(97+i) for i in range(len(fig.axes))] if len(fig.axes)>1 else []
     fig.canvas.draw()
     renderer = fig.canvas.get_renderer()
-    if any(ax.get_legend() is not None for ax in fig.axes):
+    if layout_checks and any(ax.get_legend() is not None for ax in fig.axes):
         raise ValueError('figure legends must be shared and outside data axes')
-    for legend in fig.legends:
+    for legend in (fig.legends if layout_checks else []):
         bounds = legend.get_window_extent(renderer)
         if any(bounds.overlaps(ax.get_window_extent(renderer)) or
                bounds.overlaps(ax._left_title.get_window_extent(renderer)) for ax in fig.axes):
@@ -120,13 +125,14 @@ def save(ctx, name, fig, caption, preview, *, task_checks=None):
                          if low <= tick.get_loc() <= high)
         panel_texts.append([t for t in [ax._left_title, ax.title, ax.xaxis.label,
                            ax.yaxis.label, *ax.texts, *ticks] if t.get_visible() and t.get_text()])
-    for i, texts in enumerate(panel_texts):
+    for i, texts in enumerate(panel_texts if layout_checks else []):
         for other in panel_texts[i+1:]:
             for a in texts:
                 for b in other:
                     if a.get_window_extent(renderer).overlaps(b.get_window_extent(renderer)):
                         raise ValueError(f'text overlaps across figure panels: {a.get_text()} / {b.get_text()}')
-    text_in_canvas(fig, renderer)
+    if layout_checks:
+        text_in_canvas(fig, renderer)
     fig.savefig(path, metadata={"CreationDate": None, "ModDate": None,
                                 "Creator": "paper/scripts/build_figures.py"})
     preview.mkdir(parents=True, exist_ok=True)
@@ -148,7 +154,7 @@ def save(ctx, name, fig, caption, preview, *, task_checks=None):
                      "palette": PALETTE, "preview_dpi": 150,
                      **({'task_checks': task_checks, 'additional_preview_dpi': 200}
                         if task_checks is not None else {})})
-    return {"name": name, "file": str(path.relative_to(ctx.root / "paper")), "caption": caption}
+    return {"name": name, "file": f"figures/{path.name}", "caption": caption}
 
 
 def box(ax, x, y, w, h, text, color="white"):

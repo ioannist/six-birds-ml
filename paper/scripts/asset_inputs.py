@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 from pathlib import Path
 
 import build_ledger as ledger
@@ -113,13 +114,22 @@ class Inputs:
 
     def save_receipts(self, name, folder, description, extra=None):
         self.assert_current()
-        path = self.root / "paper" / folder / f"{name}.values.json"
+        path = asset_dir(self.root, folder) / f"{name}.values.json"
         value = {"asset": name, "description": description,
                  "ledger_sha256": self.ledger_sha256,
                  "manifest_sha256": self.ledger['source_manifest_sha256'],
                  "receipts": self.receipts, **(extra or {})}
         path.write_text(ledger.small_json(value))
         return path
+
+
+def asset_dir(root, folder):
+    """Output folder for rebuilt assets: paper/<folder>, or $SBML_ASSET_OUT/<folder>
+    when the executable notebook redirects its rebuilds away from the paper."""
+    base = os.environ.get("SBML_ASSET_OUT")
+    path = Path(base) / folder if base else Path(root) / "paper" / folder
+    path.mkdir(parents=True, exist_ok=True)
+    return path
 
 
 def tex(value):

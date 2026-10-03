@@ -294,18 +294,23 @@ class Session:
             if 'outline mismatches 0' not in result.stdout:
                 raise AssertionError('ledger did not verify all outline numbers')
             self.ctx = Inputs(self.root)
+            # Rebuild into the session folder (never over the paper's committed assets)
+            # and skip print-layout checks, which depend on installed fonts.
+            assets_out = self.work / 'assets'
+            os.environ['SBML_ASSET_OUT'] = str(assets_out)
+            os.environ['SBML_FIGURE_LAYOUT_CHECKS'] = '0'
             style()
             previews = self.work / 'figures'
             previews.mkdir(exist_ok=True)
             for number in range(1, 6):
                 name = f'fig{number}'
                 asset = FIGURES[name](self.ctx, previews)
-                receipt = json.loads((self.root / 'paper' / asset['file']).with_suffix('.values.json').read_text())
+                receipt = json.loads((assets_out / asset['file']).with_suffix('.values.json').read_text())
                 verify_receipts(self.ctx, receipt)
                 print(f'Figure {number}: rebuilt; every plotted receipt verified against ledger/evidence')
                 display(Image(filename=str(previews / (name + '.png'))))
             asset = TABLES['table1'](self.ctx)
-            receipt = json.loads((self.root / 'paper' / asset['file']).with_suffix('.values.json').read_text())
+            receipt = json.loads((assets_out / asset['file']).with_suffix('.values.json').read_text())
             verify_receipts(self.ctx, receipt)
             table(receipt['headers'], receipt['rows'])
             print('Table 1: rebuilt evidence-derived achievement cells (same definitions as the paper)')

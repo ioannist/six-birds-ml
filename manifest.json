@@ -1931,9 +1931,9 @@
       "sha256": "af0a25817f08ee19a962f739936eed0cf1831cde720e2adf422a927b894096cf"
     },
     {
-      "bytes": 53847,
+      "bytes": 54162,
       "path": "notebook/jagged_competence.ipynb",
-      "sha256": "5ba882b658d192e2e44a62cb6cbd81f6c7b4ea2edb7dd5005799846371a62e5e"
+      "sha256": "00cd9b1366cc10963af26b5a0c9be5927392455984e8fc4861ce0b6f477f1649"
     },
     {
       "bytes": 7372,
@@ -1946,9 +1946,9 @@
       "sha256": "f96b319c672e3f84738adf6b68d1320b3069d1b2a4b714e6b32a90e95d2cccbc"
     },
     {
-      "bytes": 42671,
+      "bytes": 42981,
       "path": "notebook/runtime.py",
-      "sha256": "e98bf8fca41a50b52729518a3aef6ba22de2aa2c13bcce3f1eb73562e3e907b6"
+      "sha256": "046300441851782b281f8c88dfeb816d5b7501d59e70d770185892906ee7d5fd"
     },
     {
       "bytes": 20,
@@ -2666,9 +2666,9 @@
       "sha256": "29e16200db7348336253fd0d5ec78cb2954e91bc7f378cb765693a6bcfb31532"
     },
     {
-      "bytes": 8585,
+      "bytes": 8969,
       "path": "paper/scripts/asset_inputs.py",
-      "sha256": "11a5e06e3745f32e9119af7e2a19c58400f22b9b53029b382211c8e62fdb1c2b"
+      "sha256": "0632dae568ce0ae16734c84ae4fc8dd7865995536d714f40339057d43a8a90fa"
     },
     {
       "bytes": 18137,
@@ -2701,9 +2701,9 @@
       "sha256": "12337b8baa960922f2e5e115be2b1807f6fb60c9c0abf5328e01eeca151d6eba"
     },
     {
-      "bytes": 51879,
+      "bytes": 52314,
       "path": "paper/scripts/figure_assets.py",
-      "sha256": "f7a1a9b0235744b688ba3aa5aeb644a7d3c4781ef26842891365c2b0597f6073"
+      "sha256": "24b5d939a913b6c536097e4318054a7c2b80cc82d553de004423018ac92ebb42"
     },
     {
       "bytes": 5607,
@@ -2716,9 +2716,9 @@
       "sha256": "e2f64f719c26cbca58f4ba7e3f8d5af775c14d8d7868d63d586af34aa9173ace"
     },
     {
-      "bytes": 53810,
+      "bytes": 53769,
       "path": "paper/scripts/table_assets.py",
-      "sha256": "f1b9781c3aa4096c10a85d255c055b8e813817b05d85fc58f19d59de5a83b2f5"
+      "sha256": "ebd650c8a5f93f4a522f94d88bf139532d48043b042dd4157d1797ef41ed36f3"
     },
     {
       "bytes": 16468,
