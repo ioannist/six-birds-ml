@@ -141,6 +141,21 @@ class Session:
                 if missing:
                     subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', *missing], check=True)
             self.checkout = checkout_identity(self.root)
+            # A hosted session that had packages upgraded under a running kernel
+            # mixes versions; stop early with a clear instruction.
+            import importlib.metadata as _md
+            for _mod, _dist in (('matplotlib', 'matplotlib'), ('numpy', 'numpy')):
+                if _mod in sys.modules:
+                    _loaded = getattr(sys.modules[_mod], '__version__', None)
+                    try:
+                        _installed = _md.version(_dist)
+                    except _md.PackageNotFoundError:
+                        _installed = _loaded
+                    if _loaded and _installed and _loaded != _installed:
+                        raise RuntimeError(
+                            f'{_mod} {_installed} is installed but {_loaded} is loaded in this session. '
+                            'Choose Runtime -> Disconnect and delete runtime, reopen the notebook, '
+                            'and choose Run all.')
             import numpy as np
             import torch
             if torch.get_num_threads() != 1:
