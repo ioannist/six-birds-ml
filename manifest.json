@@ -11,9 +11,9 @@
       "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
     },
     {
-      "bytes": 2561,
+      "bytes": 3524,
       "path": "README.md",
-      "sha256": "3967ee88f5a65492d1ca54660298312b713a796e22a17b97c237f085f867333e"
+      "sha256": "4115d998f9c4f34289aca026840a10ee3ad93d08285c3603c37bfcc7599f757b"
     },
     {
       "bytes": 1771,
@@ -1919,6 +1919,36 @@
       "bytes": 122806,
       "path": "evidence/public/E-feab6395bc0a6606.json",
       "sha256": "307f956bff057e3dd2a50539d99a1091ef9ae92150448bc5aad17b579435f2c6"
+    },
+    {
+      "bytes": 9478,
+      "path": "notebook/README.md",
+      "sha256": "4de96deb2f0219c1af40f80ca7cc659c502970c7a20516804f0311d93f906c66"
+    },
+    {
+      "bytes": 2246,
+      "path": "notebook/build.py",
+      "sha256": "af0a25817f08ee19a962f739936eed0cf1831cde720e2adf422a927b894096cf"
+    },
+    {
+      "bytes": 52428,
+      "path": "notebook/jagged_competence.ipynb",
+      "sha256": "958f2d54655300743dcae9a52b1a13f0d4758b1f7d46fbe10d3370f866a3b0d6"
+    },
+    {
+      "bytes": 7372,
+      "path": "notebook/jagged_competence.py",
+      "sha256": "dd6182fb131a40b646625d145a7ae414532ce79e23abf281fd115707e63b4cc5"
+    },
+    {
+      "bytes": 194,
+      "path": "notebook/requirements.txt",
+      "sha256": "f96b319c672e3f84738adf6b68d1320b3069d1b2a4b714e6b32a90e95d2cccbc"
+    },
+    {
+      "bytes": 41273,
+      "path": "notebook/runtime.py",
+      "sha256": "d89eb17eb0c28a0a784c714acfda4345504864504683336965509d63f39399b8"
     },
     {
       "bytes": 20,
@@ -9801,9 +9831,9 @@
       "sha256": "225c2410077127cd5ffe9b04fd0cb481c03e57d68febe99e9c8cbcd2f1736525"
     },
     {
-      "bytes": 4560,
+      "bytes": 4576,
       "path": "scripts/update_integrity.py",
-      "sha256": "65a9cf7c37cc2c24b21f7842bb063edea92b4b473c7b6cd5f967830eb42224d1"
+      "sha256": "287b53a86265da529062ba972d8e855e38ee36e02224510104c745f268b4cecc"
     },
     {
       "bytes": 398,
@@ -9899,6 +9929,11 @@
       "bytes": 821,
       "path": "tests/conftest.py",
       "sha256": "29a6a213ff3e99b226480c99284c4cbde86c9c4c7ca6a70556816ffc001beb00"
+    },
+    {
+      "bytes": 10896,
+      "path": "tests/test_executable_notebook.py",
+      "sha256": "c6dbd4fd2ccc5ea061846356826cbb33abb3405be582596d79056a99e2b4efd3"
     },
     {
       "bytes": 22872,

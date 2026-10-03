@@ -2,6 +2,19 @@
 
 Ioannis Tsiokos, 2026. [Paper and evidence](https://doi.org/10.5281/zenodo.23094485).
 
+## Run it yourself
+
+**[Open the executable notebook in Google Colab](https://colab.research.google.com/github/ioannist/six-birds-ml/blob/main/notebook/jagged_competence.ipynb).**
+
+See the two-layer task, check the paper's numbers, replay trained networks and
+train a small fresh network: quick mode took 106 seconds on one CPU thread after
+setup; allow 10–15 minutes for a first hosted run, including download/install.
+See [the notebook guide](notebook/README.md) for budgets and qualifications.
+If the link fails, [download the notebook](https://raw.githubusercontent.com/ioannist/six-birds-ml/main/notebook/jagged_competence.ipynb),
+upload it at [Google Colab](https://colab.research.google.com/), and choose
+**Runtime → Run all**. Local Jupyter: open the downloaded notebook in this
+checkout and choose **Run All**. [Setup and section guide](notebook/README.md).
+
 The task separates current-board sums from a prediction law that also depends on
 earlier boards. Measurements distinguish recoverability, audited computation,
 access, preservation and reliable prediction. The source distribution contains
@@ -10,6 +23,7 @@ the paper and its r8–r13 experiments.
 | Directory | Contents |
 |---|---|
 | `paper/` | Manuscript, supplement, figures, tables, ledger and build scripts |
+| `notebook/` | Executable reader experiment, reviewable source and deterministic builder |
 | `src/recombination_promotion/` | Scientific task, models and measurements |
 | `scripts/` | r8–r13 entry points and shared sampling/scoring functions |
 | `reports/phase11/oldgame_memory/multiround/` | Six study specifications, recorded results and calibrations |
